@@ -141,7 +141,7 @@ body::before{content:'';position:fixed;inset:0;background:radial-gradient(ellips
   </div>
 
   <div class="today-hero">
-    <h2>📺 Today's Matches — June 14</h2>
+    <h2 id="today-title">📺 Today's Matches</h2>
     <div id="today-matches"></div>
   </div>
 
@@ -345,8 +345,25 @@ function matchHTML(m){
   </div>`;
 }
 
-// Overview - Today
-document.getElementById('today-matches').innerHTML=fixtures.filter(f=>f.d==='2026-06-14').map(matchHTML).join('');
+// Overview - Today (dynamic)
+const today=new Date().toISOString().slice(0,10);
+const todayMatches=fixtures.filter(f=>f.d===today);
+const todayLabel=new Date(today+'T12:00:00').toLocaleDateString('en-US',{weekday:'long',month:'long',day:'numeric'});
+document.getElementById('today-title').textContent=`📺 Today's Matches — ${todayLabel}`;
+if(todayMatches.length){
+  document.getElementById('today-matches').innerHTML=todayMatches.map(matchHTML).join('');
+}else{
+  // Find next upcoming match date
+  const nextDate=fixtures.filter(f=>f.d>=today).map(f=>f.d)[0];
+  if(nextDate){
+    const nextMatches=fixtures.filter(f=>f.d===nextDate);
+    const nextLabel=new Date(nextDate+'T12:00:00').toLocaleDateString('en-US',{weekday:'long',month:'long',day:'numeric'});
+    document.getElementById('today-title').textContent=`📺 Next Matches — ${nextLabel}`;
+    document.getElementById('today-matches').innerHTML=nextMatches.map(matchHTML).join('');
+  }else{
+    document.getElementById('today-matches').innerHTML='<p style="color:var(--dim);text-align:center;padding:1rem">No upcoming matches</p>';
+  }
+}
 
 // Overview - Recent Results
 document.getElementById('recent-results').innerHTML=fixtures.filter(f=>f.st==='done'||f.st==='live').map(matchHTML).join('');
