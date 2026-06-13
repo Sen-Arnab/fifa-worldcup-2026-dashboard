@@ -84,12 +84,15 @@ body::before{content:'';position:fixed;inset:0;background:radial-gradient(ellips
 .b-soon{background:rgba(59,130,246,0.1);color:var(--soon);border:1px solid rgba(59,130,246,0.2)}
 .b-grp{background:rgba(124,58,237,0.12);color:#a78bfa;border:1px solid rgba(124,58,237,0.25);margin-top:2px}
 .venue{font-size:0.6rem;color:var(--dim);margin-top:3px;opacity:0.7}
-.events{grid-column:1/-1;padding-top:0.6rem;margin-top:0.6rem;border-top:1px solid var(--border);display:flex;flex-wrap:wrap;gap:0.4rem 1rem;justify-content:center}
+.events{grid-column:1/-1;padding-top:0.6rem;margin-top:0.6rem;border-top:1px solid var(--border);display:grid;grid-template-columns:1fr 1fr;gap:0.3rem 2rem}
+.events-side{display:flex;flex-direction:column;gap:3px}
+.events-side.away-side{align-items:flex-end}
 .evt{font-size:0.65rem;display:flex;align-items:center;gap:3px;color:var(--dim)}
+.events-side.away-side .evt{flex-direction:row-reverse}
 .evt .icon{font-size:0.7rem}
 .evt .min{color:var(--accent);font-weight:600}
 .evt-goal{color:var(--text)}
-.evt-assist{color:var(--cyan)}
+.evt-assist{color:var(--cyan);font-size:0.6rem}
 .evt-yc{color:#eab308}
 .evt-rc{color:var(--live)}
 @keyframes blink{0%,100%{opacity:1}50%{opacity:0.4}}
@@ -316,12 +319,18 @@ document.querySelector('.nav').addEventListener('click',e=>{
 function matchHTML(m){
   let eventsHtml='';
   if(m.events&&m.events.length){
-    eventsHtml=`<div class="events">${m.events.map(e=>{
-      if(e.type==='goal')return `<span class="evt evt-goal"><span class="icon">⚽</span>${e.player} <span class="min">${e.min}</span>${e.assist?` <span class="evt-assist">(🅰️ ${e.assist})</span>`:''}</span>`;
-      if(e.type==='yc')return `<span class="evt evt-yc"><span class="icon">🟨</span>${e.player} <span class="min">${e.min}</span></span>`;
-      if(e.type==='rc')return `<span class="evt evt-rc"><span class="icon">🟥</span>${e.player} <span class="min">${e.min}</span></span>`;
+    const homeEvts=m.events.filter(e=>e.team==='h');
+    const awayEvts=m.events.filter(e=>e.team==='a');
+    const renderEvt=e=>{
+      if(e.type==='goal')return `<div class="evt evt-goal"><span class="icon">⚽</span>${e.player} <span class="min">${e.min}</span>${e.assist?`<br><span class="evt-assist">🅰️ ${e.assist}</span>`:''}</div>`;
+      if(e.type==='yc')return `<div class="evt evt-yc"><span class="icon">🟨</span>${e.player} <span class="min">${e.min}</span></div>`;
+      if(e.type==='rc')return `<div class="evt evt-rc"><span class="icon">🟥</span>${e.player} <span class="min">${e.min}</span></div>`;
       return '';
-    }).join('')}</div>`;
+    };
+    eventsHtml=`<div class="events">
+      <div class="events-side home-side">${homeEvts.map(renderEvt).join('')}</div>
+      <div class="events-side away-side">${awayEvts.map(renderEvt).join('')}</div>
+    </div>`;
   }
   return `<div class="match${m.st==='live'?' is-live':''}">
     <div class="team home"><img class="flag" src="${flag(m.h)}" onerror="this.style.display='none'">${m.h}</div>
