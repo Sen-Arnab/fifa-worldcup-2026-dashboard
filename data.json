@@ -1,0 +1,1863 @@
+{
+  "updatedAt": "2026-06-15T11:25:25.905Z",
+  "fixtures": [
+    {
+      "id": 537327,
+      "d": "2026-06-11",
+      "h": "Mexico",
+      "a": "South Africa",
+      "g": "A",
+      "v": "",
+      "t": "19:00",
+      "s": "2 - 0",
+      "st": "done",
+      "events": []
+    },
+    {
+      "id": 537328,
+      "d": "2026-06-12",
+      "h": "South Korea",
+      "a": "Czechia",
+      "g": "A",
+      "v": "",
+      "t": "02:00",
+      "s": "2 - 1",
+      "st": "done",
+      "events": []
+    },
+    {
+      "id": 537333,
+      "d": "2026-06-12",
+      "h": "Canada",
+      "a": "Bosnia and Herzegovina",
+      "g": "B",
+      "v": "",
+      "t": "19:00",
+      "s": null,
+      "st": "done",
+      "events": []
+    },
+    {
+      "id": 537345,
+      "d": "2026-06-13",
+      "h": "USA",
+      "a": "Paraguay",
+      "g": "D",
+      "v": "",
+      "t": "01:00",
+      "s": "4 - 1",
+      "st": "done",
+      "events": []
+    },
+    {
+      "id": 537334,
+      "d": "2026-06-13",
+      "h": "Qatar",
+      "a": "Switzerland",
+      "g": "B",
+      "v": "",
+      "t": "19:00",
+      "s": "1 - 1",
+      "st": "done",
+      "events": []
+    },
+    {
+      "id": 537339,
+      "d": "2026-06-13",
+      "h": "Brazil",
+      "a": "Morocco",
+      "g": "C",
+      "v": "",
+      "t": "22:00",
+      "s": "1 - 1",
+      "st": "done",
+      "events": []
+    },
+    {
+      "id": 537340,
+      "d": "2026-06-14",
+      "h": "Haiti",
+      "a": "Scotland",
+      "g": "C",
+      "v": "",
+      "t": "01:00",
+      "s": "0 - 1",
+      "st": "done",
+      "events": []
+    },
+    {
+      "id": 537346,
+      "d": "2026-06-14",
+      "h": "Australia",
+      "a": "Turkey",
+      "g": "D",
+      "v": "",
+      "t": "04:00",
+      "s": "2 - 0",
+      "st": "done",
+      "events": []
+    },
+    {
+      "id": 537351,
+      "d": "2026-06-14",
+      "h": "Germany",
+      "a": "Curaçao",
+      "g": "E",
+      "v": "",
+      "t": "17:00",
+      "s": "7 - 1",
+      "st": "done",
+      "events": []
+    },
+    {
+      "id": 537357,
+      "d": "2026-06-14",
+      "h": "Netherlands",
+      "a": "Japan",
+      "g": "F",
+      "v": "",
+      "t": "20:00",
+      "s": "2 - 2",
+      "st": "done",
+      "events": []
+    },
+    {
+      "id": 537352,
+      "d": "2026-06-14",
+      "h": "Ivory Coast",
+      "a": "Ecuador",
+      "g": "E",
+      "v": "",
+      "t": "23:00",
+      "s": "1 - 0",
+      "st": "done",
+      "events": []
+    },
+    {
+      "id": 537358,
+      "d": "2026-06-15",
+      "h": "Sweden",
+      "a": "Tunisia",
+      "g": "F",
+      "v": "",
+      "t": "02:00",
+      "s": "5 - 1",
+      "st": "done",
+      "events": []
+    },
+    {
+      "id": 537369,
+      "d": "2026-06-15",
+      "h": "Spain",
+      "a": "Cape Verde Islands",
+      "g": "H",
+      "v": "",
+      "t": "16:00",
+      "s": null,
+      "st": "soon",
+      "events": []
+    },
+    {
+      "id": 537363,
+      "d": "2026-06-15",
+      "h": "Belgium",
+      "a": "Egypt",
+      "g": "G",
+      "v": "",
+      "t": "19:00",
+      "s": null,
+      "st": "soon",
+      "events": []
+    },
+    {
+      "id": 537370,
+      "d": "2026-06-15",
+      "h": "Saudi Arabia",
+      "a": "Uruguay",
+      "g": "H",
+      "v": "",
+      "t": "22:00",
+      "s": null,
+      "st": "soon",
+      "events": []
+    },
+    {
+      "id": 537364,
+      "d": "2026-06-16",
+      "h": "Iran",
+      "a": "New Zealand",
+      "g": "G",
+      "v": "",
+      "t": "01:00",
+      "s": null,
+      "st": "soon",
+      "events": []
+    },
+    {
+      "id": 537391,
+      "d": "2026-06-16",
+      "h": "France",
+      "a": "Senegal",
+      "g": "I",
+      "v": "",
+      "t": "19:00",
+      "s": null,
+      "st": "soon",
+      "events": []
+    },
+    {
+      "id": 537392,
+      "d": "2026-06-16",
+      "h": "Iraq",
+      "a": "Norway",
+      "g": "I",
+      "v": "",
+      "t": "22:00",
+      "s": null,
+      "st": "soon",
+      "events": []
+    },
+    {
+      "id": 537397,
+      "d": "2026-06-17",
+      "h": "Argentina",
+      "a": "Algeria",
+      "g": "J",
+      "v": "",
+      "t": "01:00",
+      "s": null,
+      "st": "soon",
+      "events": []
+    },
+    {
+      "id": 537398,
+      "d": "2026-06-17",
+      "h": "Austria",
+      "a": "Jordan",
+      "g": "J",
+      "v": "",
+      "t": "04:00",
+      "s": null,
+      "st": "soon",
+      "events": []
+    },
+    {
+      "id": 537403,
+      "d": "2026-06-17",
+      "h": "Portugal",
+      "a": "Congo DR",
+      "g": "K",
+      "v": "",
+      "t": "17:00",
+      "s": null,
+      "st": "soon",
+      "events": []
+    },
+    {
+      "id": 537409,
+      "d": "2026-06-17",
+      "h": "England",
+      "a": "Croatia",
+      "g": "L",
+      "v": "",
+      "t": "20:00",
+      "s": null,
+      "st": "soon",
+      "events": []
+    },
+    {
+      "id": 537410,
+      "d": "2026-06-17",
+      "h": "Ghana",
+      "a": "Panama",
+      "g": "L",
+      "v": "",
+      "t": "23:00",
+      "s": null,
+      "st": "soon",
+      "events": []
+    },
+    {
+      "id": 537404,
+      "d": "2026-06-18",
+      "h": "Uzbekistan",
+      "a": "Colombia",
+      "g": "K",
+      "v": "",
+      "t": "02:00",
+      "s": null,
+      "st": "soon",
+      "events": []
+    },
+    {
+      "id": 537329,
+      "d": "2026-06-18",
+      "h": "Czechia",
+      "a": "South Africa",
+      "g": "A",
+      "v": "",
+      "t": "16:00",
+      "s": null,
+      "st": "soon",
+      "events": []
+    },
+    {
+      "id": 537335,
+      "d": "2026-06-18",
+      "h": "Switzerland",
+      "a": "Bosnia and Herzegovina",
+      "g": "B",
+      "v": "",
+      "t": "19:00",
+      "s": null,
+      "st": "soon",
+      "events": []
+    },
+    {
+      "id": 537336,
+      "d": "2026-06-18",
+      "h": "Canada",
+      "a": "Qatar",
+      "g": "B",
+      "v": "",
+      "t": "22:00",
+      "s": null,
+      "st": "soon",
+      "events": []
+    },
+    {
+      "id": 537330,
+      "d": "2026-06-19",
+      "h": "Mexico",
+      "a": "South Korea",
+      "g": "A",
+      "v": "",
+      "t": "01:00",
+      "s": null,
+      "st": "soon",
+      "events": []
+    },
+    {
+      "id": 537348,
+      "d": "2026-06-19",
+      "h": "USA",
+      "a": "Australia",
+      "g": "D",
+      "v": "",
+      "t": "19:00",
+      "s": null,
+      "st": "soon",
+      "events": []
+    },
+    {
+      "id": 537342,
+      "d": "2026-06-19",
+      "h": "Scotland",
+      "a": "Morocco",
+      "g": "C",
+      "v": "",
+      "t": "22:00",
+      "s": null,
+      "st": "soon",
+      "events": []
+    },
+    {
+      "id": 537341,
+      "d": "2026-06-20",
+      "h": "Brazil",
+      "a": "Haiti",
+      "g": "C",
+      "v": "",
+      "t": "00:30",
+      "s": null,
+      "st": "soon",
+      "events": []
+    },
+    {
+      "id": 537347,
+      "d": "2026-06-20",
+      "h": "Turkey",
+      "a": "Paraguay",
+      "g": "D",
+      "v": "",
+      "t": "03:00",
+      "s": null,
+      "st": "soon",
+      "events": []
+    },
+    {
+      "id": 537359,
+      "d": "2026-06-20",
+      "h": "Netherlands",
+      "a": "Sweden",
+      "g": "F",
+      "v": "",
+      "t": "17:00",
+      "s": null,
+      "st": "soon",
+      "events": []
+    },
+    {
+      "id": 537353,
+      "d": "2026-06-20",
+      "h": "Germany",
+      "a": "Ivory Coast",
+      "g": "E",
+      "v": "",
+      "t": "20:00",
+      "s": null,
+      "st": "soon",
+      "events": []
+    },
+    {
+      "id": 537354,
+      "d": "2026-06-21",
+      "h": "Ecuador",
+      "a": "Curaçao",
+      "g": "E",
+      "v": "",
+      "t": "00:00",
+      "s": null,
+      "st": "soon",
+      "events": []
+    },
+    {
+      "id": 537360,
+      "d": "2026-06-21",
+      "h": "Tunisia",
+      "a": "Japan",
+      "g": "F",
+      "v": "",
+      "t": "04:00",
+      "s": null,
+      "st": "soon",
+      "events": []
+    },
+    {
+      "id": 537371,
+      "d": "2026-06-21",
+      "h": "Spain",
+      "a": "Saudi Arabia",
+      "g": "H",
+      "v": "",
+      "t": "16:00",
+      "s": null,
+      "st": "soon",
+      "events": []
+    },
+    {
+      "id": 537365,
+      "d": "2026-06-21",
+      "h": "Belgium",
+      "a": "Iran",
+      "g": "G",
+      "v": "",
+      "t": "19:00",
+      "s": null,
+      "st": "soon",
+      "events": []
+    },
+    {
+      "id": 537372,
+      "d": "2026-06-21",
+      "h": "Uruguay",
+      "a": "Cape Verde Islands",
+      "g": "H",
+      "v": "",
+      "t": "22:00",
+      "s": null,
+      "st": "soon",
+      "events": []
+    },
+    {
+      "id": 537366,
+      "d": "2026-06-22",
+      "h": "New Zealand",
+      "a": "Egypt",
+      "g": "G",
+      "v": "",
+      "t": "01:00",
+      "s": null,
+      "st": "soon",
+      "events": []
+    },
+    {
+      "id": 537399,
+      "d": "2026-06-22",
+      "h": "Argentina",
+      "a": "Austria",
+      "g": "J",
+      "v": "",
+      "t": "17:00",
+      "s": null,
+      "st": "soon",
+      "events": []
+    },
+    {
+      "id": 537393,
+      "d": "2026-06-22",
+      "h": "France",
+      "a": "Iraq",
+      "g": "I",
+      "v": "",
+      "t": "21:00",
+      "s": null,
+      "st": "soon",
+      "events": []
+    },
+    {
+      "id": 537394,
+      "d": "2026-06-23",
+      "h": "Norway",
+      "a": "Senegal",
+      "g": "I",
+      "v": "",
+      "t": "00:00",
+      "s": null,
+      "st": "soon",
+      "events": []
+    },
+    {
+      "id": 537400,
+      "d": "2026-06-23",
+      "h": "Jordan",
+      "a": "Algeria",
+      "g": "J",
+      "v": "",
+      "t": "03:00",
+      "s": null,
+      "st": "soon",
+      "events": []
+    },
+    {
+      "id": 537405,
+      "d": "2026-06-23",
+      "h": "Portugal",
+      "a": "Uzbekistan",
+      "g": "K",
+      "v": "",
+      "t": "17:00",
+      "s": null,
+      "st": "soon",
+      "events": []
+    },
+    {
+      "id": 537411,
+      "d": "2026-06-23",
+      "h": "England",
+      "a": "Ghana",
+      "g": "L",
+      "v": "",
+      "t": "20:00",
+      "s": null,
+      "st": "soon",
+      "events": []
+    },
+    {
+      "id": 537412,
+      "d": "2026-06-23",
+      "h": "Panama",
+      "a": "Croatia",
+      "g": "L",
+      "v": "",
+      "t": "23:00",
+      "s": null,
+      "st": "soon",
+      "events": []
+    },
+    {
+      "id": 537406,
+      "d": "2026-06-24",
+      "h": "Colombia",
+      "a": "Congo DR",
+      "g": "K",
+      "v": "",
+      "t": "02:00",
+      "s": null,
+      "st": "soon",
+      "events": []
+    },
+    {
+      "id": 537337,
+      "d": "2026-06-24",
+      "h": "Switzerland",
+      "a": "Canada",
+      "g": "B",
+      "v": "",
+      "t": "19:00",
+      "s": null,
+      "st": "soon",
+      "events": []
+    },
+    {
+      "id": 537338,
+      "d": "2026-06-24",
+      "h": "Bosnia and Herzegovina",
+      "a": "Qatar",
+      "g": "B",
+      "v": "",
+      "t": "19:00",
+      "s": null,
+      "st": "soon",
+      "events": []
+    },
+    {
+      "id": 537344,
+      "d": "2026-06-24",
+      "h": "Morocco",
+      "a": "Haiti",
+      "g": "C",
+      "v": "",
+      "t": "22:00",
+      "s": null,
+      "st": "soon",
+      "events": []
+    },
+    {
+      "id": 537343,
+      "d": "2026-06-24",
+      "h": "Scotland",
+      "a": "Brazil",
+      "g": "C",
+      "v": "",
+      "t": "22:00",
+      "s": null,
+      "st": "soon",
+      "events": []
+    },
+    {
+      "id": 537331,
+      "d": "2026-06-25",
+      "h": "Czechia",
+      "a": "Mexico",
+      "g": "A",
+      "v": "",
+      "t": "01:00",
+      "s": null,
+      "st": "soon",
+      "events": []
+    },
+    {
+      "id": 537332,
+      "d": "2026-06-25",
+      "h": "South Africa",
+      "a": "South Korea",
+      "g": "A",
+      "v": "",
+      "t": "01:00",
+      "s": null,
+      "st": "soon",
+      "events": []
+    },
+    {
+      "id": 537355,
+      "d": "2026-06-25",
+      "h": "Ecuador",
+      "a": "Germany",
+      "g": "E",
+      "v": "",
+      "t": "20:00",
+      "s": null,
+      "st": "soon",
+      "events": []
+    },
+    {
+      "id": 537356,
+      "d": "2026-06-25",
+      "h": "Curaçao",
+      "a": "Ivory Coast",
+      "g": "E",
+      "v": "",
+      "t": "20:00",
+      "s": null,
+      "st": "soon",
+      "events": []
+    },
+    {
+      "id": 537361,
+      "d": "2026-06-25",
+      "h": "Tunisia",
+      "a": "Netherlands",
+      "g": "F",
+      "v": "",
+      "t": "23:00",
+      "s": null,
+      "st": "soon",
+      "events": []
+    },
+    {
+      "id": 537362,
+      "d": "2026-06-25",
+      "h": "Japan",
+      "a": "Sweden",
+      "g": "F",
+      "v": "",
+      "t": "23:00",
+      "s": null,
+      "st": "soon",
+      "events": []
+    },
+    {
+      "id": 537349,
+      "d": "2026-06-26",
+      "h": "Turkey",
+      "a": "USA",
+      "g": "D",
+      "v": "",
+      "t": "02:00",
+      "s": null,
+      "st": "soon",
+      "events": []
+    },
+    {
+      "id": 537350,
+      "d": "2026-06-26",
+      "h": "Paraguay",
+      "a": "Australia",
+      "g": "D",
+      "v": "",
+      "t": "02:00",
+      "s": null,
+      "st": "soon",
+      "events": []
+    },
+    {
+      "id": 537395,
+      "d": "2026-06-26",
+      "h": "Norway",
+      "a": "France",
+      "g": "I",
+      "v": "",
+      "t": "19:00",
+      "s": null,
+      "st": "soon",
+      "events": []
+    },
+    {
+      "id": 537396,
+      "d": "2026-06-26",
+      "h": "Senegal",
+      "a": "Iraq",
+      "g": "I",
+      "v": "",
+      "t": "19:00",
+      "s": null,
+      "st": "soon",
+      "events": []
+    },
+    {
+      "id": 537373,
+      "d": "2026-06-27",
+      "h": "Uruguay",
+      "a": "Spain",
+      "g": "H",
+      "v": "",
+      "t": "00:00",
+      "s": null,
+      "st": "soon",
+      "events": []
+    },
+    {
+      "id": 537374,
+      "d": "2026-06-27",
+      "h": "Cape Verde Islands",
+      "a": "Saudi Arabia",
+      "g": "H",
+      "v": "",
+      "t": "00:00",
+      "s": null,
+      "st": "soon",
+      "events": []
+    },
+    {
+      "id": 537367,
+      "d": "2026-06-27",
+      "h": "New Zealand",
+      "a": "Belgium",
+      "g": "G",
+      "v": "",
+      "t": "03:00",
+      "s": null,
+      "st": "soon",
+      "events": []
+    },
+    {
+      "id": 537368,
+      "d": "2026-06-27",
+      "h": "Egypt",
+      "a": "Iran",
+      "g": "G",
+      "v": "",
+      "t": "03:00",
+      "s": null,
+      "st": "soon",
+      "events": []
+    },
+    {
+      "id": 537413,
+      "d": "2026-06-27",
+      "h": "Panama",
+      "a": "England",
+      "g": "L",
+      "v": "",
+      "t": "21:00",
+      "s": null,
+      "st": "soon",
+      "events": []
+    },
+    {
+      "id": 537414,
+      "d": "2026-06-27",
+      "h": "Croatia",
+      "a": "Ghana",
+      "g": "L",
+      "v": "",
+      "t": "21:00",
+      "s": null,
+      "st": "soon",
+      "events": []
+    },
+    {
+      "id": 537407,
+      "d": "2026-06-27",
+      "h": "Colombia",
+      "a": "Portugal",
+      "g": "K",
+      "v": "",
+      "t": "23:30",
+      "s": null,
+      "st": "soon",
+      "events": []
+    },
+    {
+      "id": 537408,
+      "d": "2026-06-27",
+      "h": "Congo DR",
+      "a": "Uzbekistan",
+      "g": "K",
+      "v": "",
+      "t": "23:30",
+      "s": null,
+      "st": "soon",
+      "events": []
+    },
+    {
+      "id": 537401,
+      "d": "2026-06-28",
+      "h": "Jordan",
+      "a": "Argentina",
+      "g": "J",
+      "v": "",
+      "t": "02:00",
+      "s": null,
+      "st": "soon",
+      "events": []
+    },
+    {
+      "id": 537402,
+      "d": "2026-06-28",
+      "h": "Algeria",
+      "a": "Austria",
+      "g": "J",
+      "v": "",
+      "t": "02:00",
+      "s": null,
+      "st": "soon",
+      "events": []
+    },
+    {
+      "id": 537417,
+      "d": "2026-06-28",
+      "h": null,
+      "a": null,
+      "g": "",
+      "v": "",
+      "t": "19:00",
+      "s": null,
+      "st": "soon",
+      "events": []
+    },
+    {
+      "id": 537423,
+      "d": "2026-06-29",
+      "h": null,
+      "a": null,
+      "g": "",
+      "v": "",
+      "t": "17:00",
+      "s": null,
+      "st": "soon",
+      "events": []
+    },
+    {
+      "id": 537415,
+      "d": "2026-06-29",
+      "h": null,
+      "a": null,
+      "g": "",
+      "v": "",
+      "t": "20:30",
+      "s": null,
+      "st": "soon",
+      "events": []
+    },
+    {
+      "id": 537418,
+      "d": "2026-06-30",
+      "h": null,
+      "a": null,
+      "g": "",
+      "v": "",
+      "t": "01:00",
+      "s": null,
+      "st": "soon",
+      "events": []
+    },
+    {
+      "id": 537424,
+      "d": "2026-06-30",
+      "h": null,
+      "a": null,
+      "g": "",
+      "v": "",
+      "t": "17:00",
+      "s": null,
+      "st": "soon",
+      "events": []
+    },
+    {
+      "id": 537416,
+      "d": "2026-06-30",
+      "h": null,
+      "a": null,
+      "g": "",
+      "v": "",
+      "t": "21:00",
+      "s": null,
+      "st": "soon",
+      "events": []
+    },
+    {
+      "id": 537425,
+      "d": "2026-07-01",
+      "h": null,
+      "a": null,
+      "g": "",
+      "v": "",
+      "t": "01:00",
+      "s": null,
+      "st": "soon",
+      "events": []
+    },
+    {
+      "id": 537426,
+      "d": "2026-07-01",
+      "h": null,
+      "a": null,
+      "g": "",
+      "v": "",
+      "t": "16:00",
+      "s": null,
+      "st": "soon",
+      "events": []
+    },
+    {
+      "id": 537422,
+      "d": "2026-07-01",
+      "h": null,
+      "a": null,
+      "g": "",
+      "v": "",
+      "t": "20:00",
+      "s": null,
+      "st": "soon",
+      "events": []
+    },
+    {
+      "id": 537421,
+      "d": "2026-07-02",
+      "h": null,
+      "a": null,
+      "g": "",
+      "v": "",
+      "t": "00:00",
+      "s": null,
+      "st": "soon",
+      "events": []
+    },
+    {
+      "id": 537420,
+      "d": "2026-07-02",
+      "h": null,
+      "a": null,
+      "g": "",
+      "v": "",
+      "t": "19:00",
+      "s": null,
+      "st": "soon",
+      "events": []
+    },
+    {
+      "id": 537419,
+      "d": "2026-07-02",
+      "h": null,
+      "a": null,
+      "g": "",
+      "v": "",
+      "t": "23:00",
+      "s": null,
+      "st": "soon",
+      "events": []
+    },
+    {
+      "id": 537429,
+      "d": "2026-07-03",
+      "h": null,
+      "a": null,
+      "g": "",
+      "v": "",
+      "t": "03:00",
+      "s": null,
+      "st": "soon",
+      "events": []
+    },
+    {
+      "id": 537428,
+      "d": "2026-07-03",
+      "h": null,
+      "a": null,
+      "g": "",
+      "v": "",
+      "t": "18:00",
+      "s": null,
+      "st": "soon",
+      "events": []
+    },
+    {
+      "id": 537427,
+      "d": "2026-07-03",
+      "h": null,
+      "a": null,
+      "g": "",
+      "v": "",
+      "t": "22:00",
+      "s": null,
+      "st": "soon",
+      "events": []
+    },
+    {
+      "id": 537430,
+      "d": "2026-07-04",
+      "h": null,
+      "a": null,
+      "g": "",
+      "v": "",
+      "t": "01:30",
+      "s": null,
+      "st": "soon",
+      "events": []
+    },
+    {
+      "id": 537376,
+      "d": "2026-07-04",
+      "h": null,
+      "a": null,
+      "g": "",
+      "v": "",
+      "t": "17:00",
+      "s": null,
+      "st": "soon",
+      "events": []
+    },
+    {
+      "id": 537375,
+      "d": "2026-07-04",
+      "h": null,
+      "a": null,
+      "g": "",
+      "v": "",
+      "t": "21:00",
+      "s": null,
+      "st": "soon",
+      "events": []
+    },
+    {
+      "id": 537377,
+      "d": "2026-07-05",
+      "h": null,
+      "a": null,
+      "g": "",
+      "v": "",
+      "t": "20:00",
+      "s": null,
+      "st": "soon",
+      "events": []
+    },
+    {
+      "id": 537378,
+      "d": "2026-07-06",
+      "h": null,
+      "a": null,
+      "g": "",
+      "v": "",
+      "t": "00:00",
+      "s": null,
+      "st": "soon",
+      "events": []
+    },
+    {
+      "id": 537379,
+      "d": "2026-07-06",
+      "h": null,
+      "a": null,
+      "g": "",
+      "v": "",
+      "t": "19:00",
+      "s": null,
+      "st": "soon",
+      "events": []
+    },
+    {
+      "id": 537380,
+      "d": "2026-07-07",
+      "h": null,
+      "a": null,
+      "g": "",
+      "v": "",
+      "t": "00:00",
+      "s": null,
+      "st": "soon",
+      "events": []
+    },
+    {
+      "id": 537381,
+      "d": "2026-07-07",
+      "h": null,
+      "a": null,
+      "g": "",
+      "v": "",
+      "t": "16:00",
+      "s": null,
+      "st": "soon",
+      "events": []
+    },
+    {
+      "id": 537382,
+      "d": "2026-07-07",
+      "h": null,
+      "a": null,
+      "g": "",
+      "v": "",
+      "t": "20:00",
+      "s": null,
+      "st": "soon",
+      "events": []
+    },
+    {
+      "id": 537383,
+      "d": "2026-07-09",
+      "h": null,
+      "a": null,
+      "g": "",
+      "v": "",
+      "t": "20:00",
+      "s": null,
+      "st": "soon",
+      "events": []
+    },
+    {
+      "id": 537384,
+      "d": "2026-07-10",
+      "h": null,
+      "a": null,
+      "g": "",
+      "v": "",
+      "t": "19:00",
+      "s": null,
+      "st": "soon",
+      "events": []
+    },
+    {
+      "id": 537385,
+      "d": "2026-07-11",
+      "h": null,
+      "a": null,
+      "g": "",
+      "v": "",
+      "t": "21:00",
+      "s": null,
+      "st": "soon",
+      "events": []
+    },
+    {
+      "id": 537386,
+      "d": "2026-07-12",
+      "h": null,
+      "a": null,
+      "g": "",
+      "v": "",
+      "t": "01:00",
+      "s": null,
+      "st": "soon",
+      "events": []
+    },
+    {
+      "id": 537387,
+      "d": "2026-07-14",
+      "h": null,
+      "a": null,
+      "g": "",
+      "v": "",
+      "t": "19:00",
+      "s": null,
+      "st": "soon",
+      "events": []
+    },
+    {
+      "id": 537388,
+      "d": "2026-07-15",
+      "h": null,
+      "a": null,
+      "g": "",
+      "v": "",
+      "t": "19:00",
+      "s": null,
+      "st": "soon",
+      "events": []
+    },
+    {
+      "id": 537389,
+      "d": "2026-07-18",
+      "h": null,
+      "a": null,
+      "g": "",
+      "v": "",
+      "t": "21:00",
+      "s": null,
+      "st": "soon",
+      "events": []
+    },
+    {
+      "id": 537390,
+      "d": "2026-07-19",
+      "h": null,
+      "a": null,
+      "g": "",
+      "v": "",
+      "t": "19:00",
+      "s": null,
+      "st": "soon",
+      "events": []
+    }
+  ],
+  "standings": {
+    "Group A": [
+      {
+        "t": "Mexico",
+        "pts": 3,
+        "gp": 1,
+        "w": 1,
+        "l": 0,
+        "d": 0,
+        "gf": 2,
+        "ga": 0
+      },
+      {
+        "t": "South Korea",
+        "pts": 3,
+        "gp": 1,
+        "w": 1,
+        "l": 0,
+        "d": 0,
+        "gf": 2,
+        "ga": 1
+      },
+      {
+        "t": "Czechia",
+        "pts": 0,
+        "gp": 1,
+        "w": 0,
+        "l": 1,
+        "d": 0,
+        "gf": 1,
+        "ga": 2
+      },
+      {
+        "t": "South Africa",
+        "pts": 0,
+        "gp": 1,
+        "w": 0,
+        "l": 1,
+        "d": 0,
+        "gf": 0,
+        "ga": 2
+      }
+    ],
+    "Group B": [
+      {
+        "t": "Switzerland",
+        "pts": 1,
+        "gp": 1,
+        "w": 0,
+        "l": 0,
+        "d": 1,
+        "gf": 1,
+        "ga": 1
+      },
+      {
+        "t": "Canada",
+        "pts": 1,
+        "gp": 1,
+        "w": 0,
+        "l": 0,
+        "d": 1,
+        "gf": 1,
+        "ga": 1
+      },
+      {
+        "t": "Qatar",
+        "pts": 1,
+        "gp": 1,
+        "w": 0,
+        "l": 0,
+        "d": 1,
+        "gf": 1,
+        "ga": 1
+      },
+      {
+        "t": "Bosnia and Herzegovina",
+        "pts": 1,
+        "gp": 1,
+        "w": 0,
+        "l": 0,
+        "d": 1,
+        "gf": 1,
+        "ga": 1
+      }
+    ],
+    "Group C": [
+      {
+        "t": "Scotland",
+        "pts": 3,
+        "gp": 1,
+        "w": 1,
+        "l": 0,
+        "d": 0,
+        "gf": 1,
+        "ga": 0
+      },
+      {
+        "t": "Morocco",
+        "pts": 1,
+        "gp": 1,
+        "w": 0,
+        "l": 0,
+        "d": 1,
+        "gf": 1,
+        "ga": 1
+      },
+      {
+        "t": "Brazil",
+        "pts": 1,
+        "gp": 1,
+        "w": 0,
+        "l": 0,
+        "d": 1,
+        "gf": 1,
+        "ga": 1
+      },
+      {
+        "t": "Haiti",
+        "pts": 0,
+        "gp": 1,
+        "w": 0,
+        "l": 1,
+        "d": 0,
+        "gf": 0,
+        "ga": 1
+      }
+    ],
+    "Group D": [
+      {
+        "t": "USA",
+        "pts": 3,
+        "gp": 1,
+        "w": 1,
+        "l": 0,
+        "d": 0,
+        "gf": 4,
+        "ga": 1
+      },
+      {
+        "t": "Australia",
+        "pts": 3,
+        "gp": 1,
+        "w": 1,
+        "l": 0,
+        "d": 0,
+        "gf": 2,
+        "ga": 0
+      },
+      {
+        "t": "Turkey",
+        "pts": 0,
+        "gp": 1,
+        "w": 0,
+        "l": 1,
+        "d": 0,
+        "gf": 0,
+        "ga": 2
+      },
+      {
+        "t": "Paraguay",
+        "pts": 0,
+        "gp": 1,
+        "w": 0,
+        "l": 1,
+        "d": 0,
+        "gf": 1,
+        "ga": 4
+      }
+    ],
+    "Group E": [
+      {
+        "t": "Germany",
+        "pts": 3,
+        "gp": 1,
+        "w": 1,
+        "l": 0,
+        "d": 0,
+        "gf": 7,
+        "ga": 1
+      },
+      {
+        "t": "Ivory Coast",
+        "pts": 3,
+        "gp": 1,
+        "w": 1,
+        "l": 0,
+        "d": 0,
+        "gf": 1,
+        "ga": 0
+      },
+      {
+        "t": "Ecuador",
+        "pts": 0,
+        "gp": 1,
+        "w": 0,
+        "l": 1,
+        "d": 0,
+        "gf": 0,
+        "ga": 1
+      },
+      {
+        "t": "Curaçao",
+        "pts": 0,
+        "gp": 1,
+        "w": 0,
+        "l": 1,
+        "d": 0,
+        "gf": 1,
+        "ga": 7
+      }
+    ],
+    "Group F": [
+      {
+        "t": "Sweden",
+        "pts": 3,
+        "gp": 1,
+        "w": 1,
+        "l": 0,
+        "d": 0,
+        "gf": 5,
+        "ga": 1
+      },
+      {
+        "t": "Japan",
+        "pts": 1,
+        "gp": 1,
+        "w": 0,
+        "l": 0,
+        "d": 1,
+        "gf": 2,
+        "ga": 2
+      },
+      {
+        "t": "Netherlands",
+        "pts": 1,
+        "gp": 1,
+        "w": 0,
+        "l": 0,
+        "d": 1,
+        "gf": 2,
+        "ga": 2
+      },
+      {
+        "t": "Tunisia",
+        "pts": 0,
+        "gp": 1,
+        "w": 0,
+        "l": 1,
+        "d": 0,
+        "gf": 1,
+        "ga": 5
+      }
+    ],
+    "Group G": [
+      {
+        "t": "Egypt",
+        "pts": 0,
+        "gp": 0,
+        "w": 0,
+        "l": 0,
+        "d": 0,
+        "gf": 0,
+        "ga": 0
+      },
+      {
+        "t": "Belgium",
+        "pts": 0,
+        "gp": 0,
+        "w": 0,
+        "l": 0,
+        "d": 0,
+        "gf": 0,
+        "ga": 0
+      },
+      {
+        "t": "Iran",
+        "pts": 0,
+        "gp": 0,
+        "w": 0,
+        "l": 0,
+        "d": 0,
+        "gf": 0,
+        "ga": 0
+      },
+      {
+        "t": "New Zealand",
+        "pts": 0,
+        "gp": 0,
+        "w": 0,
+        "l": 0,
+        "d": 0,
+        "gf": 0,
+        "ga": 0
+      }
+    ],
+    "Group H": [
+      {
+        "t": "Cape Verde Islands",
+        "pts": 0,
+        "gp": 0,
+        "w": 0,
+        "l": 0,
+        "d": 0,
+        "gf": 0,
+        "ga": 0
+      },
+      {
+        "t": "Saudi Arabia",
+        "pts": 0,
+        "gp": 0,
+        "w": 0,
+        "l": 0,
+        "d": 0,
+        "gf": 0,
+        "ga": 0
+      },
+      {
+        "t": "Spain",
+        "pts": 0,
+        "gp": 0,
+        "w": 0,
+        "l": 0,
+        "d": 0,
+        "gf": 0,
+        "ga": 0
+      },
+      {
+        "t": "Uruguay",
+        "pts": 0,
+        "gp": 0,
+        "w": 0,
+        "l": 0,
+        "d": 0,
+        "gf": 0,
+        "ga": 0
+      }
+    ],
+    "Group I": [
+      {
+        "t": "France",
+        "pts": 0,
+        "gp": 0,
+        "w": 0,
+        "l": 0,
+        "d": 0,
+        "gf": 0,
+        "ga": 0
+      },
+      {
+        "t": "Iraq",
+        "pts": 0,
+        "gp": 0,
+        "w": 0,
+        "l": 0,
+        "d": 0,
+        "gf": 0,
+        "ga": 0
+      },
+      {
+        "t": "Norway",
+        "pts": 0,
+        "gp": 0,
+        "w": 0,
+        "l": 0,
+        "d": 0,
+        "gf": 0,
+        "ga": 0
+      },
+      {
+        "t": "Senegal",
+        "pts": 0,
+        "gp": 0,
+        "w": 0,
+        "l": 0,
+        "d": 0,
+        "gf": 0,
+        "ga": 0
+      }
+    ],
+    "Group J": [
+      {
+        "t": "Algeria",
+        "pts": 0,
+        "gp": 0,
+        "w": 0,
+        "l": 0,
+        "d": 0,
+        "gf": 0,
+        "ga": 0
+      },
+      {
+        "t": "Argentina",
+        "pts": 0,
+        "gp": 0,
+        "w": 0,
+        "l": 0,
+        "d": 0,
+        "gf": 0,
+        "ga": 0
+      },
+      {
+        "t": "Jordan",
+        "pts": 0,
+        "gp": 0,
+        "w": 0,
+        "l": 0,
+        "d": 0,
+        "gf": 0,
+        "ga": 0
+      },
+      {
+        "t": "Austria",
+        "pts": 0,
+        "gp": 0,
+        "w": 0,
+        "l": 0,
+        "d": 0,
+        "gf": 0,
+        "ga": 0
+      }
+    ],
+    "Group K": [
+      {
+        "t": "Congo DR",
+        "pts": 0,
+        "gp": 0,
+        "w": 0,
+        "l": 0,
+        "d": 0,
+        "gf": 0,
+        "ga": 0
+      },
+      {
+        "t": "Colombia",
+        "pts": 0,
+        "gp": 0,
+        "w": 0,
+        "l": 0,
+        "d": 0,
+        "gf": 0,
+        "ga": 0
+      },
+      {
+        "t": "Portugal",
+        "pts": 0,
+        "gp": 0,
+        "w": 0,
+        "l": 0,
+        "d": 0,
+        "gf": 0,
+        "ga": 0
+      },
+      {
+        "t": "Uzbekistan",
+        "pts": 0,
+        "gp": 0,
+        "w": 0,
+        "l": 0,
+        "d": 0,
+        "gf": 0,
+        "ga": 0
+      }
+    ],
+    "Group L": [
+      {
+        "t": "England",
+        "pts": 0,
+        "gp": 0,
+        "w": 0,
+        "l": 0,
+        "d": 0,
+        "gf": 0,
+        "ga": 0
+      },
+      {
+        "t": "Ghana",
+        "pts": 0,
+        "gp": 0,
+        "w": 0,
+        "l": 0,
+        "d": 0,
+        "gf": 0,
+        "ga": 0
+      },
+      {
+        "t": "Croatia",
+        "pts": 0,
+        "gp": 0,
+        "w": 0,
+        "l": 0,
+        "d": 0,
+        "gf": 0,
+        "ga": 0
+      },
+      {
+        "t": "Panama",
+        "pts": 0,
+        "gp": 0,
+        "w": 0,
+        "l": 0,
+        "d": 0,
+        "gf": 0,
+        "ga": 0
+      }
+    ]
+  },
+  "topScorers": [
+    {
+      "name": "Folarin Balogun",
+      "team": "USA",
+      "assists": 0
+    },
+    {
+      "name": "Kai Havertz",
+      "team": "Germany",
+      "assists": 0
+    },
+    {
+      "name": "Yasin Ayari",
+      "team": "Sweden",
+      "assists": 0
+    },
+    {
+      "name": "Julián Quiñones",
+      "team": "Mexico",
+      "assists": 0
+    },
+    {
+      "name": "Raúl Jiménez",
+      "team": "Mexico",
+      "assists": 0
+    },
+    {
+      "name": "Ladislav Krejčí",
+      "team": "Czechia",
+      "assists": 0
+    },
+    {
+      "name": "In-beom Hwang",
+      "team": "South Korea",
+      "assists": 1
+    },
+    {
+      "name": "Hyun-Gyu Oh",
+      "team": "South Korea",
+      "assists": 0
+    },
+    {
+      "name": "Jovo Lukić",
+      "team": "Bosnia and Herzegovina",
+      "assists": 0
+    },
+    {
+      "name": "Cyle Larin",
+      "team": "Canada",
+      "assists": 0
+    },
+    {
+      "name": "Mauricio",
+      "team": "Paraguay",
+      "assists": 0
+    },
+    {
+      "name": "Gio Reyna",
+      "team": "USA",
+      "assists": 0
+    },
+    {
+      "name": "Breel Embolo",
+      "team": "Switzerland",
+      "assists": 0
+    },
+    {
+      "name": "Boualem Khoukhi",
+      "team": "Qatar",
+      "assists": 0
+    },
+    {
+      "name": "Ismael Saibari",
+      "team": "Morocco",
+      "assists": 0
+    },
+    {
+      "name": "Vinicius Junior",
+      "team": "Brazil",
+      "assists": 0
+    },
+    {
+      "name": "John McGinn",
+      "team": "Scotland",
+      "assists": 0
+    },
+    {
+      "name": "Nestor Irankunda",
+      "team": "Australia",
+      "assists": 0
+    },
+    {
+      "name": "Connor Metcalfe",
+      "team": "Australia",
+      "assists": 0
+    },
+    {
+      "name": "Felix Kalu Nmecha",
+      "team": "Germany",
+      "assists": 0
+    }
+  ],
+  "totalGoals": 36,
+  "matchesPlayed": 12
+}
