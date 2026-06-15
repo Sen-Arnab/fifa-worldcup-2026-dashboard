@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-15T20:05:50.630Z",
+  "updatedAt": "2026-06-15T22:31:05.599Z",
   "fixtures": [
     {
       "id": 537327,
@@ -33,7 +33,7 @@
       "g": "B",
       "v": "",
       "t": "19:00",
-      "s": "1 - 1",
+      "s": null,
       "st": "done",
       "events": []
     },
@@ -165,8 +165,8 @@
       "g": "G",
       "v": "",
       "t": "19:00",
-      "s": "0 - 1",
-      "st": "live",
+      "s": "1 - 1",
+      "st": "done",
       "events": []
     },
     {
@@ -177,8 +177,8 @@
       "g": "H",
       "v": "",
       "t": "22:00",
-      "s": null,
-      "st": "soon",
+      "s": "0 - 0",
+      "st": "live",
       "events": []
     },
     {
@@ -1505,14 +1505,24 @@
     ],
     "Group G": [
       {
-        "t": "Egypt",
-        "pts": 3,
+        "t": "Belgium",
+        "pts": 1,
         "gp": 1,
-        "w": 1,
+        "w": 0,
         "l": 0,
-        "d": 0,
+        "d": 1,
         "gf": 1,
-        "ga": 0
+        "ga": 1
+      },
+      {
+        "t": "Egypt",
+        "pts": 1,
+        "gp": 1,
+        "w": 0,
+        "l": 0,
+        "d": 1,
+        "gf": 1,
+        "ga": 1
       },
       {
         "t": "Iran",
@@ -1533,21 +1543,21 @@
         "d": 0,
         "gf": 0,
         "ga": 0
-      },
-      {
-        "t": "Belgium",
-        "pts": 0,
-        "gp": 1,
-        "w": 0,
-        "l": 1,
-        "d": 0,
-        "gf": 0,
-        "ga": 1
       }
     ],
     "Group H": [
       {
-        "t": "Cape Verde Islands",
+        "t": "Saudi Arabia",
+        "pts": 1,
+        "gp": 1,
+        "w": 0,
+        "l": 0,
+        "d": 1,
+        "gf": 0,
+        "ga": 0
+      },
+      {
+        "t": "Uruguay",
         "pts": 1,
         "gp": 1,
         "w": 0,
@@ -1567,22 +1577,12 @@
         "ga": 0
       },
       {
-        "t": "Saudi Arabia",
-        "pts": 0,
-        "gp": 0,
+        "t": "Cape Verde Islands",
+        "pts": 1,
+        "gp": 1,
         "w": 0,
         "l": 0,
-        "d": 0,
-        "gf": 0,
-        "ga": 0
-      },
-      {
-        "t": "Uruguay",
-        "pts": 0,
-        "gp": 0,
-        "w": 0,
-        "l": 0,
-        "d": 0,
+        "d": 1,
         "gf": 0,
         "ga": 0
       }
@@ -1858,6 +1858,6 @@
       "assists": 0
     }
   ],
-  "totalGoals": 39,
-  "matchesPlayed": 13
+  "totalGoals": 38,
+  "matchesPlayed": 14
 }
