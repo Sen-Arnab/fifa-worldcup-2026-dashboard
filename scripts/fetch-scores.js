@@ -32,32 +32,97 @@ function mapStatus(status) {
   return 'soon';
 }
 
+// Rate-limit helper (free tier: 10 req/min)
+const delay = ms => new Promise(r => setTimeout(r, ms));
+
+async function fetchMatchDetail(id) {
+  await delay(6500); // stay under 10 req/min
+  return fetchJSON(`${API_BASE}/matches/${id}`);
+}
+
 async function main() {
   console.log('Fetching World Cup matches...');
   const matchesData = await fetchJSON(`${API_BASE}/competitions/${COMPETITION}/matches`);
   const standingsData = await fetchJSON(`${API_BASE}/competitions/${COMPETITION}/standings`);
+  await delay(6500);
   const scorersData = await fetchJSON(`${API_BASE}/competitions/${COMPETITION}/scorers?limit=20`);
 
+  // Fetch detailed data for finished/live matches (has lineups & bookings)
+  const finishedIds = matchesData.matches
+    .filter(m => m.status === 'FINISHED' || m.status === 'IN_PLAY' || m.status === 'PAUSED')
+    .map(m => m.id);
+
+  console.log(`Fetching details for ${finishedIds.length} played matches...`);
+  const matchDetails = {};
+  for (const id of finishedIds) {
+    try {
+      matchDetails[id] = await fetchMatchDetail(id);
+    } catch (e) {
+      console.warn(`Failed to fetch match ${id}: ${e.message}`);
+    }
+  }
+
   // Process fixtures
-  const fixtures = matchesData.matches.map(m => ({
-    d: m.utcDate.slice(0, 10),
-    h: mapTeam(m.homeTeam.name),
-    a: mapTeam(m.awayTeam.name),
-    g: m.group ? m.group.replace('GROUP_', '') : '',
-    v: m.venue || '',
-    t: m.utcDate.slice(11, 16),
-    s: m.score.fullTime.home !== null
-      ? `${m.score.fullTime.home} - ${m.score.fullTime.away}`
-      : null,
-    st: mapStatus(m.status),
-    events: (m.goals || []).map(g => ({
-      type: 'goal',
-      player: g.scorer?.name || 'Unknown',
-      team: g.team?.id === m.homeTeam.id ? 'h' : 'a',
-      min: g.minute ? `${g.minute}'` : '',
-      ...(g.assist?.name && { assist: g.assist.name })
-    }))
-  }));
+  const fixtures = matchesData.matches.map(m => {
+    const detail = matchDetails[m.id];
+    const events = [];
+
+    // Goals
+    const goals = detail?.goals || m.goals || [];
+    for (const g of goals) {
+      events.push({
+        type: 'goal',
+        player: g.scorer?.name || 'Unknown',
+        team: g.team?.id === m.homeTeam.id ? 'h' : 'a',
+        min: g.minute ? (g.injuryTime ? `${g.minute}+${g.injuryTime}'` : `${g.minute}'`) : '',
+        ...(g.assist?.name && { assist: g.assist.name })
+      });
+    }
+
+    // Bookings (cards)
+    const bookings = detail?.bookings || [];
+    for (const b of bookings) {
+      events.push({
+        type: b.card === 'RED' ? 'rc' : 'yc',
+        player: b.player?.name || 'Unknown',
+        team: b.team?.id === m.homeTeam.id ? 'h' : 'a',
+        min: b.minute ? `${b.minute}'` : ''
+      });
+    }
+
+    // Lineups
+    let lineups = null;
+    if (detail?.homeTeam?.lineup?.length) {
+      lineups = {
+        home: {
+          formation: detail.homeTeam.formation || '',
+          lineup: detail.homeTeam.lineup.map(p => ({ name: p.name, pos: p.position, num: p.shirtNumber })),
+          bench: (detail.homeTeam.bench || []).map(p => ({ name: p.name, pos: p.position, num: p.shirtNumber }))
+        },
+        away: {
+          formation: detail.awayTeam.formation || '',
+          lineup: detail.awayTeam.lineup.map(p => ({ name: p.name, pos: p.position, num: p.shirtNumber })),
+          bench: (detail.awayTeam.bench || []).map(p => ({ name: p.name, pos: p.position, num: p.shirtNumber }))
+        }
+      };
+    }
+
+    return {
+      id: m.id,
+      d: m.utcDate.slice(0, 10),
+      h: mapTeam(m.homeTeam.name),
+      a: mapTeam(m.awayTeam.name),
+      g: m.group ? m.group.replace('GROUP_', '') : '',
+      v: m.venue || '',
+      t: m.utcDate.slice(11, 16),
+      s: m.score.fullTime.home !== null
+        ? `${m.score.fullTime.home} - ${m.score.fullTime.away}`
+        : null,
+      st: mapStatus(m.status),
+      events,
+      ...(lineups && { lineups })
+    };
+  });
 
   // Process standings
   const standings = {};
