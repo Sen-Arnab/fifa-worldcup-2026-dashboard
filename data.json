@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-15T11:25:25.905Z",
+  "updatedAt": "2026-06-15T16:29:34.116Z",
   "fixtures": [
     {
       "id": 537327,
@@ -33,7 +33,7 @@
       "g": "B",
       "v": "",
       "t": "19:00",
-      "s": null,
+      "s": "1 - 1",
       "st": "done",
       "events": []
     },
@@ -153,8 +153,8 @@
       "g": "H",
       "v": "",
       "t": "16:00",
-      "s": null,
-      "st": "soon",
+      "s": "0 - 0",
+      "st": "live",
       "events": []
     },
     {
@@ -1548,26 +1548,26 @@
     "Group H": [
       {
         "t": "Cape Verde Islands",
-        "pts": 0,
-        "gp": 0,
+        "pts": 1,
+        "gp": 1,
         "w": 0,
         "l": 0,
-        "d": 0,
-        "gf": 0,
-        "ga": 0
-      },
-      {
-        "t": "Saudi Arabia",
-        "pts": 0,
-        "gp": 0,
-        "w": 0,
-        "l": 0,
-        "d": 0,
+        "d": 1,
         "gf": 0,
         "ga": 0
       },
       {
         "t": "Spain",
+        "pts": 1,
+        "gp": 1,
+        "w": 0,
+        "l": 0,
+        "d": 1,
+        "gf": 0,
+        "ga": 0
+      },
+      {
+        "t": "Saudi Arabia",
         "pts": 0,
         "gp": 0,
         "w": 0,
@@ -1858,6 +1858,6 @@
       "assists": 0
     }
   ],
-  "totalGoals": 36,
+  "totalGoals": 38,
   "matchesPlayed": 12
 }
