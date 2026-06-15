@@ -105,16 +105,18 @@ body{font-family:'Inter',sans-serif;background:var(--bg);color:var(--text);min-h
   <p class="sub">June 11 – July 19 • Live Dashboard</p>
   <div class="hosts">🇺🇸 🇲🇽 🇨🇦</div>
   <div class="ticker">
-    <span class="ticker-item">⚽ 12 Goals Scored</span>
+    <span class="ticker-item">⚽ 34 Goals Scored</span>
     <span class="ticker-item">🟥 3 Red Cards</span>
-    <span class="ticker-item">🏟️ 4 Matches Played</span>
-    <span class="ticker-item">🔥 Balogun leads Golden Boot</span>
-    <span class="ticker-item">🇺🇸 USA biggest win: 4-1</span>
-    <span class="ticker-item">⚽ 12 Goals Scored</span>
+    <span class="ticker-item">🏟️ 12 Matches Played</span>
+    <span class="ticker-item">🔥 Balogun & Havertz lead Golden Boot (2 goals)</span>
+    <span class="ticker-item">🇩🇪 Germany biggest win: 7-1</span>
+    <span class="ticker-item">🇸🇪 Sweden dominate Tunisia 5-1</span>
+    <span class="ticker-item">⚽ 34 Goals Scored</span>
     <span class="ticker-item">🟥 3 Red Cards</span>
-    <span class="ticker-item">🏟️ 4 Matches Played</span>
-    <span class="ticker-item">🔥 Balogun leads Golden Boot</span>
-    <span class="ticker-item">🇺🇸 USA biggest win: 4-1</span>
+    <span class="ticker-item">🏟️ 12 Matches Played</span>
+    <span class="ticker-item">🔥 Balogun & Havertz lead Golden Boot (2 goals)</span>
+    <span class="ticker-item">🇩🇪 Germany biggest win: 7-1</span>
+    <span class="ticker-item">🇸🇪 Sweden dominate Tunisia 5-1</span>
   </div>
   </div>
 </div>
@@ -133,8 +135,8 @@ body{font-family:'Inter',sans-serif;background:var(--bg);color:var(--text);min-h
     <div class="stat-box"><div class="n">104</div><div class="l">Matches</div></div>
     <div class="stat-box"><div class="n">16</div><div class="l">Cities</div></div>
     <div class="stat-box"><div class="n">3</div><div class="l">Host Nations</div></div>
-    <div class="stat-box"><div class="n" id="goals-count">12</div><div class="l">Goals Scored</div></div>
-    <div class="stat-box"><div class="n">4</div><div class="l">Matches Played</div></div>
+    <div class="stat-box"><div class="n" id="goals-count">34</div><div class="l">Goals Scored</div></div>
+    <div class="stat-box"><div class="n">12</div><div class="l">Matches Played</div></div>
   </div>
 
   <div class="today-hero">
@@ -185,11 +187,11 @@ function toIST(time){
 
 const standings={
   A:[{t:"Mexico",pts:3,gp:1,w:1,l:0,d:0,gf:2,ga:0},{t:"South Korea",pts:3,gp:1,w:1,l:0,d:0,gf:2,ga:1},{t:"Czechia",pts:0,gp:1,w:0,l:1,d:0,gf:1,ga:2},{t:"South Africa",pts:0,gp:1,w:0,l:1,d:0,gf:0,ga:2}],
-  B:[{t:"Canada",pts:1,gp:1,w:0,l:0,d:1,gf:1,ga:1},{t:"Bosnia and Herzegovina",pts:1,gp:1,w:0,l:0,d:1,gf:1,ga:1},{t:"Qatar",pts:0,gp:0,w:0,l:0,d:0,gf:0,ga:0},{t:"Switzerland",pts:0,gp:0,w:0,l:0,d:0,gf:0,ga:0}],
-  C:[{t:"Brazil",pts:0,gp:0,w:0,l:0,d:0,gf:0,ga:0},{t:"Morocco",pts:0,gp:0,w:0,l:0,d:0,gf:0,ga:0},{t:"Haiti",pts:0,gp:0,w:0,l:0,d:0,gf:0,ga:0},{t:"Scotland",pts:0,gp:0,w:0,l:0,d:0,gf:0,ga:0}],
-  D:[{t:"USA",pts:3,gp:1,w:1,l:0,d:0,gf:4,ga:1},{t:"Türkiye",pts:0,gp:0,w:0,l:0,d:0,gf:0,ga:0},{t:"Australia",pts:0,gp:0,w:0,l:0,d:0,gf:0,ga:0},{t:"Paraguay",pts:0,gp:1,w:0,l:1,d:0,gf:1,ga:4}],
-  E:[{t:"Germany",pts:0,gp:0,w:0,l:0,d:0,gf:0,ga:0},{t:"Curaçao",pts:0,gp:0,w:0,l:0,d:0,gf:0,ga:0},{t:"Ivory Coast",pts:0,gp:0,w:0,l:0,d:0,gf:0,ga:0},{t:"Ecuador",pts:0,gp:0,w:0,l:0,d:0,gf:0,ga:0}],
-  F:[{t:"Netherlands",pts:0,gp:0,w:0,l:0,d:0,gf:0,ga:0},{t:"Japan",pts:0,gp:0,w:0,l:0,d:0,gf:0,ga:0},{t:"Sweden",pts:0,gp:0,w:0,l:0,d:0,gf:0,ga:0},{t:"Tunisia",pts:0,gp:0,w:0,l:0,d:0,gf:0,ga:0}],
+  B:[{t:"Canada",pts:1,gp:1,w:0,l:0,d:1,gf:1,ga:1},{t:"Bosnia and Herzegovina",pts:1,gp:1,w:0,l:0,d:1,gf:1,ga:1},{t:"Qatar",pts:1,gp:1,w:0,l:0,d:1,gf:1,ga:1},{t:"Switzerland",pts:1,gp:1,w:0,l:0,d:1,gf:1,ga:1}],
+  C:[{t:"Scotland",pts:3,gp:1,w:1,l:0,d:0,gf:1,ga:0},{t:"Brazil",pts:1,gp:1,w:0,l:0,d:1,gf:1,ga:1},{t:"Morocco",pts:1,gp:1,w:0,l:0,d:1,gf:1,ga:1},{t:"Haiti",pts:0,gp:1,w:0,l:1,d:0,gf:0,ga:1}],
+  D:[{t:"USA",pts:3,gp:1,w:1,l:0,d:0,gf:4,ga:1},{t:"Australia",pts:3,gp:1,w:1,l:0,d:0,gf:2,ga:0},{t:"Türkiye",pts:0,gp:1,w:0,l:1,d:0,gf:0,ga:2},{t:"Paraguay",pts:0,gp:1,w:0,l:1,d:0,gf:1,ga:4}],
+  E:[{t:"Germany",pts:3,gp:1,w:1,l:0,d:0,gf:7,ga:1},{t:"Ivory Coast",pts:3,gp:1,w:1,l:0,d:0,gf:1,ga:0},{t:"Ecuador",pts:0,gp:1,w:0,l:1,d:0,gf:0,ga:1},{t:"Curaçao",pts:0,gp:1,w:0,l:1,d:0,gf:1,ga:7}],
+  F:[{t:"Sweden",pts:3,gp:1,w:1,l:0,d:0,gf:5,ga:1},{t:"Netherlands",pts:1,gp:1,w:0,l:0,d:1,gf:2,ga:2},{t:"Japan",pts:1,gp:1,w:0,l:0,d:1,gf:2,ga:2},{t:"Tunisia",pts:0,gp:1,w:0,l:1,d:0,gf:1,ga:5}],
   G:[{t:"Belgium",pts:0,gp:0,w:0,l:0,d:0,gf:0,ga:0},{t:"Egypt",pts:0,gp:0,w:0,l:0,d:0,gf:0,ga:0},{t:"Iran",pts:0,gp:0,w:0,l:0,d:0,gf:0,ga:0},{t:"New Zealand",pts:0,gp:0,w:0,l:0,d:0,gf:0,ga:0}],
   H:[{t:"Spain",pts:0,gp:0,w:0,l:0,d:0,gf:0,ga:0},{t:"Cape Verde",pts:0,gp:0,w:0,l:0,d:0,gf:0,ga:0},{t:"Saudi Arabia",pts:0,gp:0,w:0,l:0,d:0,gf:0,ga:0},{t:"Uruguay",pts:0,gp:0,w:0,l:0,d:0,gf:0,ga:0}],
   I:[{t:"France",pts:0,gp:0,w:0,l:0,d:0,gf:0,ga:0},{t:"Senegal",pts:0,gp:0,w:0,l:0,d:0,gf:0,ga:0},{t:"Iraq",pts:0,gp:0,w:0,l:0,d:0,gf:0,ga:0},{t:"Norway",pts:0,gp:0,w:0,l:0,d:0,gf:0,ga:0}],
@@ -200,6 +202,8 @@ const standings={
 
 const topScorers=[
   {name:"Folarin Balogun",team:"USA",goals:2,assists:0},
+  {name:"Kai Havertz",team:"Germany",goals:2,assists:0},
+  {name:"Yasin Ayari",team:"Sweden",goals:2,assists:0},
   {name:"Raúl Jiménez",team:"Mexico",goals:1,assists:1},
   {name:"Julián Quiñones",team:"Mexico",goals:1,assists:0},
   {name:"Hwang In-Beom",team:"South Korea",goals:1,assists:1},
@@ -208,7 +212,29 @@ const topScorers=[
   {name:"Giovanni Reyna",team:"USA",goals:1,assists:0},
   {name:"Weston McKennie",team:"USA",goals:1,assists:0},
   {name:"Jovo Lukić",team:"Bosnia and Herzegovina",goals:1,assists:0},
-  {name:"Mauricio",team:"Paraguay",goals:1,assists:0}
+  {name:"Mauricio",team:"Paraguay",goals:1,assists:0},
+  {name:"Breel Embolo",team:"Switzerland",goals:1,assists:0},
+  {name:"Boualem Khoukhi",team:"Qatar",goals:1,assists:0},
+  {name:"Ismael Saibari",team:"Morocco",goals:1,assists:0},
+  {name:"Vinícius Júnior",team:"Brazil",goals:1,assists:0},
+  {name:"John McGinn",team:"Scotland",goals:1,assists:0},
+  {name:"Nestory Irankunda",team:"Australia",goals:1,assists:0},
+  {name:"Connor Metcalfe",team:"Australia",goals:1,assists:0},
+  {name:"Felix Nmecha",team:"Germany",goals:1,assists:0},
+  {name:"Nico Schlotterbeck",team:"Germany",goals:1,assists:0},
+  {name:"Jamal Musiala",team:"Germany",goals:1,assists:0},
+  {name:"Nathaniel Brown",team:"Germany",goals:1,assists:0},
+  {name:"Denis Undav",team:"Germany",goals:1,assists:0},
+  {name:"Livano Comenencia",team:"Curaçao",goals:1,assists:0},
+  {name:"Virgil van Dijk",team:"Netherlands",goals:1,assists:0},
+  {name:"Crysencio Summerville",team:"Netherlands",goals:1,assists:0},
+  {name:"Keito Nakamura",team:"Japan",goals:1,assists:0},
+  {name:"Daichi Kamada",team:"Japan",goals:1,assists:0},
+  {name:"Amad Diallo",team:"Ivory Coast",goals:1,assists:0},
+  {name:"Alexander Isak",team:"Sweden",goals:1,assists:0},
+  {name:"Viktor Gyökeres",team:"Sweden",goals:1,assists:0},
+  {name:"Mattias Svanberg",team:"Sweden",goals:1,assists:0},
+  {name:"Omar Rekik",team:"Tunisia",goals:1,assists:0}
 ];
 const topAssists=[
   {name:"Christian Pulisic",team:"USA",val:2},
@@ -217,7 +243,9 @@ const topAssists=[
   {name:"Alphonso Davies",team:"Canada",val:1},
   {name:"Antonee Robinson",team:"USA",val:1},
   {name:"Tyler Adams",team:"USA",val:1},
-  {name:"Brian Gutiérrez",team:"Mexico",val:1}
+  {name:"Brian Gutiérrez",team:"Mexico",val:1},
+  {name:"Joshua Kimmich",team:"Germany",val:1},
+  {name:"Florian Wirtz",team:"Germany",val:1}
 ];
 const topYellows=[
   {name:"Gustavo Gómez",team:"Paraguay",val:1},
@@ -272,14 +300,48 @@ const fixtures=[
   {type:"yc",player:"Hernesto Caballero",team:"a",min:"67'"},
   {type:"yc",player:"Matías Villasanti",team:"a",min:"85'"}
 ]},
-{d:"2026-06-13",h:"Qatar",a:"Switzerland",g:"B",v:"San Francisco Bay Stadium",t:"15:00",s:null,st:"live",events:[]},
-{d:"2026-06-13",h:"Brazil",a:"Morocco",g:"C",v:"New York New Jersey Stadium",t:"18:00",s:null,st:"soon",events:[]},
-{d:"2026-06-13",h:"Haiti",a:"Scotland",g:"C",v:"Boston Stadium",t:"21:00",s:null,st:"soon",events:[]},
-{d:"2026-06-13",h:"Australia",a:"Türkiye",g:"D",v:"BC Place Vancouver",t:"00:00",s:null,st:"soon",events:[]},
-{d:"2026-06-14",h:"Germany",a:"Curaçao",g:"E",v:"Houston Stadium",t:"13:00",s:null,st:"soon",events:[]},
-{d:"2026-06-14",h:"Netherlands",a:"Japan",g:"F",v:"Dallas Stadium",t:"16:00",s:null,st:"soon",events:[]},
-{d:"2026-06-14",h:"Ivory Coast",a:"Ecuador",g:"E",v:"Philadelphia Stadium",t:"19:00",s:null,st:"soon",events:[]},
-{d:"2026-06-14",h:"Tunisia",a:"Sweden",g:"F",v:"Monterrey Stadium",t:"22:00",s:null,st:"soon",events:[]},
+{d:"2026-06-13",h:"Qatar",a:"Switzerland",g:"B",v:"San Francisco Bay Stadium",t:"15:00",s:"1 - 1",st:"done",events:[
+  {type:"goal",player:"Breel Embolo",team:"a",min:"17'"},
+  {type:"goal",player:"Boualem Khoukhi",team:"h",min:"90+4'"}
+]},
+{d:"2026-06-13",h:"Brazil",a:"Morocco",g:"C",v:"New York New Jersey Stadium",t:"18:00",s:"1 - 1",st:"done",events:[
+  {type:"goal",player:"Ismael Saibari",team:"a",min:"21'"},
+  {type:"goal",player:"Vinícius Júnior",team:"h",min:"32'"}
+]},
+{d:"2026-06-13",h:"Haiti",a:"Scotland",g:"C",v:"Boston Stadium",t:"21:00",s:"0 - 1",st:"done",events:[
+  {type:"goal",player:"John McGinn",team:"a",min:"28'"}
+]},
+{d:"2026-06-13",h:"Australia",a:"Türkiye",g:"D",v:"BC Place Vancouver",t:"00:00",s:"2 - 0",st:"done",events:[
+  {type:"goal",player:"Nestory Irankunda",team:"h",min:"27'"},
+  {type:"goal",player:"Connor Metcalfe",team:"h",min:"75'"}
+]},
+{d:"2026-06-14",h:"Germany",a:"Curaçao",g:"E",v:"Houston Stadium",t:"13:00",s:"7 - 1",st:"done",events:[
+  {type:"goal",player:"Felix Nmecha",team:"h",min:"6'"},
+  {type:"goal",player:"Livano Comenencia",team:"a",min:"21'"},
+  {type:"goal",player:"Nico Schlotterbeck",team:"h",min:"38'"},
+  {type:"goal",player:"Kai Havertz",team:"h",min:"45+5'"},
+  {type:"goal",player:"Jamal Musiala",team:"h",min:"47'"},
+  {type:"goal",player:"Nathaniel Brown",team:"h",min:"68'"},
+  {type:"goal",player:"Denis Undav",team:"h",min:"78'"},
+  {type:"goal",player:"Kai Havertz",team:"h",min:"88'"}
+]},
+{d:"2026-06-14",h:"Netherlands",a:"Japan",g:"F",v:"Dallas Stadium",t:"16:00",s:"2 - 2",st:"done",events:[
+  {type:"goal",player:"Virgil van Dijk",team:"h",min:"50'"},
+  {type:"goal",player:"Keito Nakamura",team:"a",min:"56'"},
+  {type:"goal",player:"Crysencio Summerville",team:"h",min:"64'"},
+  {type:"goal",player:"Daichi Kamada",team:"a",min:"89'"}
+]},
+{d:"2026-06-14",h:"Ivory Coast",a:"Ecuador",g:"E",v:"Philadelphia Stadium",t:"19:00",s:"1 - 0",st:"done",events:[
+  {type:"goal",player:"Amad Diallo",team:"h",min:"90'"}
+]},
+{d:"2026-06-14",h:"Sweden",a:"Tunisia",g:"F",v:"Monterrey Stadium",t:"22:00",s:"5 - 1",st:"done",events:[
+  {type:"goal",player:"Yasin Ayari",team:"h",min:"7'"},
+  {type:"goal",player:"Alexander Isak",team:"h",min:"30'"},
+  {type:"goal",player:"Viktor Gyökeres",team:"h",min:"55'"},
+  {type:"goal",player:"Omar Rekik",team:"a",min:"62'"},
+  {type:"goal",player:"Mattias Svanberg",team:"h",min:"72'"},
+  {type:"goal",player:"Yasin Ayari",team:"h",min:"90+6'"}
+]},
 {d:"2026-06-15",h:"Spain",a:"Cape Verde",g:"H",v:"Atlanta Stadium",t:"12:00",s:null,st:"soon",events:[]},
 {d:"2026-06-15",h:"Belgium",a:"Egypt",g:"G",v:"Seattle Stadium",t:"15:00",s:null,st:"soon",events:[]},
 {d:"2026-06-15",h:"Saudi Arabia",a:"Uruguay",g:"H",v:"Miami Stadium",t:"18:00",s:null,st:"soon",events:[]},
@@ -487,6 +549,33 @@ document.querySelectorAll('.stat-box .n').forEach(el=>{
   let curr=0;const step=Math.max(1,Math.floor(target/30));
   const timer=setInterval(()=>{curr+=step;if(curr>=target){curr=target;clearInterval(timer)}el.textContent=curr},30);
 });
+
+// Auto-refresh from data.json (updated by GitHub Actions)
+function refreshFromData(){
+  fetch('data.json?t='+Date.now()).then(r=>r.ok?r.json():null).then(data=>{
+    if(!data)return;
+    // Update fixtures
+    if(data.fixtures){
+      fixtures.length=0;
+      data.fixtures.forEach(f=>fixtures.push(f));
+    }
+    // Update standings
+    if(data.standings) Object.assign(standings,data.standings);
+    // Update scorers
+    if(data.topScorers){topScorers.length=0;data.topScorers.forEach(s=>topScorers.push(s))}
+    // Re-render
+    document.getElementById('recent-results').innerHTML=fixtures.filter(f=>f.st==='done'||f.st==='live').map(matchHTML).join('');
+    const td=new Date().toISOString().slice(0,10);
+    const tm=fixtures.filter(f=>f.d===td);
+    if(tm.length)document.getElementById('today-matches').innerHTML=tm.map(matchHTML).join('');
+    document.getElementById('group-tables').innerHTML=Object.entries(standings).map(([g,teams])=>`<div class="group-card"><h3>Group ${g}</h3><table><tr><th></th><th>Team</th><th>P</th><th>W</th><th>D</th><th>L</th><th>GF</th><th>GA</th><th>GD</th><th>Pts</th></tr>${teams.map((t,i)=>`<tr><td style="color:var(--dim)">${i+1}</td><td><div class="team-cell"><img class="mini-flag" src="${flag(t.t)}" onerror="this.style.display='none'">${t.t}</div></td><td>${t.gp}</td><td>${t.w}</td><td>${t.d}</td><td>${t.l}</td><td>${t.gf}</td><td>${t.ga}</td><td class="${t.gf-t.ga>0?'gd-pos':t.gf-t.ga<0?'gd-neg':''}">${t.gf-t.ga>0?'+':''}${t.gf-t.ga}</td><td class="pts">${t.pts}</td></tr>`).join('')}</table></div>`).join('');
+    renderScorerList('goals');
+    renderFixtures();
+    if(data.totalGoals)document.getElementById('goals-count').textContent=data.totalGoals;
+  }).catch(()=>{});
+}
+refreshFromData();
+setInterval(refreshFromData,60000); // refresh every minute
 </script>
 </body>
 </html>
