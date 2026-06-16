@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-16T05:40:11.402Z",
+  "updatedAt": "2026-06-16T10:34:38.611Z",
   "fixtures": [
     {
       "id": 537327,
@@ -1505,7 +1505,7 @@
     ],
     "Group G": [
       {
-        "t": "Iran",
+        "t": "New Zealand",
         "pts": 1,
         "gp": 1,
         "w": 0,
@@ -1515,7 +1515,7 @@
         "ga": 2
       },
       {
-        "t": "New Zealand",
+        "t": "Iran",
         "pts": 1,
         "gp": 1,
         "w": 0,
@@ -1547,7 +1547,7 @@
     ],
     "Group H": [
       {
-        "t": "Saudi Arabia",
+        "t": "Uruguay",
         "pts": 1,
         "gp": 1,
         "w": 0,
@@ -1557,7 +1557,7 @@
         "ga": 1
       },
       {
-        "t": "Uruguay",
+        "t": "Saudi Arabia",
         "pts": 1,
         "gp": 1,
         "w": 0,
