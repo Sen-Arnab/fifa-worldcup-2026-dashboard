@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-16T00:16:31.395Z",
+  "updatedAt": "2026-06-16T05:40:11.402Z",
   "fixtures": [
     {
       "id": 537327,
@@ -189,8 +189,8 @@
       "g": "G",
       "v": "",
       "t": "01:00",
-      "s": null,
-      "st": "soon",
+      "s": "2 - 2",
+      "st": "done",
       "events": []
     },
     {
@@ -1505,6 +1505,26 @@
     ],
     "Group G": [
       {
+        "t": "Iran",
+        "pts": 1,
+        "gp": 1,
+        "w": 0,
+        "l": 0,
+        "d": 1,
+        "gf": 2,
+        "ga": 2
+      },
+      {
+        "t": "New Zealand",
+        "pts": 1,
+        "gp": 1,
+        "w": 0,
+        "l": 0,
+        "d": 1,
+        "gf": 2,
+        "ga": 2
+      },
+      {
         "t": "Belgium",
         "pts": 1,
         "gp": 1,
@@ -1523,26 +1543,6 @@
         "d": 1,
         "gf": 1,
         "ga": 1
-      },
-      {
-        "t": "Iran",
-        "pts": 0,
-        "gp": 0,
-        "w": 0,
-        "l": 0,
-        "d": 0,
-        "gf": 0,
-        "ga": 0
-      },
-      {
-        "t": "New Zealand",
-        "pts": 0,
-        "gp": 0,
-        "w": 0,
-        "l": 0,
-        "d": 0,
-        "gf": 0,
-        "ga": 0
       }
     ],
     "Group H": [
@@ -1773,6 +1773,11 @@
       "assists": 0
     },
     {
+      "name": "Elijah Just",
+      "team": "New Zealand",
+      "assists": 0
+    },
+    {
       "name": "Julián Quiñones",
       "team": "Mexico",
       "assists": 0
@@ -1851,13 +1856,8 @@
       "name": "Connor Metcalfe",
       "team": "Australia",
       "assists": 0
-    },
-    {
-      "name": "Felix Kalu Nmecha",
-      "team": "Germany",
-      "assists": 0
     }
   ],
-  "totalGoals": 42,
-  "matchesPlayed": 15
+  "totalGoals": 46,
+  "matchesPlayed": 16
 }
