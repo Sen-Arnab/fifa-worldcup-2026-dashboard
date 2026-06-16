@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-16T19:46:20.865Z",
+  "updatedAt": "2026-06-16T22:05:43.313Z",
   "fixtures": [
     {
       "id": 537327,
@@ -201,8 +201,8 @@
       "g": "I",
       "v": "",
       "t": "19:00",
-      "s": "0 - 0",
-      "st": "live",
+      "s": "3 - 1",
+      "st": "done",
       "events": []
     },
     {
@@ -1590,6 +1590,26 @@
     "Group I": [
       {
         "t": "France",
+        "pts": 3,
+        "gp": 1,
+        "w": 1,
+        "l": 0,
+        "d": 0,
+        "gf": 3,
+        "ga": 1
+      },
+      {
+        "t": "Iraq",
+        "pts": 1,
+        "gp": 1,
+        "w": 0,
+        "l": 0,
+        "d": 1,
+        "gf": 0,
+        "ga": 0
+      },
+      {
+        "t": "Norway",
         "pts": 1,
         "gp": 1,
         "w": 0,
@@ -1600,33 +1620,13 @@
       },
       {
         "t": "Senegal",
-        "pts": 1,
+        "pts": 0,
         "gp": 1,
         "w": 0,
-        "l": 0,
-        "d": 1,
-        "gf": 0,
-        "ga": 0
-      },
-      {
-        "t": "Iraq",
-        "pts": 0,
-        "gp": 0,
-        "w": 0,
-        "l": 0,
+        "l": 1,
         "d": 0,
-        "gf": 0,
-        "ga": 0
-      },
-      {
-        "t": "Norway",
-        "pts": 0,
-        "gp": 0,
-        "w": 0,
-        "l": 0,
-        "d": 0,
-        "gf": 0,
-        "ga": 0
+        "gf": 1,
+        "ga": 3
       }
     ],
     "Group J": [
@@ -1778,6 +1778,11 @@
       "assists": 0
     },
     {
+      "name": "Kylian Mbappé",
+      "team": "France",
+      "assists": 0
+    },
+    {
       "name": "Julián Quiñones",
       "team": "Mexico",
       "assists": 0
@@ -1851,13 +1856,8 @@
       "name": "Nestor Irankunda",
       "team": "Australia",
       "assists": 0
-    },
-    {
-      "name": "Connor Metcalfe",
-      "team": "Australia",
-      "assists": 0
     }
   ],
-  "totalGoals": 46,
-  "matchesPlayed": 16
+  "totalGoals": 50,
+  "matchesPlayed": 17
 }
