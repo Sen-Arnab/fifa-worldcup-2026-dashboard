@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-17T19:53:45.328Z",
+  "updatedAt": "2026-06-17T22:04:47.316Z",
   "fixtures": [
     {
       "id": 537327,
@@ -261,8 +261,8 @@
       "g": "L",
       "v": "",
       "t": "20:00",
-      "s": null,
-      "st": "soon",
+      "s": "4 - 2",
+      "st": "live",
       "events": []
     },
     {
@@ -1716,26 +1716,16 @@
     "Group L": [
       {
         "t": "England",
-        "pts": 0,
-        "gp": 0,
-        "w": 0,
+        "pts": 3,
+        "gp": 1,
+        "w": 1,
         "l": 0,
         "d": 0,
-        "gf": 0,
-        "ga": 0
+        "gf": 4,
+        "ga": 2
       },
       {
         "t": "Ghana",
-        "pts": 0,
-        "gp": 0,
-        "w": 0,
-        "l": 0,
-        "d": 0,
-        "gf": 0,
-        "ga": 0
-      },
-      {
-        "t": "Croatia",
         "pts": 0,
         "gp": 0,
         "w": 0,
@@ -1753,6 +1743,16 @@
         "d": 0,
         "gf": 0,
         "ga": 0
+      },
+      {
+        "t": "Croatia",
+        "pts": 0,
+        "gp": 1,
+        "w": 0,
+        "l": 1,
+        "d": 0,
+        "gf": 2,
+        "ga": 4
       }
     ]
   },
@@ -1790,6 +1790,11 @@
     {
       "name": "Erling Haaland",
       "team": "Norway",
+      "assists": 0
+    },
+    {
+      "name": "Harry Kane",
+      "team": "England",
       "assists": 0
     },
     {
@@ -1851,13 +1856,8 @@
       "name": "Ismael Saibari",
       "team": "Morocco",
       "assists": 0
-    },
-    {
-      "name": "Vinicius Junior",
-      "team": "Brazil",
-      "assists": 0
     }
   ],
-  "totalGoals": 64,
+  "totalGoals": 70,
   "matchesPlayed": 21
 }
