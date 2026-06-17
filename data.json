@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-17T17:35:50.484Z",
+  "updatedAt": "2026-06-17T19:53:45.328Z",
   "fixtures": [
     {
       "id": 537327,
@@ -249,8 +249,8 @@
       "g": "K",
       "v": "",
       "t": "17:00",
-      "s": "1 - 0",
-      "st": "live",
+      "s": "1 - 1",
+      "st": "done",
       "events": []
     },
     {
@@ -1673,14 +1673,24 @@
     ],
     "Group K": [
       {
-        "t": "Portugal",
-        "pts": 3,
+        "t": "Congo DR",
+        "pts": 1,
         "gp": 1,
-        "w": 1,
+        "w": 0,
         "l": 0,
-        "d": 0,
+        "d": 1,
         "gf": 1,
-        "ga": 0
+        "ga": 1
+      },
+      {
+        "t": "Portugal",
+        "pts": 1,
+        "gp": 1,
+        "w": 0,
+        "l": 0,
+        "d": 1,
+        "gf": 1,
+        "ga": 1
       },
       {
         "t": "Colombia",
@@ -1701,16 +1711,6 @@
         "d": 0,
         "gf": 0,
         "ga": 0
-      },
-      {
-        "t": "Congo DR",
-        "pts": 0,
-        "gp": 1,
-        "w": 0,
-        "l": 1,
-        "d": 0,
-        "gf": 0,
-        "ga": 1
       }
     ],
     "Group L": [
@@ -1858,6 +1858,6 @@
       "assists": 0
     }
   ],
-  "totalGoals": 63,
-  "matchesPlayed": 20
+  "totalGoals": 64,
+  "matchesPlayed": 21
 }
