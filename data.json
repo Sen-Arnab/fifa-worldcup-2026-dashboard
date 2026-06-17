@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-16T22:05:43.313Z",
+  "updatedAt": "2026-06-17T04:23:17.022Z",
   "fixtures": [
     {
       "id": 537327,
@@ -213,8 +213,8 @@
       "g": "I",
       "v": "",
       "t": "22:00",
-      "s": null,
-      "st": "soon",
+      "s": "1 - 4",
+      "st": "done",
       "events": []
     },
     {
@@ -225,8 +225,8 @@
       "g": "J",
       "v": "",
       "t": "01:00",
-      "s": null,
-      "st": "soon",
+      "s": "3 - 0",
+      "st": "done",
       "events": []
     },
     {
@@ -237,8 +237,8 @@
       "g": "J",
       "v": "",
       "t": "04:00",
-      "s": null,
-      "st": "soon",
+      "s": "0 - 0",
+      "st": "live",
       "events": []
     },
     {
@@ -1589,6 +1589,16 @@
     ],
     "Group I": [
       {
+        "t": "Norway",
+        "pts": 3,
+        "gp": 1,
+        "w": 1,
+        "l": 0,
+        "d": 0,
+        "gf": 4,
+        "ga": 1
+      },
+      {
         "t": "France",
         "pts": 3,
         "gp": 1,
@@ -1599,26 +1609,6 @@
         "ga": 1
       },
       {
-        "t": "Iraq",
-        "pts": 1,
-        "gp": 1,
-        "w": 0,
-        "l": 0,
-        "d": 1,
-        "gf": 0,
-        "ga": 0
-      },
-      {
-        "t": "Norway",
-        "pts": 1,
-        "gp": 1,
-        "w": 0,
-        "l": 0,
-        "d": 1,
-        "gf": 0,
-        "ga": 0
-      },
-      {
         "t": "Senegal",
         "pts": 0,
         "gp": 1,
@@ -1627,48 +1617,58 @@
         "d": 0,
         "gf": 1,
         "ga": 3
+      },
+      {
+        "t": "Iraq",
+        "pts": 0,
+        "gp": 1,
+        "w": 0,
+        "l": 1,
+        "d": 0,
+        "gf": 1,
+        "ga": 4
       }
     ],
     "Group J": [
       {
-        "t": "Algeria",
-        "pts": 0,
-        "gp": 0,
-        "w": 0,
-        "l": 0,
-        "d": 0,
-        "gf": 0,
-        "ga": 0
-      },
-      {
         "t": "Argentina",
-        "pts": 0,
-        "gp": 0,
-        "w": 0,
+        "pts": 3,
+        "gp": 1,
+        "w": 1,
         "l": 0,
         "d": 0,
-        "gf": 0,
+        "gf": 3,
         "ga": 0
       },
       {
         "t": "Jordan",
-        "pts": 0,
-        "gp": 0,
+        "pts": 1,
+        "gp": 1,
         "w": 0,
         "l": 0,
-        "d": 0,
+        "d": 1,
         "gf": 0,
         "ga": 0
       },
       {
         "t": "Austria",
-        "pts": 0,
-        "gp": 0,
+        "pts": 1,
+        "gp": 1,
         "w": 0,
         "l": 0,
-        "d": 0,
+        "d": 1,
         "gf": 0,
         "ga": 0
+      },
+      {
+        "t": "Algeria",
+        "pts": 0,
+        "gp": 1,
+        "w": 0,
+        "l": 1,
+        "d": 0,
+        "gf": 0,
+        "ga": 3
       }
     ],
     "Group K": [
@@ -1758,6 +1758,11 @@
   },
   "topScorers": [
     {
+      "name": "Lionel Messi",
+      "team": "Argentina",
+      "assists": 0
+    },
+    {
       "name": "Folarin Balogun",
       "team": "USA",
       "assists": 0
@@ -1780,6 +1785,11 @@
     {
       "name": "Kylian Mbappé",
       "team": "France",
+      "assists": 0
+    },
+    {
+      "name": "Erling Haaland",
+      "team": "Norway",
       "assists": 0
     },
     {
@@ -1846,18 +1856,8 @@
       "name": "Vinicius Junior",
       "team": "Brazil",
       "assists": 0
-    },
-    {
-      "name": "John McGinn",
-      "team": "Scotland",
-      "assists": 0
-    },
-    {
-      "name": "Nestor Irankunda",
-      "team": "Australia",
-      "assists": 0
     }
   ],
-  "totalGoals": 50,
-  "matchesPlayed": 17
+  "totalGoals": 58,
+  "matchesPlayed": 19
 }
