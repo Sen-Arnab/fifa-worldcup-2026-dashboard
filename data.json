@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-17T04:23:17.022Z",
+  "updatedAt": "2026-06-17T09:21:36.599Z",
   "fixtures": [
     {
       "id": 537327,
@@ -237,8 +237,8 @@
       "g": "J",
       "v": "",
       "t": "04:00",
-      "s": "0 - 0",
-      "st": "live",
+      "s": "3 - 1",
+      "st": "done",
       "events": []
     },
     {
@@ -1641,24 +1641,24 @@
         "ga": 0
       },
       {
-        "t": "Jordan",
-        "pts": 1,
+        "t": "Austria",
+        "pts": 3,
         "gp": 1,
-        "w": 0,
+        "w": 1,
         "l": 0,
-        "d": 1,
-        "gf": 0,
-        "ga": 0
+        "d": 0,
+        "gf": 3,
+        "ga": 1
       },
       {
-        "t": "Austria",
-        "pts": 1,
+        "t": "Jordan",
+        "pts": 0,
         "gp": 1,
         "w": 0,
-        "l": 0,
-        "d": 1,
-        "gf": 0,
-        "ga": 0
+        "l": 1,
+        "d": 0,
+        "gf": 1,
+        "ga": 3
       },
       {
         "t": "Algeria",
@@ -1858,6 +1858,6 @@
       "assists": 0
     }
   ],
-  "totalGoals": 58,
-  "matchesPlayed": 19
+  "totalGoals": 62,
+  "matchesPlayed": 20
 }
