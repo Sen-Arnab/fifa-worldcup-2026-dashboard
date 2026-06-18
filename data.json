@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-18T19:59:43.701Z",
+  "updatedAt": "2026-06-18T22:23:51.858Z",
   "fixtures": [
     {
       "id": 537327,
@@ -33,7 +33,7 @@
       "g": "B",
       "v": "",
       "t": "19:00",
-      "s": null,
+      "s": "1 - 1",
       "st": "done",
       "events": []
     },
@@ -309,8 +309,8 @@
       "g": "B",
       "v": "",
       "t": "19:00",
-      "s": null,
-      "st": "soon",
+      "s": "4 - 1",
+      "st": "done",
       "events": []
     },
     {
@@ -321,8 +321,8 @@
       "g": "B",
       "v": "",
       "t": "22:00",
-      "s": null,
-      "st": "soon",
+      "s": "0 - 0",
+      "st": "live",
       "events": []
     },
     {
@@ -1296,6 +1296,26 @@
     "Group B": [
       {
         "t": "Switzerland",
+        "pts": 4,
+        "gp": 2,
+        "w": 1,
+        "l": 0,
+        "d": 1,
+        "gf": 5,
+        "ga": 2
+      },
+      {
+        "t": "Canada",
+        "pts": 2,
+        "gp": 2,
+        "w": 0,
+        "l": 0,
+        "d": 2,
+        "gf": 1,
+        "ga": 1
+      },
+      {
+        "t": "Qatar",
         "pts": 2,
         "gp": 2,
         "w": 0,
@@ -1306,33 +1326,13 @@
       },
       {
         "t": "Bosnia and Herzegovina",
-        "pts": 2,
+        "pts": 1,
         "gp": 2,
         "w": 0,
-        "l": 0,
-        "d": 2,
-        "gf": 1,
-        "ga": 1
-      },
-      {
-        "t": "Canada",
-        "pts": 1,
-        "gp": 1,
-        "w": 0,
-        "l": 0,
+        "l": 1,
         "d": 1,
-        "gf": 1,
-        "ga": 1
-      },
-      {
-        "t": "Qatar",
-        "pts": 1,
-        "gp": 1,
-        "w": 0,
-        "l": 0,
-        "d": 1,
-        "gf": 1,
-        "ga": 1
+        "gf": 2,
+        "ga": 5
       }
     ],
     "Group C": [
@@ -1763,6 +1763,11 @@
       "assists": 0
     },
     {
+      "name": "Cyle Larin",
+      "team": "Canada",
+      "assists": 0
+    },
+    {
       "name": "Folarin Balogun",
       "team": "USA",
       "assists": 0
@@ -1798,6 +1803,11 @@
       "assists": 0
     },
     {
+      "name": "Johan Manzambi",
+      "team": "Switzerland",
+      "assists": 0
+    },
+    {
       "name": "Julián Quiñones",
       "team": "Mexico",
       "assists": 0
@@ -1828,11 +1838,6 @@
       "assists": 0
     },
     {
-      "name": "Cyle Larin",
-      "team": "Canada",
-      "assists": 0
-    },
-    {
       "name": "Mauricio",
       "team": "Paraguay",
       "assists": 0
@@ -1845,19 +1850,14 @@
     {
       "name": "Breel Embolo",
       "team": "Switzerland",
-      "assists": 0
+      "assists": 1
     },
     {
       "name": "Boualem Khoukhi",
       "team": "Qatar",
       "assists": 0
-    },
-    {
-      "name": "Ismael Saibari",
-      "team": "Morocco",
-      "assists": 0
     }
   ],
-  "totalGoals": 75,
-  "matchesPlayed": 25
+  "totalGoals": 82,
+  "matchesPlayed": 26
 }
