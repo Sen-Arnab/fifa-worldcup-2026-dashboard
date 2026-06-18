@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-18T17:35:04.331Z",
+  "updatedAt": "2026-06-18T19:59:43.701Z",
   "fixtures": [
     {
       "id": 537327,
@@ -33,7 +33,7 @@
       "g": "B",
       "v": "",
       "t": "19:00",
-      "s": "1 - 1",
+      "s": null,
       "st": "done",
       "events": []
     },
@@ -297,8 +297,8 @@
       "g": "A",
       "v": "",
       "t": "16:00",
-      "s": "1 - 0",
-      "st": "live",
+      "s": "1 - 1",
+      "st": "done",
       "events": []
     },
     {
@@ -1274,33 +1274,43 @@
       },
       {
         "t": "Czechia",
-        "pts": 3,
+        "pts": 1,
         "gp": 2,
-        "w": 1,
+        "w": 0,
         "l": 1,
-        "d": 0,
+        "d": 1,
         "gf": 2,
-        "ga": 2
+        "ga": 3
       },
       {
         "t": "South Africa",
-        "pts": 0,
+        "pts": 1,
         "gp": 2,
         "w": 0,
-        "l": 2,
-        "d": 0,
-        "gf": 0,
+        "l": 1,
+        "d": 1,
+        "gf": 1,
         "ga": 3
       }
     ],
     "Group B": [
       {
         "t": "Switzerland",
-        "pts": 1,
-        "gp": 1,
+        "pts": 2,
+        "gp": 2,
         "w": 0,
         "l": 0,
-        "d": 1,
+        "d": 2,
+        "gf": 1,
+        "ga": 1
+      },
+      {
+        "t": "Bosnia and Herzegovina",
+        "pts": 2,
+        "gp": 2,
+        "w": 0,
+        "l": 0,
+        "d": 2,
         "gf": 1,
         "ga": 1
       },
@@ -1316,16 +1326,6 @@
       },
       {
         "t": "Qatar",
-        "pts": 1,
-        "gp": 1,
-        "w": 0,
-        "l": 0,
-        "d": 1,
-        "gf": 1,
-        "ga": 1
-      },
-      {
-        "t": "Bosnia and Herzegovina",
         "pts": 1,
         "gp": 1,
         "w": 0,
@@ -1858,6 +1858,6 @@
       "assists": 0
     }
   ],
-  "totalGoals": 76,
-  "matchesPlayed": 24
+  "totalGoals": 75,
+  "matchesPlayed": 25
 }
