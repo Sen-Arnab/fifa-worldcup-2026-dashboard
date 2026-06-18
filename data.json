@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-18T14:15:11.979Z",
+  "updatedAt": "2026-06-18T17:35:04.331Z",
   "fixtures": [
     {
       "id": 537327,
@@ -297,8 +297,8 @@
       "g": "A",
       "v": "",
       "t": "16:00",
-      "s": null,
-      "st": "soon",
+      "s": "1 - 0",
+      "st": "live",
       "events": []
     },
     {
@@ -1274,23 +1274,23 @@
       },
       {
         "t": "Czechia",
-        "pts": 0,
-        "gp": 1,
-        "w": 0,
+        "pts": 3,
+        "gp": 2,
+        "w": 1,
         "l": 1,
         "d": 0,
-        "gf": 1,
+        "gf": 2,
         "ga": 2
       },
       {
         "t": "South Africa",
         "pts": 0,
-        "gp": 1,
+        "gp": 2,
         "w": 0,
-        "l": 1,
+        "l": 2,
         "d": 0,
         "gf": 0,
-        "ga": 2
+        "ga": 3
       }
     ],
     "Group B": [
@@ -1858,6 +1858,6 @@
       "assists": 0
     }
   ],
-  "totalGoals": 75,
+  "totalGoals": 76,
   "matchesPlayed": 24
 }
