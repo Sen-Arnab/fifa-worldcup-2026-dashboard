@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-19T20:19:32.824Z",
+  "updatedAt": "2026-06-19T21:48:36.270Z",
   "fixtures": [
     {
       "id": 537327,
@@ -346,7 +346,7 @@
       "v": "",
       "t": "19:00",
       "s": "2 - 0",
-      "st": "live",
+      "st": "done",
       "events": []
     },
     {
@@ -1859,5 +1859,5 @@
     }
   ],
   "totalGoals": 91,
-  "matchesPlayed": 28
+  "matchesPlayed": 29
 }
