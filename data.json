@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-18T22:23:51.858Z",
+  "updatedAt": "2026-06-19T00:13:16.123Z",
   "fixtures": [
     {
       "id": 537327,
@@ -321,8 +321,8 @@
       "g": "B",
       "v": "",
       "t": "22:00",
-      "s": "0 - 0",
-      "st": "live",
+      "s": "6 - 0",
+      "st": "done",
       "events": []
     },
     {
@@ -1295,6 +1295,16 @@
     ],
     "Group B": [
       {
+        "t": "Canada",
+        "pts": 4,
+        "gp": 2,
+        "w": 1,
+        "l": 0,
+        "d": 1,
+        "gf": 7,
+        "ga": 1
+      },
+      {
         "t": "Switzerland",
         "pts": 4,
         "gp": 2,
@@ -1305,26 +1315,6 @@
         "ga": 2
       },
       {
-        "t": "Canada",
-        "pts": 2,
-        "gp": 2,
-        "w": 0,
-        "l": 0,
-        "d": 2,
-        "gf": 1,
-        "ga": 1
-      },
-      {
-        "t": "Qatar",
-        "pts": 2,
-        "gp": 2,
-        "w": 0,
-        "l": 0,
-        "d": 2,
-        "gf": 1,
-        "ga": 1
-      },
-      {
         "t": "Bosnia and Herzegovina",
         "pts": 1,
         "gp": 2,
@@ -1333,6 +1323,16 @@
         "d": 1,
         "gf": 2,
         "ga": 5
+      },
+      {
+        "t": "Qatar",
+        "pts": 1,
+        "gp": 2,
+        "w": 0,
+        "l": 1,
+        "d": 1,
+        "gf": 1,
+        "ga": 7
       }
     ],
     "Group C": [
@@ -1763,6 +1763,11 @@
       "assists": 0
     },
     {
+      "name": "Jonathan David",
+      "team": "Canada",
+      "assists": 0
+    },
+    {
       "name": "Cyle Larin",
       "team": "Canada",
       "assists": 0
@@ -1851,13 +1856,8 @@
       "name": "Breel Embolo",
       "team": "Switzerland",
       "assists": 1
-    },
-    {
-      "name": "Boualem Khoukhi",
-      "team": "Qatar",
-      "assists": 0
     }
   ],
-  "totalGoals": 82,
-  "matchesPlayed": 26
+  "totalGoals": 88,
+  "matchesPlayed": 27
 }
