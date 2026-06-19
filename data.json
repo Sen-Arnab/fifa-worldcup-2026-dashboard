@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-19T00:13:16.123Z",
+  "updatedAt": "2026-06-19T05:29:00.280Z",
   "fixtures": [
     {
       "id": 537327,
@@ -333,8 +333,8 @@
       "g": "A",
       "v": "",
       "t": "01:00",
-      "s": null,
-      "st": "soon",
+      "s": "1 - 0",
+      "st": "done",
       "events": []
     },
     {
@@ -1254,23 +1254,23 @@
     "Group A": [
       {
         "t": "Mexico",
-        "pts": 3,
-        "gp": 1,
-        "w": 1,
+        "pts": 6,
+        "gp": 2,
+        "w": 2,
         "l": 0,
         "d": 0,
-        "gf": 2,
+        "gf": 3,
         "ga": 0
       },
       {
         "t": "South Korea",
         "pts": 3,
-        "gp": 1,
+        "gp": 2,
         "w": 1,
-        "l": 0,
+        "l": 1,
         "d": 0,
         "gf": 2,
-        "ga": 1
+        "ga": 2
       },
       {
         "t": "Czechia",
@@ -1858,6 +1858,6 @@
       "assists": 1
     }
   ],
-  "totalGoals": 88,
-  "matchesPlayed": 27
+  "totalGoals": 89,
+  "matchesPlayed": 28
 }
