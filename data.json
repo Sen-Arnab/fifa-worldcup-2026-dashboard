@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-19T21:48:36.270Z",
+  "updatedAt": "2026-06-19T22:43:44.180Z",
   "fixtures": [
     {
       "id": 537327,
@@ -357,8 +357,8 @@
       "g": "C",
       "v": "",
       "t": "22:00",
-      "s": null,
-      "st": "soon",
+      "s": "0 - 1",
+      "st": "live",
       "events": []
     },
     {
@@ -1337,22 +1337,22 @@
     ],
     "Group C": [
       {
-        "t": "Scotland",
-        "pts": 3,
-        "gp": 1,
+        "t": "Morocco",
+        "pts": 4,
+        "gp": 2,
         "w": 1,
         "l": 0,
-        "d": 0,
-        "gf": 1,
-        "ga": 0
+        "d": 1,
+        "gf": 2,
+        "ga": 1
       },
       {
-        "t": "Morocco",
-        "pts": 1,
-        "gp": 1,
-        "w": 0,
-        "l": 0,
-        "d": 1,
+        "t": "Scotland",
+        "pts": 3,
+        "gp": 2,
+        "w": 1,
+        "l": 1,
+        "d": 0,
         "gf": 1,
         "ga": 1
       },
@@ -1778,6 +1778,11 @@
       "assists": 0
     },
     {
+      "name": "Ismael Saibari",
+      "team": "Morocco",
+      "assists": 0
+    },
+    {
       "name": "Kai Havertz",
       "team": "Germany",
       "assists": 0
@@ -1851,13 +1856,8 @@
       "name": "Gio Reyna",
       "team": "USA",
       "assists": 0
-    },
-    {
-      "name": "Breel Embolo",
-      "team": "Switzerland",
-      "assists": 1
     }
   ],
-  "totalGoals": 91,
+  "totalGoals": 92,
   "matchesPlayed": 29
 }
