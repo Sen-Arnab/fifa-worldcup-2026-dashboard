@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-19T18:28:48.322Z",
+  "updatedAt": "2026-06-19T20:19:32.824Z",
   "fixtures": [
     {
       "id": 537327,
@@ -345,8 +345,8 @@
       "g": "D",
       "v": "",
       "t": "19:00",
-      "s": null,
-      "st": "soon",
+      "s": "2 - 0",
+      "st": "live",
       "events": []
     },
     {
@@ -1380,23 +1380,23 @@
     "Group D": [
       {
         "t": "USA",
-        "pts": 3,
-        "gp": 1,
-        "w": 1,
+        "pts": 6,
+        "gp": 2,
+        "w": 2,
         "l": 0,
         "d": 0,
-        "gf": 4,
+        "gf": 6,
         "ga": 1
       },
       {
         "t": "Australia",
         "pts": 3,
-        "gp": 1,
+        "gp": 2,
         "w": 1,
-        "l": 0,
+        "l": 1,
         "d": 0,
         "gf": 2,
-        "ga": 0
+        "ga": 2
       },
       {
         "t": "Turkey",
@@ -1858,6 +1858,6 @@
       "assists": 1
     }
   ],
-  "totalGoals": 89,
+  "totalGoals": 91,
   "matchesPlayed": 28
 }
