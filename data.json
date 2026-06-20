@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-19T23:52:56.014Z",
+  "updatedAt": "2026-06-20T03:59:18.268Z",
   "fixtures": [
     {
       "id": 537327,
@@ -358,7 +358,7 @@
       "v": "",
       "t": "22:00",
       "s": "0 - 1",
-      "st": "live",
+      "st": "done",
       "events": []
     },
     {
@@ -369,8 +369,8 @@
       "g": "C",
       "v": "",
       "t": "00:30",
-      "s": null,
-      "st": "soon",
+      "s": "3 - 0",
+      "st": "done",
       "events": []
     },
     {
@@ -381,8 +381,8 @@
       "g": "D",
       "v": "",
       "t": "03:00",
-      "s": null,
-      "st": "soon",
+      "s": "0 - 1",
+      "st": "live",
       "events": []
     },
     {
@@ -1337,6 +1337,16 @@
     ],
     "Group C": [
       {
+        "t": "Brazil",
+        "pts": 4,
+        "gp": 2,
+        "w": 1,
+        "l": 0,
+        "d": 1,
+        "gf": 4,
+        "ga": 1
+      },
+      {
         "t": "Morocco",
         "pts": 4,
         "gp": 2,
@@ -1357,24 +1367,14 @@
         "ga": 1
       },
       {
-        "t": "Brazil",
-        "pts": 1,
-        "gp": 1,
-        "w": 0,
-        "l": 0,
-        "d": 1,
-        "gf": 1,
-        "ga": 1
-      },
-      {
         "t": "Haiti",
         "pts": 0,
-        "gp": 1,
+        "gp": 2,
         "w": 0,
-        "l": 1,
+        "l": 2,
         "d": 0,
         "gf": 0,
-        "ga": 1
+        "ga": 4
       }
     ],
     "Group D": [
@@ -1399,24 +1399,24 @@
         "ga": 2
       },
       {
-        "t": "Turkey",
-        "pts": 0,
-        "gp": 1,
-        "w": 0,
+        "t": "Paraguay",
+        "pts": 3,
+        "gp": 2,
+        "w": 1,
         "l": 1,
         "d": 0,
-        "gf": 0,
-        "ga": 2
+        "gf": 2,
+        "ga": 4
       },
       {
-        "t": "Paraguay",
+        "t": "Turkey",
         "pts": 0,
-        "gp": 1,
+        "gp": 2,
         "w": 0,
-        "l": 1,
+        "l": 2,
         "d": 0,
-        "gf": 1,
-        "ga": 4
+        "gf": 0,
+        "ga": 3
       }
     ],
     "Group E": [
@@ -1783,6 +1783,11 @@
       "assists": 0
     },
     {
+      "name": "Vinicius Junior",
+      "team": "Brazil",
+      "assists": 2
+    },
+    {
       "name": "Kai Havertz",
       "team": "Germany",
       "assists": 0
@@ -1818,6 +1823,11 @@
       "assists": 0
     },
     {
+      "name": "Matheus Cunha",
+      "team": "Brazil",
+      "assists": 0
+    },
+    {
       "name": "Julián Quiñones",
       "team": "Mexico",
       "assists": 0
@@ -1846,18 +1856,8 @@
       "name": "Jovo Lukić",
       "team": "Bosnia and Herzegovina",
       "assists": 0
-    },
-    {
-      "name": "Mauricio",
-      "team": "Paraguay",
-      "assists": 0
-    },
-    {
-      "name": "Gio Reyna",
-      "team": "USA",
-      "assists": 0
     }
   ],
-  "totalGoals": 92,
-  "matchesPlayed": 29
+  "totalGoals": 96,
+  "matchesPlayed": 31
 }
