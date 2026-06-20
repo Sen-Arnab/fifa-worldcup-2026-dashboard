@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-20T03:59:18.268Z",
+  "updatedAt": "2026-06-20T06:54:00.000Z",
   "fixtures": [
     {
       "id": 537327,
@@ -101,7 +101,7 @@
       "id": 537351,
       "d": "2026-06-14",
       "h": "Germany",
-      "a": "Curaçao",
+      "a": "Cura\u00e7ao",
       "g": "E",
       "v": "",
       "t": "17:00",
@@ -382,8 +382,21 @@
       "v": "",
       "t": "03:00",
       "s": "0 - 1",
-      "st": "live",
-      "events": []
+      "st": "done",
+      "events": [
+        {
+          "type": "goal",
+          "player": "Mat\u00edas Galarza",
+          "team": "a",
+          "min": "1'"
+        },
+        {
+          "type": "rc",
+          "player": "Miguel Almir\u00f3n",
+          "team": "a",
+          "min": "45+3'"
+        }
+      ]
     },
     {
       "id": 537359,
@@ -413,7 +426,7 @@
       "id": 537354,
       "d": "2026-06-21",
       "h": "Ecuador",
-      "a": "Curaçao",
+      "a": "Cura\u00e7ao",
       "g": "E",
       "v": "",
       "t": "00:00",
@@ -664,7 +677,7 @@
     {
       "id": 537356,
       "d": "2026-06-25",
-      "h": "Curaçao",
+      "h": "Cura\u00e7ao",
       "a": "Ivory Coast",
       "g": "E",
       "v": "",
@@ -1451,7 +1464,7 @@
         "ga": 1
       },
       {
-        "t": "Curaçao",
+        "t": "Cura\u00e7ao",
         "pts": 0,
         "gp": 1,
         "w": 0,
@@ -1803,7 +1816,7 @@
       "assists": 0
     },
     {
-      "name": "Kylian Mbappé",
+      "name": "Kylian Mbapp\u00e9",
       "team": "France",
       "assists": 0
     },
@@ -1828,17 +1841,17 @@
       "assists": 0
     },
     {
-      "name": "Julián Quiñones",
+      "name": "Juli\u00e1n Qui\u00f1ones",
       "team": "Mexico",
       "assists": 0
     },
     {
-      "name": "Raúl Jiménez",
+      "name": "Ra\u00fal Jim\u00e9nez",
       "team": "Mexico",
       "assists": 0
     },
     {
-      "name": "Ladislav Krejčí",
+      "name": "Ladislav Krej\u010d\u00ed",
       "team": "Czechia",
       "assists": 0
     },
@@ -1853,11 +1866,11 @@
       "assists": 0
     },
     {
-      "name": "Jovo Lukić",
+      "name": "Jovo Luki\u0107",
       "team": "Bosnia and Herzegovina",
       "assists": 0
     }
   ],
   "totalGoals": 96,
-  "matchesPlayed": 31
+  "matchesPlayed": 32
 }
