@@ -140,18 +140,18 @@ body{font-family:'Inter',sans-serif;background:var(--bg);color:var(--text);min-h
   <p class="sub">June 11 – July 19 • Live Dashboard</p>
   <div class="hosts">🇺🇸 🇲🇽 🇨🇦</div>
   <div class="ticker">
-    <span class="ticker-item">⚽ 34 Goals Scored</span>
-    <span class="ticker-item">🟥 3 Red Cards</span>
-    <span class="ticker-item">🏟️ 12 Matches Played</span>
-    <span class="ticker-item">🔥 Balogun & Havertz lead Golden Boot (2 goals)</span>
-    <span class="ticker-item">🇩🇪 Germany biggest win: 7-1</span>
-    <span class="ticker-item">🇸🇪 Sweden dominate Tunisia 5-1</span>
-    <span class="ticker-item">⚽ 34 Goals Scored</span>
-    <span class="ticker-item">🟥 3 Red Cards</span>
-    <span class="ticker-item">🏟️ 12 Matches Played</span>
-    <span class="ticker-item">🔥 Balogun & Havertz lead Golden Boot (2 goals)</span>
-    <span class="ticker-item">🇩🇪 Germany biggest win: 7-1</span>
-    <span class="ticker-item">🇸🇪 Sweden dominate Tunisia 5-1</span>
+    <span class="ticker-item">⚽ 157 Goals Scored</span>
+    <span class="ticker-item">🏟️ 52 Matches Played</span>
+    <span class="ticker-item">🔥 Messi leads Golden Boot (5 goals)</span>
+    <span class="ticker-item">🇩🇪 Germany biggest win: 7-1 vs Curaçao</span>
+    <span class="ticker-item">🇦🇷 Messi breaks all-time WC scoring record</span>
+    <span class="ticker-item">🇧🇷 Vinícius Júnior on 4 goals</span>
+    <span class="ticker-item">⚽ 157 Goals Scored</span>
+    <span class="ticker-item">🏟️ 52 Matches Played</span>
+    <span class="ticker-item">🔥 Messi leads Golden Boot (5 goals)</span>
+    <span class="ticker-item">🇩🇪 Germany biggest win: 7-1 vs Curaçao</span>
+    <span class="ticker-item">🇦🇷 Messi breaks all-time WC scoring record</span>
+    <span class="ticker-item">🇧🇷 Vinícius Júnior on 4 goals</span>
   </div>
   </div>
 </div>
@@ -169,8 +169,8 @@ body{font-family:'Inter',sans-serif;background:var(--bg);color:var(--text);min-h
     <div class="stat-box"><div class="n">104</div><div class="l">Matches</div></div>
     <div class="stat-box"><div class="n">16</div><div class="l">Cities</div></div>
     <div class="stat-box"><div class="n">3</div><div class="l">Host Nations</div></div>
-    <div class="stat-box"><div class="n" id="goals-count">34</div><div class="l">Goals Scored</div></div>
-    <div class="stat-box"><div class="n">12</div><div class="l">Matches Played</div></div>
+    <div class="stat-box"><div class="n" id="goals-count">157</div><div class="l">Goals Scored</div></div>
+    <div class="stat-box"><div class="n">52</div><div class="l">Matches Played</div></div>
   </div>
 
   <div class="today-hero">
@@ -242,62 +242,46 @@ const standings={
 };
 
 const topScorers=[
+  {name:"Lionel Messi",team:"Argentina",goals:5,assists:0},
+  {name:"Vinícius Júnior",team:"Brazil",goals:4,assists:1},
+  {name:"Kylian Mbappé",team:"France",goals:4,assists:0},
+  {name:"Erling Haaland",team:"Norway",goals:4,assists:0},
+  {name:"Deniz Undav",team:"Germany",goals:3,assists:2},
+  {name:"Jonathan David",team:"Canada",goals:3,assists:0},
+  {name:"Matheus Cunha",team:"Brazil",goals:3,assists:0},
+  {name:"Ismael Saibari",team:"Morocco",goals:3,assists:0},
+  {name:"Johan Manzambi",team:"Switzerland",goals:3,assists:0},
+  {name:"Harry Kane",team:"England",goals:2,assists:0},
+  {name:"Cristiano Ronaldo",team:"Portugal",goals:2,assists:0},
   {name:"Folarin Balogun",team:"USA",goals:2,assists:0},
   {name:"Kai Havertz",team:"Germany",goals:2,assists:0},
   {name:"Yasin Ayari",team:"Sweden",goals:2,assists:0},
-  {name:"Raúl Jiménez",team:"Mexico",goals:1,assists:1},
-  {name:"Julián Quiñones",team:"Mexico",goals:1,assists:0},
-  {name:"Hwang In-Beom",team:"South Korea",goals:1,assists:1},
-  {name:"Oh Hyeon-Gyu",team:"South Korea",goals:1,assists:0},
-  {name:"Cyle Larin",team:"Canada",goals:1,assists:0},
-  {name:"Giovanni Reyna",team:"USA",goals:1,assists:0},
-  {name:"Weston McKennie",team:"USA",goals:1,assists:0},
-  {name:"Jovo Lukić",team:"Bosnia and Herzegovina",goals:1,assists:0},
-  {name:"Mauricio",team:"Paraguay",goals:1,assists:0},
-  {name:"Breel Embolo",team:"Switzerland",goals:1,assists:0},
-  {name:"Boualem Khoukhi",team:"Qatar",goals:1,assists:0},
-  {name:"Ismael Saibari",team:"Morocco",goals:1,assists:0},
-  {name:"Vinícius Júnior",team:"Brazil",goals:1,assists:0},
-  {name:"John McGinn",team:"Scotland",goals:1,assists:0},
-  {name:"Nestory Irankunda",team:"Australia",goals:1,assists:0},
-  {name:"Connor Metcalfe",team:"Australia",goals:1,assists:0},
-  {name:"Felix Nmecha",team:"Germany",goals:1,assists:0},
-  {name:"Nico Schlotterbeck",team:"Germany",goals:1,assists:0},
-  {name:"Jamal Musiala",team:"Germany",goals:1,assists:0},
-  {name:"Nathaniel Brown",team:"Germany",goals:1,assists:0},
-  {name:"Denis Undav",team:"Germany",goals:1,assists:0},
-  {name:"Livano Comenencia",team:"Curaçao",goals:1,assists:0},
-  {name:"Virgil van Dijk",team:"Netherlands",goals:1,assists:0},
-  {name:"Crysencio Summerville",team:"Netherlands",goals:1,assists:0},
-  {name:"Keito Nakamura",team:"Japan",goals:1,assists:0},
-  {name:"Daichi Kamada",team:"Japan",goals:1,assists:0},
-  {name:"Amad Diallo",team:"Ivory Coast",goals:1,assists:0},
-  {name:"Alexander Isak",team:"Sweden",goals:1,assists:0},
-  {name:"Viktor Gyökeres",team:"Sweden",goals:1,assists:0},
-  {name:"Mattias Svanberg",team:"Sweden",goals:1,assists:0},
-  {name:"Omar Rekik",team:"Tunisia",goals:1,assists:0}
+  {name:"Brian Brobbey",team:"Netherlands",goals:2,assists:0},
+  {name:"Cody Gakpo",team:"Netherlands",goals:2,assists:0},
+  {name:"Ayase Ueda",team:"Japan",goals:2,assists:0},
+  {name:"Raúl Jiménez",team:"Mexico",goals:2,assists:1}
 ];
 const topAssists=[
+  {name:"Deniz Undav",team:"Germany",val:2},
   {name:"Christian Pulisic",team:"USA",val:2},
+  {name:"Florian Wirtz",team:"Germany",val:2},
+  {name:"Vinícius Júnior",team:"Brazil",val:1},
+  {name:"Raúl Jiménez",team:"Mexico",val:1},
   {name:"Hwang In-Beom",team:"South Korea",val:1},
-  {name:"Son Heung-Min",team:"South Korea",val:1},
   {name:"Alphonso Davies",team:"Canada",val:1},
-  {name:"Antonee Robinson",team:"USA",val:1},
-  {name:"Tyler Adams",team:"USA",val:1},
-  {name:"Brian Gutiérrez",team:"Mexico",val:1},
   {name:"Joshua Kimmich",team:"Germany",val:1},
-  {name:"Florian Wirtz",team:"Germany",val:1}
+  {name:"Alexander Isak",team:"Sweden",val:1}
 ];
 const topYellows=[
-  {name:"Gustavo Gómez",team:"Paraguay",val:1},
+  {name:"Gustavo Gómez",team:"Paraguay",val:2},
   {name:"Andrés Cubas",team:"Paraguay",val:1},
   {name:"Omar Alderete",team:"Paraguay",val:1},
-  {name:"Hernesto Caballero",team:"Paraguay",val:1},
-  {name:"Matías Villasanti",team:"Paraguay",val:1},
   {name:"Sead Kolašinac",team:"Bosnia and Herzegovina",val:1},
   {name:"Nikola Katić",team:"Bosnia and Herzegovina",val:1},
   {name:"Edson Álvarez",team:"Mexico",val:1},
-  {name:"Park Jin-Seob",team:"South Korea",val:1}
+  {name:"Park Jin-Seob",team:"South Korea",val:1},
+  {name:"Matěj Kovář",team:"Czechia",val:1},
+  {name:"Stephen Eustáquio",team:"Canada",val:1}
 ];
 const topReds=[
   {name:"Mothobi Mvala",team:"South Africa",val:1},
@@ -383,48 +367,48 @@ const fixtures=[
   {type:"goal",player:"Mattias Svanberg",team:"h",min:"72'"},
   {type:"goal",player:"Yasin Ayari",team:"h",min:"90+6'"}
 ]},
-{d:"2026-06-15",h:"Spain",a:"Cape Verde",g:"H",v:"Atlanta Stadium",t:"12:00",s:null,st:"soon",events:[]},
-{d:"2026-06-15",h:"Belgium",a:"Egypt",g:"G",v:"Seattle Stadium",t:"15:00",s:null,st:"soon",events:[]},
-{d:"2026-06-15",h:"Saudi Arabia",a:"Uruguay",g:"H",v:"Miami Stadium",t:"18:00",s:null,st:"soon",events:[]},
-{d:"2026-06-15",h:"Iran",a:"New Zealand",g:"G",v:"Los Angeles Stadium",t:"21:00",s:null,st:"soon",events:[]},
-{d:"2026-06-16",h:"France",a:"Senegal",g:"I",v:"New York New Jersey Stadium",t:"15:00",s:null,st:"soon",events:[]},
-{d:"2026-06-16",h:"Iraq",a:"Norway",g:"I",v:"Boston Stadium",t:"18:00",s:null,st:"soon",events:[]},
-{d:"2026-06-16",h:"Argentina",a:"Algeria",g:"J",v:"Kansas City Stadium",t:"21:00",s:null,st:"soon",events:[]},
-{d:"2026-06-16",h:"Austria",a:"Jordan",g:"J",v:"San Francisco Bay Stadium",t:"00:00",s:null,st:"soon",events:[]},
-{d:"2026-06-17",h:"Portugal",a:"DR Congo",g:"K",v:"Houston Stadium",t:"13:00",s:null,st:"soon",events:[]},
-{d:"2026-06-17",h:"England",a:"Croatia",g:"L",v:"Dallas Stadium",t:"16:00",s:null,st:"soon",events:[]},
-{d:"2026-06-17",h:"Ghana",a:"Panama",g:"L",v:"Toronto Stadium",t:"19:00",s:null,st:"soon",events:[]},
-{d:"2026-06-17",h:"Uzbekistan",a:"Colombia",g:"K",v:"Mexico City Stadium",t:"22:00",s:null,st:"soon",events:[]},
-{d:"2026-06-18",h:"Czechia",a:"South Africa",g:"A",v:"Atlanta Stadium",t:"12:00",s:null,st:"soon",events:[]},
-{d:"2026-06-18",h:"Switzerland",a:"Bosnia and Herzegovina",g:"B",v:"Los Angeles Stadium",t:"15:00",s:null,st:"soon",events:[]},
-{d:"2026-06-18",h:"Canada",a:"Qatar",g:"B",v:"BC Place Vancouver",t:"18:00",s:null,st:"soon",events:[]},
-{d:"2026-06-18",h:"Mexico",a:"South Korea",g:"A",v:"Guadalajara Stadium",t:"21:00",s:null,st:"soon",events:[]},
-{d:"2026-06-19",h:"USA",a:"Australia",g:"D",v:"Seattle Stadium",t:"15:00",s:null,st:"soon",events:[]},
-{d:"2026-06-19",h:"Scotland",a:"Morocco",g:"C",v:"Boston Stadium",t:"15:00",s:null,st:"soon",events:[]},
-{d:"2026-06-19",h:"Brazil",a:"Haiti",g:"C",v:"Philadelphia Stadium",t:"21:00",s:null,st:"soon",events:[]},
-{d:"2026-06-19",h:"Türkiye",a:"Paraguay",g:"D",v:"San Francisco Bay Stadium",t:"00:00",s:null,st:"soon",events:[]},
-{d:"2026-06-20",h:"Netherlands",a:"Sweden",g:"F",v:"Houston Stadium",t:"13:00",s:null,st:"soon",events:[]},
-{d:"2026-06-20",h:"Germany",a:"Ivory Coast",g:"E",v:"Toronto Stadium",t:"16:00",s:null,st:"soon",events:[]},
-{d:"2026-06-20",h:"Ecuador",a:"Curaçao",g:"E",v:"Kansas City Stadium",t:"20:00",s:null,st:"soon",events:[]},
-{d:"2026-06-20",h:"Tunisia",a:"Japan",g:"F",v:"Monterrey Stadium",t:"00:00",s:null,st:"soon",events:[]},
-{d:"2026-06-21",h:"Spain",a:"Saudi Arabia",g:"H",v:"Atlanta Stadium",t:"12:00",s:null,st:"soon",events:[]},
-{d:"2026-06-21",h:"Belgium",a:"Iran",g:"G",v:"Los Angeles Stadium",t:"15:00",s:null,st:"soon",events:[]},
-{d:"2026-06-21",h:"Uruguay",a:"Cape Verde",g:"H",v:"Miami Stadium",t:"18:00",s:null,st:"soon",events:[]},
-{d:"2026-06-21",h:"New Zealand",a:"Egypt",g:"G",v:"BC Place Vancouver",t:"21:00",s:null,st:"soon",events:[]},
-{d:"2026-06-22",h:"Argentina",a:"Austria",g:"J",v:"Dallas Stadium",t:"13:00",s:null,st:"soon",events:[]},
-{d:"2026-06-22",h:"France",a:"Iraq",g:"I",v:"Philadelphia Stadium",t:"17:00",s:null,st:"soon",events:[]},
-{d:"2026-06-22",h:"Norway",a:"Senegal",g:"I",v:"New York New Jersey Stadium",t:"20:00",s:null,st:"soon",events:[]},
-{d:"2026-06-22",h:"Jordan",a:"Algeria",g:"J",v:"San Francisco Bay Stadium",t:"23:00",s:null,st:"soon",events:[]},
-{d:"2026-06-23",h:"Portugal",a:"Uzbekistan",g:"K",v:"Houston Stadium",t:"13:00",s:null,st:"soon",events:[]},
-{d:"2026-06-23",h:"England",a:"Ghana",g:"L",v:"Boston Stadium",t:"16:00",s:null,st:"soon",events:[]},
-{d:"2026-06-23",h:"Panama",a:"Croatia",g:"L",v:"Toronto Stadium",t:"19:00",s:null,st:"soon",events:[]},
-{d:"2026-06-23",h:"Colombia",a:"DR Congo",g:"K",v:"Guadalajara Stadium",t:"22:00",s:null,st:"soon",events:[]},
-{d:"2026-06-24",h:"Switzerland",a:"Canada",g:"B",v:"BC Place Vancouver",t:"15:00",s:null,st:"soon",events:[]},
-{d:"2026-06-24",h:"Bosnia and Herzegovina",a:"Qatar",g:"B",v:"Seattle Stadium",t:"15:00",s:null,st:"soon",events:[]},
-{d:"2026-06-24",h:"Brazil",a:"Scotland",g:"C",v:"Miami Stadium",t:"18:00",s:null,st:"soon",events:[]},
-{d:"2026-06-24",h:"Morocco",a:"Haiti",g:"C",v:"Atlanta Stadium",t:"18:00",s:null,st:"soon",events:[]},
-{d:"2026-06-24",h:"Mexico",a:"Czechia",g:"A",v:"Mexico City Stadium",t:"21:00",s:null,st:"soon",events:[]},
-{d:"2026-06-24",h:"South Korea",a:"South Africa",g:"A",v:"Monterrey Stadium",t:"21:00",s:null,st:"soon",events:[]},
+{d:"2026-06-15",h:"Spain",a:"Cape Verde",g:"H",v:"Atlanta Stadium",t:"12:00",s:"0 - 0",st:"done",events:[]},
+{d:"2026-06-15",h:"Belgium",a:"Egypt",g:"G",v:"Seattle Stadium",t:"15:00",s:"1 - 1",st:"done",events:[]},
+{d:"2026-06-15",h:"Saudi Arabia",a:"Uruguay",g:"H",v:"Miami Stadium",t:"18:00",s:"1 - 1",st:"done",events:[]},
+{d:"2026-06-15",h:"Iran",a:"New Zealand",g:"G",v:"Los Angeles Stadium",t:"21:00",s:"2 - 2",st:"done",events:[]},
+{d:"2026-06-16",h:"France",a:"Senegal",g:"I",v:"New York New Jersey Stadium",t:"15:00",s:"3 - 1",st:"done",events:[]},
+{d:"2026-06-16",h:"Iraq",a:"Norway",g:"I",v:"Boston Stadium",t:"18:00",s:"1 - 4",st:"done",events:[]},
+{d:"2026-06-16",h:"Argentina",a:"Algeria",g:"J",v:"Kansas City Stadium",t:"21:00",s:"3 - 0",st:"done",events:[]},
+{d:"2026-06-16",h:"Austria",a:"Jordan",g:"J",v:"San Francisco Bay Stadium",t:"00:00",s:"3 - 1",st:"done",events:[]},
+{d:"2026-06-17",h:"Portugal",a:"DR Congo",g:"K",v:"Houston Stadium",t:"13:00",s:"1 - 1",st:"done",events:[]},
+{d:"2026-06-17",h:"England",a:"Croatia",g:"L",v:"Dallas Stadium",t:"16:00",s:"4 - 2",st:"done",events:[]},
+{d:"2026-06-17",h:"Ghana",a:"Panama",g:"L",v:"Toronto Stadium",t:"19:00",s:"1 - 0",st:"done",events:[]},
+{d:"2026-06-17",h:"Uzbekistan",a:"Colombia",g:"K",v:"Mexico City Stadium",t:"22:00",s:"1 - 3",st:"done",events:[]},
+{d:"2026-06-18",h:"Czechia",a:"South Africa",g:"A",v:"Atlanta Stadium",t:"12:00",s:"1 - 1",st:"done",events:[]},
+{d:"2026-06-18",h:"Switzerland",a:"Bosnia and Herzegovina",g:"B",v:"Los Angeles Stadium",t:"15:00",s:"4 - 1",st:"done",events:[]},
+{d:"2026-06-18",h:"Canada",a:"Qatar",g:"B",v:"BC Place Vancouver",t:"18:00",s:"6 - 0",st:"done",events:[]},
+{d:"2026-06-18",h:"Mexico",a:"South Korea",g:"A",v:"Guadalajara Stadium",t:"21:00",s:"1 - 0",st:"done",events:[]},
+{d:"2026-06-19",h:"USA",a:"Australia",g:"D",v:"Seattle Stadium",t:"15:00",s:"2 - 0",st:"done",events:[]},
+{d:"2026-06-19",h:"Scotland",a:"Morocco",g:"C",v:"Boston Stadium",t:"15:00",s:"0 - 1",st:"done",events:[]},
+{d:"2026-06-19",h:"Brazil",a:"Haiti",g:"C",v:"Philadelphia Stadium",t:"21:00",s:"3 - 0",st:"done",events:[]},
+{d:"2026-06-19",h:"Türkiye",a:"Paraguay",g:"D",v:"San Francisco Bay Stadium",t:"00:00",s:"0 - 1",st:"done",events:[]},
+{d:"2026-06-20",h:"Netherlands",a:"Sweden",g:"F",v:"Houston Stadium",t:"13:00",s:"5 - 1",st:"done",events:[]},
+{d:"2026-06-20",h:"Germany",a:"Ivory Coast",g:"E",v:"Toronto Stadium",t:"16:00",s:"2 - 1",st:"done",events:[]},
+{d:"2026-06-20",h:"Ecuador",a:"Curaçao",g:"E",v:"Kansas City Stadium",t:"20:00",s:"0 - 0",st:"done",events:[]},
+{d:"2026-06-20",h:"Tunisia",a:"Japan",g:"F",v:"Monterrey Stadium",t:"00:00",s:"0 - 4",st:"done",events:[]},
+{d:"2026-06-21",h:"Spain",a:"Saudi Arabia",g:"H",v:"Atlanta Stadium",t:"12:00",s:"4 - 0",st:"done",events:[]},
+{d:"2026-06-21",h:"Belgium",a:"Iran",g:"G",v:"Los Angeles Stadium",t:"15:00",s:"0 - 0",st:"done",events:[]},
+{d:"2026-06-21",h:"Uruguay",a:"Cape Verde",g:"H",v:"Miami Stadium",t:"18:00",s:"2 - 2",st:"done",events:[]},
+{d:"2026-06-21",h:"New Zealand",a:"Egypt",g:"G",v:"BC Place Vancouver",t:"21:00",s:"1 - 3",st:"done",events:[]},
+{d:"2026-06-22",h:"Argentina",a:"Austria",g:"J",v:"Dallas Stadium",t:"13:00",s:"2 - 0",st:"done",events:[]},
+{d:"2026-06-22",h:"France",a:"Iraq",g:"I",v:"Philadelphia Stadium",t:"17:00",s:"3 - 0",st:"done",events:[]},
+{d:"2026-06-22",h:"Norway",a:"Senegal",g:"I",v:"New York New Jersey Stadium",t:"20:00",s:"3 - 2",st:"done",events:[]},
+{d:"2026-06-22",h:"Jordan",a:"Algeria",g:"J",v:"San Francisco Bay Stadium",t:"23:00",s:"1 - 2",st:"done",events:[]},
+{d:"2026-06-23",h:"Portugal",a:"Uzbekistan",g:"K",v:"Houston Stadium",t:"13:00",s:"5 - 0",st:"done",events:[]},
+{d:"2026-06-23",h:"England",a:"Ghana",g:"L",v:"Boston Stadium",t:"16:00",s:"0 - 0",st:"done",events:[]},
+{d:"2026-06-23",h:"Panama",a:"Croatia",g:"L",v:"Toronto Stadium",t:"19:00",s:"0 - 1",st:"done",events:[]},
+{d:"2026-06-23",h:"Colombia",a:"DR Congo",g:"K",v:"Guadalajara Stadium",t:"22:00",s:"1 - 0",st:"done",events:[]},
+{d:"2026-06-24",h:"Switzerland",a:"Canada",g:"B",v:"BC Place Vancouver",t:"15:00",s:"2 - 1",st:"done",events:[]},
+{d:"2026-06-24",h:"Bosnia and Herzegovina",a:"Qatar",g:"B",v:"Seattle Stadium",t:"15:00",s:"3 - 1",st:"done",events:[]},
+{d:"2026-06-24",h:"Brazil",a:"Scotland",g:"C",v:"Miami Stadium",t:"18:00",s:"3 - 0",st:"done",events:[]},
+{d:"2026-06-24",h:"Morocco",a:"Haiti",g:"C",v:"Atlanta Stadium",t:"18:00",s:"4 - 2",st:"done",events:[]},
+{d:"2026-06-24",h:"Mexico",a:"Czechia",g:"A",v:"Mexico City Stadium",t:"21:00",s:"3 - 0",st:"done",events:[]},
+{d:"2026-06-24",h:"South Korea",a:"South Africa",g:"A",v:"Monterrey Stadium",t:"21:00",s:"0 - 1",st:"done",events:[]},
 {d:"2026-06-25",h:"Ecuador",a:"Germany",g:"E",v:"New York New Jersey Stadium",t:"16:00",s:null,st:"soon",events:[]},
 {d:"2026-06-25",h:"Curaçao",a:"Ivory Coast",g:"E",v:"Philadelphia Stadium",t:"16:00",s:null,st:"soon",events:[]},
 {d:"2026-06-25",h:"Tunisia",a:"Netherlands",g:"F",v:"Kansas City Stadium",t:"19:00",s:null,st:"soon",events:[]},

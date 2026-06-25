@@ -1773,102 +1773,110 @@
     {
       "name": "Lionel Messi",
       "team": "Argentina",
+      "goals": 5,
       "assists": 0
     },
     {
-      "name": "Jonathan David",
-      "team": "Canada",
-      "assists": 0
-    },
-    {
-      "name": "Cyle Larin",
-      "team": "Canada",
-      "assists": 0
-    },
-    {
-      "name": "Folarin Balogun",
-      "team": "USA",
-      "assists": 0
-    },
-    {
-      "name": "Ismael Saibari",
-      "team": "Morocco",
-      "assists": 0
-    },
-    {
-      "name": "Vinicius Junior",
+      "name": "Vin\u00edcius J\u00fanior",
       "team": "Brazil",
-      "assists": 2
-    },
-    {
-      "name": "Kai Havertz",
-      "team": "Germany",
-      "assists": 0
-    },
-    {
-      "name": "Yasin Ayari",
-      "team": "Sweden",
-      "assists": 0
-    },
-    {
-      "name": "Elijah Just",
-      "team": "New Zealand",
-      "assists": 0
+      "goals": 4,
+      "assists": 1
     },
     {
       "name": "Kylian Mbapp\u00e9",
       "team": "France",
+      "goals": 4,
       "assists": 0
     },
     {
       "name": "Erling Haaland",
       "team": "Norway",
+      "goals": 4,
       "assists": 0
     },
     {
-      "name": "Harry Kane",
-      "team": "England",
-      "assists": 0
+      "name": "Deniz Undav",
+      "team": "Germany",
+      "goals": 3,
+      "assists": 2
     },
     {
-      "name": "Johan Manzambi",
-      "team": "Switzerland",
+      "name": "Jonathan David",
+      "team": "Canada",
+      "goals": 3,
       "assists": 0
     },
     {
       "name": "Matheus Cunha",
       "team": "Brazil",
+      "goals": 3,
       "assists": 0
     },
     {
-      "name": "Juli\u00e1n Qui\u00f1ones",
-      "team": "Mexico",
+      "name": "Ismael Saibari",
+      "team": "Morocco",
+      "goals": 3,
+      "assists": 0
+    },
+    {
+      "name": "Johan Manzambi",
+      "team": "Switzerland",
+      "goals": 3,
+      "assists": 0
+    },
+    {
+      "name": "Harry Kane",
+      "team": "England",
+      "goals": 2,
+      "assists": 0
+    },
+    {
+      "name": "Cristiano Ronaldo",
+      "team": "Portugal",
+      "goals": 2,
+      "assists": 0
+    },
+    {
+      "name": "Folarin Balogun",
+      "team": "USA",
+      "goals": 2,
+      "assists": 0
+    },
+    {
+      "name": "Kai Havertz",
+      "team": "Germany",
+      "goals": 2,
+      "assists": 0
+    },
+    {
+      "name": "Yasin Ayari",
+      "team": "Sweden",
+      "goals": 2,
+      "assists": 0
+    },
+    {
+      "name": "Brian Brobbey",
+      "team": "Netherlands",
+      "goals": 2,
+      "assists": 0
+    },
+    {
+      "name": "Cody Gakpo",
+      "team": "Netherlands",
+      "goals": 2,
+      "assists": 0
+    },
+    {
+      "name": "Ayase Ueda",
+      "team": "Japan",
+      "goals": 2,
       "assists": 0
     },
     {
       "name": "Ra\u00fal Jim\u00e9nez",
       "team": "Mexico",
-      "assists": 0
-    },
-    {
-      "name": "Ladislav Krej\u010d\u00ed",
-      "team": "Czechia",
-      "assists": 0
-    },
-    {
-      "name": "In-beom Hwang",
-      "team": "South Korea",
+      "goals": 2,
       "assists": 1
-    },
-    {
-      "name": "Hyun-Gyu Oh",
-      "team": "South Korea",
-      "assists": 0
-    },
-    {
-      "name": "Jovo Luki\u0107",
-      "team": "Bosnia and Herzegovina",
-      "assists": 0
     }
   ],
   "totalGoals": 157,
