@@ -125,6 +125,20 @@ body{font-family:'Inter',sans-serif;background:var(--bg);color:var(--text);min-h
 .bench-list span{font-size:0.58rem;padding:2px 5px;background:rgba(255,255,255,0.04);border:1px solid var(--border);border-radius:4px;color:var(--dim)}
 .match{cursor:pointer}
 .match:active{transform:scale(0.99)}
+.bracket-wrap{overflow-x:auto;padding-bottom:1rem}
+.bracket-round{margin-bottom:2rem}
+.bracket-round h3{font-family:'Space Grotesk',sans-serif;font-size:0.78rem;color:var(--accent);margin-bottom:0.8rem;text-transform:uppercase;letter-spacing:1px}
+.bracket-matches{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:0.7rem}
+.bracket-match{background:var(--card);border:1px solid var(--border);border-radius:var(--radius-lg);padding:0.9rem 1.1rem;transition:all var(--duration-normal) var(--ease-out)}
+.bracket-match:hover{border-color:rgba(var(--accent-rgb),0.25);transform:translateY(-2px);box-shadow:var(--shadow-md)}
+.bracket-match .bm-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:0.5rem}
+.bracket-match .bm-num{font-size:0.6rem;color:var(--dim);font-weight:600}
+.bracket-match .bm-date{font-size:0.6rem;color:var(--accent)}
+.bracket-match .bm-team{display:flex;align-items:center;gap:0.5rem;padding:0.35rem 0;font-size:0.82rem;font-weight:500}
+.bracket-match .bm-team img{width:22px;height:15px;border-radius:3px;object-fit:cover}
+.bracket-match .bm-team.tbd{color:var(--dim);font-style:italic}
+.bracket-match .bm-vs{font-size:0.6rem;color:var(--dim);text-align:center;padding:0.15rem 0}
+@media(max-width:640px){.bracket-matches{grid-template-columns:1fr}}
 @media(max-width:640px){.pitch-container{grid-template-columns:1fr}.pitch{padding-bottom:130%}}
 </style>
 </head>
@@ -161,6 +175,7 @@ body{font-family:'Inter',sans-serif;background:var(--bg);color:var(--text);min-h
   <button class="nav-btn" data-tab="standings">Standings</button>
   <button class="nav-btn" data-tab="fixtures">All Fixtures</button>
   <button class="nav-btn" data-tab="scorers">Player Stats</button>
+  <button class="nav-btn" data-tab="bracket">Bracket</button>
 </nav>
 
 <div class="section active" id="overview" role="main" aria-label="Tournament overview">
@@ -203,6 +218,13 @@ body{font-family:'Inter',sans-serif;background:var(--bg);color:var(--text);min-h
     <button class="stab" data-list="reds">🟥 Red Cards</button>
   </div>
   <div class="scorer-list" id="scorer-list"></div>
+</div>
+
+<!-- BRACKET -->
+<div class="section" id="bracket">
+  <h2 style="font-size:1.1rem;margin-bottom:0.5rem;color:var(--cyan)">Knockout Stage Bracket</h2>
+  <p style="font-size:0.72rem;color:var(--dim);margin-bottom:1.5rem">Round of 32 (June 28) → Round of 16 (July 1-2) → Quarter-finals (July 5-6) → Semi-finals (July 9-10) → Final (July 19)</p>
+  <div class="bracket-wrap" id="bracket-tree"></div>
 </div>
 
 <div class="modal-overlay" id="match-modal">
@@ -721,6 +743,57 @@ observeRevealElements();
 // Re-observe on tab switch
 const origTabClick=document.querySelector('.nav').onclick;
 document.querySelector('.nav').addEventListener('click',()=>setTimeout(observeRevealElements,50));
+
+// Bracket data
+const bracketTeams={
+  '1A':'Mexico','1B':'Switzerland','1C':'Brazil','1D':'USA','1E':'Germany','1J':'Argentina',
+  '2A':'South Africa','2B':'Canada','2C':'Morocco'
+};
+function bt(code){return bracketTeams[code]||code.replace(/^1/,'Winner Grp ').replace(/^2/,'Runner-up Grp ').replace(/^3rd\(/,'3rd (').replace(/\)$/,')')}
+function btFlag(code){const t=bracketTeams[code];return t?`<img src="${flag(t)}" alt="${t}" style="width:22px;height:15px;border-radius:3px;object-fit:cover">`:''}
+function btClass(code){return bracketTeams[code]?'':'tbd'}
+
+const r32=[
+  {n:73,t1:'2A',t2:'2B',d:'Jun 28'},{n:74,t1:'1E',t2:'3rd(ABCDF)',d:'Jun 28'},
+  {n:75,t1:'1F',t2:'2C',d:'Jun 28'},{n:76,t1:'1C',t2:'2F',d:'Jun 28'},
+  {n:77,t1:'1I',t2:'3rd(CDFGH)',d:'Jun 29'},{n:78,t1:'2E',t2:'2I',d:'Jun 29'},
+  {n:79,t1:'1A',t2:'3rd(CEFHI)',d:'Jun 29'},{n:80,t1:'1L',t2:'3rd(EHIJK)',d:'Jun 29'},
+  {n:81,t1:'1D',t2:'3rd(BEFIJ)',d:'Jun 30'},{n:82,t1:'1G',t2:'3rd(AEHIJ)',d:'Jun 30'},
+  {n:83,t1:'2K',t2:'2L',d:'Jun 30'},{n:84,t1:'1H',t2:'2J',d:'Jun 30'},
+  {n:85,t1:'1B',t2:'3rd(EFGIJ)',d:'Jul 1'},{n:86,t1:'1J',t2:'2H',d:'Jul 1'},
+  {n:87,t1:'1K',t2:'3rd(DEIJL)',d:'Jul 1'},{n:88,t1:'2D',t2:'2G',d:'Jul 1'}
+];
+const r16=[
+  {n:89,t1:'W73',t2:'W74',d:'Jul 3'},{n:90,t1:'W75',t2:'W76',d:'Jul 3'},
+  {n:91,t1:'W77',t2:'W78',d:'Jul 3'},{n:92,t1:'W79',t2:'W80',d:'Jul 4'},
+  {n:93,t1:'W81',t2:'W82',d:'Jul 4'},{n:94,t1:'W83',t2:'W84',d:'Jul 4'},
+  {n:95,t1:'W85',t2:'W86',d:'Jul 5'},{n:96,t1:'W87',t2:'W88',d:'Jul 5'}
+];
+const qf=[
+  {n:97,t1:'W89',t2:'W90',d:'Jul 9'},{n:98,t1:'W91',t2:'W92',d:'Jul 9'},
+  {n:99,t1:'W93',t2:'W94',d:'Jul 10'},{n:100,t1:'W95',t2:'W96',d:'Jul 10'}
+];
+const sf=[{n:101,t1:'W97',t2:'W98',d:'Jul 14'},{n:102,t1:'W99',t2:'W100',d:'Jul 15'}];
+const final=[{n:104,t1:'W101',t2:'W102',d:'Jul 19'}];
+
+function renderBracketMatch(m){
+  const label1=m.t1.startsWith('W')?`Winner M${m.t1.slice(1)}`:bt(m.t1);
+  const label2=m.t2.startsWith('W')?`Winner M${m.t2.slice(1)}`:bt(m.t2);
+  const f1=m.t1.startsWith('W')?'':btFlag(m.t1);
+  const f2=m.t2.startsWith('W')?'':btFlag(m.t2);
+  const c1=m.t1.startsWith('W')?'tbd':btClass(m.t1);
+  const c2=m.t2.startsWith('W')?'tbd':btClass(m.t2);
+  return `<div class="bracket-match"><div class="bm-head"><span class="bm-num">M${m.n}</span><span class="bm-date">${m.d}</span></div><div class="bm-team ${c1}">${f1} ${label1}</div><div class="bm-vs">vs</div><div class="bm-team ${c2}">${f2} ${label2}</div></div>`;
+}
+function renderBracketRound(title,matches){
+  return `<div class="bracket-round"><h3>${title}</h3><div class="bracket-matches">${matches.map(renderBracketMatch).join('')}</div></div>`;
+}
+document.getElementById('bracket-tree').innerHTML=
+  renderBracketRound('Round of 32 — 16 Matches',r32)+
+  renderBracketRound('Round of 16 — 8 Matches',r16)+
+  renderBracketRound('Quarter-Finals — 4 Matches',qf)+
+  renderBracketRound('Semi-Finals — 2 Matches',sf)+
+  renderBracketRound('Final',final);
 </script>
 </body>
 </html>
