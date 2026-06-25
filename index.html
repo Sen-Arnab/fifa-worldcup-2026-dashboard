@@ -125,20 +125,22 @@ body{font-family:'Inter',sans-serif;background:var(--bg);color:var(--text);min-h
 .bench-list span{font-size:0.58rem;padding:2px 5px;background:rgba(255,255,255,0.04);border:1px solid var(--border);border-radius:4px;color:var(--dim)}
 .match{cursor:pointer}
 .match:active{transform:scale(0.99)}
-.bracket-wrap{overflow-x:auto;padding-bottom:1rem}
-.bracket-round{margin-bottom:2rem}
-.bracket-round h3{font-family:'Space Grotesk',sans-serif;font-size:0.78rem;color:var(--accent);margin-bottom:0.8rem;text-transform:uppercase;letter-spacing:1px}
-.bracket-matches{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:0.7rem}
-.bracket-match{background:var(--card);border:1px solid var(--border);border-radius:var(--radius-lg);padding:0.9rem 1.1rem;transition:all var(--duration-normal) var(--ease-out)}
-.bracket-match:hover{border-color:rgba(var(--accent-rgb),0.25);transform:translateY(-2px);box-shadow:var(--shadow-md)}
-.bracket-match .bm-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:0.5rem}
-.bracket-match .bm-num{font-size:0.6rem;color:var(--dim);font-weight:600}
-.bracket-match .bm-date{font-size:0.6rem;color:var(--accent)}
-.bracket-match .bm-team{display:flex;align-items:center;gap:0.5rem;padding:0.35rem 0;font-size:0.82rem;font-weight:500}
-.bracket-match .bm-team img{width:22px;height:15px;border-radius:3px;object-fit:cover}
-.bracket-match .bm-team.tbd{color:var(--dim);font-style:italic}
-.bracket-match .bm-vs{font-size:0.6rem;color:var(--dim);text-align:center;padding:0.15rem 0}
-@media(max-width:640px){.bracket-matches{grid-template-columns:1fr}}
+.bracket-wrap{overflow-x:auto;padding:1rem 0;-webkit-overflow-scrolling:touch}
+.bracket-tree{display:flex;gap:0;min-width:1100px;align-items:center;padding:1rem}
+.bracket-col{display:flex;flex-direction:column;justify-content:space-around;min-width:160px;position:relative}
+.bracket-col h4{font-family:'Space Grotesk',sans-serif;font-size:0.6rem;color:var(--accent);text-transform:uppercase;letter-spacing:1px;text-align:center;margin-bottom:0.5rem;white-space:nowrap}
+.bm{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:0.4rem 0.6rem;margin:0.25rem 0;font-size:0.68rem;position:relative;transition:border-color var(--duration-normal)}
+.bm:hover{border-color:rgba(var(--accent-rgb),0.3)}
+.bm .bm-num{font-size:0.5rem;color:var(--dim);font-weight:600;margin-bottom:2px}
+.bm-t{display:flex;align-items:center;gap:4px;padding:2px 0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.bm-t img{width:18px;height:12px;border-radius:2px;object-fit:cover;flex-shrink:0}
+.bm-t.tbd{color:var(--dim);font-style:italic;font-size:0.62rem}
+.bm-t .vs-line{height:1px;background:var(--border);margin:1px 0}
+.bracket-connector{display:flex;flex-direction:column;justify-content:space-around;width:20px;position:relative}
+.bracket-connector .conn-pair{position:relative;flex:1;display:flex;align-items:center}
+.bracket-connector .conn-pair::before{content:'';position:absolute;right:0;top:25%;bottom:25%;width:1px;border-right:1px solid rgba(var(--accent-rgb),0.25)}
+.bracket-connector .conn-pair::after{content:'';position:absolute;right:0;top:50%;width:10px;height:1px;background:rgba(var(--accent-rgb),0.25);transform:translateX(100%)}
+@media(max-width:640px){.bracket-tree{min-width:900px;padding:0.5rem}.bm{padding:0.3rem 0.5rem;font-size:0.6rem}.bracket-col{min-width:130px}}
 @media(max-width:640px){.pitch-container{grid-template-columns:1fr}.pitch{padding-bottom:130%}}
 </style>
 </head>
@@ -221,9 +223,9 @@ body{font-family:'Inter',sans-serif;background:var(--bg);color:var(--text);min-h
 </div>
 
 <!-- BRACKET -->
-<div class="section" id="bracket">
-  <h2 style="font-size:1.1rem;margin-bottom:0.5rem;color:var(--cyan)">Knockout Stage Bracket</h2>
-  <p style="font-size:0.72rem;color:var(--dim);margin-bottom:1.5rem">Round of 32 (June 28) → Round of 16 (July 1-2) → Quarter-finals (July 5-6) → Semi-finals (July 9-10) → Final (July 19)</p>
+<div class="section" id="bracket" style="max-width:100%;padding:2rem 1rem">
+  <h2 style="font-family:'Space Grotesk',sans-serif;font-size:1.1rem;margin-bottom:0.5rem;color:var(--cyan)">Knockout Stage Bracket</h2>
+  <p style="font-size:0.7rem;color:var(--dim);margin-bottom:1rem">Scroll horizontally to view full bracket → Final on July 19 at MetLife Stadium</p>
   <div class="bracket-wrap" id="bracket-tree"></div>
 </div>
 
@@ -776,24 +778,31 @@ const qf=[
 const sf=[{n:101,t1:'W97',t2:'W98',d:'Jul 14'},{n:102,t1:'W99',t2:'W100',d:'Jul 15'}];
 const final=[{n:104,t1:'W101',t2:'W102',d:'Jul 19'}];
 
-function renderBracketMatch(m){
-  const label1=m.t1.startsWith('W')?`Winner M${m.t1.slice(1)}`:bt(m.t1);
-  const label2=m.t2.startsWith('W')?`Winner M${m.t2.slice(1)}`:bt(m.t2);
-  const f1=m.t1.startsWith('W')?'':btFlag(m.t1);
-  const f2=m.t2.startsWith('W')?'':btFlag(m.t2);
-  const c1=m.t1.startsWith('W')?'tbd':btClass(m.t1);
-  const c2=m.t2.startsWith('W')?'tbd':btClass(m.t2);
-  return `<div class="bracket-match"><div class="bm-head"><span class="bm-num">M${m.n}</span><span class="bm-date">${m.d}</span></div><div class="bm-team ${c1}">${f1} ${label1}</div><div class="bm-vs">vs</div><div class="bm-team ${c2}">${f2} ${label2}</div></div>`;
+function renderBM(m){
+  const lbl=c=>{if(c.startsWith('W'))return `Winner M${c.slice(1)}`;return bt(c)};
+  const flg=c=>c.startsWith('W')?'':btFlag(c);
+  const cls=c=>c.startsWith('W')?'tbd':btClass(c);
+  return `<div class="bm"><div class="bm-num">M${m.n} · ${m.d}</div><div class="bm-t ${cls(m.t1)}">${flg(m.t1)} ${lbl(m.t1)}</div><div class="bm-t ${cls(m.t2)}">${flg(m.t2)} ${lbl(m.t2)}</div></div>`;
 }
-function renderBracketRound(title,matches){
-  return `<div class="bracket-round"><h3>${title}</h3><div class="bracket-matches">${matches.map(renderBracketMatch).join('')}</div></div>`;
+function renderCol(title,matches){
+  return `<div class="bracket-col"><h4>${title}</h4>${matches.map(renderBM).join('')}</div>`;
 }
-document.getElementById('bracket-tree').innerHTML=
-  renderBracketRound('Round of 32 — 16 Matches',r32)+
-  renderBracketRound('Round of 16 — 8 Matches',r16)+
-  renderBracketRound('Quarter-Finals — 4 Matches',qf)+
-  renderBracketRound('Semi-Finals — 2 Matches',sf)+
-  renderBracketRound('Final',final);
+// Split R32 into two halves for top/bottom bracket (8 matches each side)
+const r32top=r32.slice(0,8),r32bot=r32.slice(8);
+const r16top=r16.slice(0,4),r16bot=r16.slice(4);
+const qftop=qf.slice(0,2),qfbot=qf.slice(2);
+// Render as one horizontal bracket
+document.getElementById('bracket-tree').innerHTML=`<div class="bracket-tree">
+  ${renderCol('Round of 32',r32top)}
+  ${renderCol('Round of 16',r16top)}
+  ${renderCol('Quarter-Final',qftop)}
+  ${renderCol('Semi-Final',[sf[0]])}
+  ${renderCol('Final',final)}
+  ${renderCol('Semi-Final',[sf[1]])}
+  ${renderCol('Quarter-Final',qfbot)}
+  ${renderCol('Round of 16',r16bot)}
+  ${renderCol('Round of 32',r32bot)}
+</div>`;
 </script>
 </body>
 </html>
