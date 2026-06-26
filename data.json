@@ -672,7 +672,26 @@
       "t": "20:00",
       "s": "2 - 1",
       "st": "done",
-      "events": []
+      "events": [
+        {
+          "type": "goal",
+          "player": "Leroy San\u00e9",
+          "team": "a",
+          "min": "2'"
+        },
+        {
+          "type": "goal",
+          "player": "Nilson Angulo",
+          "team": "h",
+          "min": "9'"
+        },
+        {
+          "type": "goal",
+          "player": "Gonzalo Plata",
+          "team": "h",
+          "min": "77'"
+        }
+      ]
     },
     {
       "id": 537356,
@@ -684,7 +703,20 @@
       "t": "20:00",
       "s": "0 - 2",
       "st": "done",
-      "events": []
+      "events": [
+        {
+          "type": "goal",
+          "player": "Nicolas P\u00e9p\u00e9",
+          "team": "a",
+          "min": "7'"
+        },
+        {
+          "type": "goal",
+          "player": "Nicolas P\u00e9p\u00e9",
+          "team": "a",
+          "min": "64'"
+        }
+      ]
     },
     {
       "id": 537361,
@@ -696,7 +728,33 @@
       "t": "23:00",
       "s": "1 - 3",
       "st": "done",
-      "events": []
+      "events": [
+        {
+          "type": "goal",
+          "player": "Ellyes Shkiri",
+          "team": "h",
+          "min": "3'",
+          "note": "OG"
+        },
+        {
+          "type": "goal",
+          "player": "Brian Brobbey",
+          "team": "a",
+          "min": "7'"
+        },
+        {
+          "type": "goal",
+          "player": "Hazem Mastouri",
+          "team": "h",
+          "min": "54'"
+        },
+        {
+          "type": "goal",
+          "player": "Jan Paul Van Hecke",
+          "team": "a",
+          "min": "62'"
+        }
+      ]
     },
     {
       "id": 537362,
@@ -708,7 +766,20 @@
       "t": "23:00",
       "s": "1 - 1",
       "st": "done",
-      "events": []
+      "events": [
+        {
+          "type": "goal",
+          "player": "Daizen Maeda",
+          "team": "h",
+          "min": "56'"
+        },
+        {
+          "type": "goal",
+          "player": "Anthony Elanga",
+          "team": "a",
+          "min": "62'"
+        }
+      ]
     },
     {
       "id": 537349,
