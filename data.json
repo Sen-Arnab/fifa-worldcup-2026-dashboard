@@ -1795,6 +1795,12 @@
       "assists": 0
     },
     {
+      "name": "Brian Brobbey",
+      "team": "Netherlands",
+      "goals": 3,
+      "assists": 0
+    },
+    {
       "name": "Deniz Undav",
       "team": "Germany",
       "goals": 3,
@@ -1821,6 +1827,12 @@
     {
       "name": "Johan Manzambi",
       "team": "Switzerland",
+      "goals": 3,
+      "assists": 0
+    },
+    {
+      "name": "Nicolas P\u00e9p\u00e9",
+      "team": "Ivory Coast",
       "goals": 3,
       "assists": 0
     },
@@ -1855,12 +1867,6 @@
       "assists": 0
     },
     {
-      "name": "Brian Brobbey",
-      "team": "Netherlands",
-      "goals": 2,
-      "assists": 0
-    },
-    {
       "name": "Cody Gakpo",
       "team": "Netherlands",
       "goals": 2,
@@ -1877,6 +1883,12 @@
       "team": "Mexico",
       "goals": 2,
       "assists": 1
+    },
+    {
+      "name": "Anthony Elanga",
+      "team": "Sweden",
+      "goals": 2,
+      "assists": 0
     }
   ],
   "totalGoals": 168,
