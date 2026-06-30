@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-26T07:00:00.000Z",
+  "updatedAt": "2026-07-01T02:00:00.000Z",
   "fixtures": [
     {
       "id": 537327,
@@ -101,7 +101,7 @@
       "id": 537351,
       "d": "2026-06-14",
       "h": "Germany",
-      "a": "Cura\u00e7ao",
+      "a": "Curaçao",
       "g": "E",
       "v": "",
       "t": "17:00",
@@ -383,20 +383,7 @@
       "t": "03:00",
       "s": "0 - 1",
       "st": "done",
-      "events": [
-        {
-          "type": "goal",
-          "player": "Mat\u00edas Galarza",
-          "team": "a",
-          "min": "1'"
-        },
-        {
-          "type": "rc",
-          "player": "Miguel Almir\u00f3n",
-          "team": "a",
-          "min": "45+3'"
-        }
-      ]
+      "events": []
     },
     {
       "id": 537359,
@@ -426,7 +413,7 @@
       "id": 537354,
       "d": "2026-06-21",
       "h": "Ecuador",
-      "a": "Cura\u00e7ao",
+      "a": "Curaçao",
       "g": "E",
       "v": "",
       "t": "00:00",
@@ -646,8 +633,8 @@
       "g": "A",
       "v": "",
       "t": "01:00",
-      "s": null,
-      "st": "soon",
+      "s": "0 - 3",
+      "st": "done",
       "events": []
     },
     {
@@ -658,8 +645,8 @@
       "g": "A",
       "v": "",
       "t": "01:00",
-      "s": null,
-      "st": "soon",
+      "s": "1 - 0",
+      "st": "done",
       "events": []
     },
     {
@@ -675,7 +662,7 @@
       "events": [
         {
           "type": "goal",
-          "player": "Leroy San\u00e9",
+          "player": "Leroy Sané",
           "team": "a",
           "min": "2'"
         },
@@ -696,7 +683,7 @@
     {
       "id": 537356,
       "d": "2026-06-25",
-      "h": "Cura\u00e7ao",
+      "h": "Curaçao",
       "a": "Ivory Coast",
       "g": "E",
       "v": "",
@@ -706,13 +693,13 @@
       "events": [
         {
           "type": "goal",
-          "player": "Nicolas P\u00e9p\u00e9",
+          "player": "Nicolas Pépé",
           "team": "a",
           "min": "7'"
         },
         {
           "type": "goal",
-          "player": "Nicolas P\u00e9p\u00e9",
+          "player": "Nicolas Pépé",
           "team": "a",
           "min": "64'"
         }
@@ -728,33 +715,7 @@
       "t": "23:00",
       "s": "1 - 3",
       "st": "done",
-      "events": [
-        {
-          "type": "goal",
-          "player": "Ellyes Shkiri",
-          "team": "h",
-          "min": "3'",
-          "note": "OG"
-        },
-        {
-          "type": "goal",
-          "player": "Brian Brobbey",
-          "team": "a",
-          "min": "7'"
-        },
-        {
-          "type": "goal",
-          "player": "Hazem Mastouri",
-          "team": "h",
-          "min": "54'"
-        },
-        {
-          "type": "goal",
-          "player": "Jan Paul Van Hecke",
-          "team": "a",
-          "min": "62'"
-        }
-      ]
+      "events": []
     },
     {
       "id": 537362,
@@ -766,20 +727,7 @@
       "t": "23:00",
       "s": "1 - 1",
       "st": "done",
-      "events": [
-        {
-          "type": "goal",
-          "player": "Daizen Maeda",
-          "team": "h",
-          "min": "56'"
-        },
-        {
-          "type": "goal",
-          "player": "Anthony Elanga",
-          "team": "a",
-          "min": "62'"
-        }
-      ]
+      "events": []
     },
     {
       "id": 537349,
@@ -789,8 +737,8 @@
       "g": "D",
       "v": "",
       "t": "02:00",
-      "s": null,
-      "st": "soon",
+      "s": "3 - 2",
+      "st": "done",
       "events": []
     },
     {
@@ -801,20 +749,20 @@
       "g": "D",
       "v": "",
       "t": "02:00",
-      "s": null,
-      "st": "soon",
+      "s": "0 - 0",
+      "st": "done",
       "events": []
     },
     {
       "id": 537395,
       "d": "2026-06-26",
-      "h": "Norway",
-      "a": "France",
+      "h": "France",
+      "a": "Norway",
       "g": "I",
       "v": "",
       "t": "19:00",
-      "s": null,
-      "st": "soon",
+      "s": "4 - 1",
+      "st": "done",
       "events": []
     },
     {
@@ -825,8 +773,8 @@
       "g": "I",
       "v": "",
       "t": "19:00",
-      "s": null,
-      "st": "soon",
+      "s": "5 - 0",
+      "st": "done",
       "events": []
     },
     {
@@ -837,8 +785,8 @@
       "g": "H",
       "v": "",
       "t": "00:00",
-      "s": null,
-      "st": "soon",
+      "s": "0 - 1",
+      "st": "done",
       "events": []
     },
     {
@@ -849,20 +797,20 @@
       "g": "H",
       "v": "",
       "t": "00:00",
-      "s": null,
-      "st": "soon",
+      "s": "0 - 0",
+      "st": "done",
       "events": []
     },
     {
       "id": 537367,
       "d": "2026-06-27",
-      "h": "New Zealand",
-      "a": "Belgium",
+      "h": "Belgium",
+      "a": "New Zealand",
       "g": "G",
       "v": "",
       "t": "03:00",
-      "s": null,
-      "st": "soon",
+      "s": "5 - 1",
+      "st": "done",
       "events": []
     },
     {
@@ -873,8 +821,8 @@
       "g": "G",
       "v": "",
       "t": "03:00",
-      "s": null,
-      "st": "soon",
+      "s": "1 - 1",
+      "st": "done",
       "events": []
     },
     {
@@ -885,8 +833,8 @@
       "g": "L",
       "v": "",
       "t": "21:00",
-      "s": null,
-      "st": "soon",
+      "s": "0 - 2",
+      "st": "done",
       "events": []
     },
     {
@@ -897,8 +845,8 @@
       "g": "L",
       "v": "",
       "t": "21:00",
-      "s": null,
-      "st": "soon",
+      "s": "2 - 1",
+      "st": "done",
       "events": []
     },
     {
@@ -909,8 +857,8 @@
       "g": "K",
       "v": "",
       "t": "23:30",
-      "s": null,
-      "st": "soon",
+      "s": "0 - 0",
+      "st": "done",
       "events": []
     },
     {
@@ -921,8 +869,8 @@
       "g": "K",
       "v": "",
       "t": "23:30",
-      "s": null,
-      "st": "soon",
+      "s": "3 - 1",
+      "st": "done",
       "events": []
     },
     {
@@ -933,8 +881,8 @@
       "g": "J",
       "v": "",
       "t": "02:00",
-      "s": null,
-      "st": "soon",
+      "s": "1 - 3",
+      "st": "done",
       "events": []
     },
     {
@@ -945,76 +893,90 @@
       "g": "J",
       "v": "",
       "t": "02:00",
-      "s": null,
-      "st": "soon",
+      "s": "3 - 3",
+      "st": "done",
       "events": []
     },
     {
       "id": 537417,
       "d": "2026-06-28",
-      "h": null,
-      "a": null,
-      "g": "",
+      "h": "Canada",
+      "a": "South Africa",
+      "g": "R32",
       "v": "",
       "t": "19:00",
-      "s": null,
-      "st": "soon",
+      "s": "1 - 0",
+      "st": "done",
       "events": []
     },
     {
       "id": 537423,
       "d": "2026-06-29",
-      "h": null,
-      "a": null,
-      "g": "",
+      "h": "Brazil",
+      "a": "Japan",
+      "g": "R32",
       "v": "",
       "t": "17:00",
-      "s": null,
-      "st": "soon",
+      "s": "2 - 1",
+      "st": "done",
       "events": []
     },
     {
       "id": 537415,
       "d": "2026-06-29",
-      "h": null,
-      "a": null,
-      "g": "",
+      "h": "Paraguay",
+      "a": "Germany",
+      "g": "R32",
       "v": "",
       "t": "20:30",
-      "s": null,
-      "st": "soon",
-      "events": []
+      "s": "1 - 1",
+      "st": "done",
+      "events": [
+        {
+          "type": "note",
+          "player": "",
+          "team": "",
+          "min": "PEN: 4-3 Paraguay"
+        }
+      ]
     },
     {
       "id": 537418,
-      "d": "2026-06-30",
-      "h": null,
-      "a": null,
-      "g": "",
+      "d": "2026-06-29",
+      "h": "Morocco",
+      "a": "Netherlands",
+      "g": "R32",
       "v": "",
-      "t": "01:00",
-      "s": null,
-      "st": "soon",
-      "events": []
+      "t": "23:00",
+      "s": "1 - 1",
+      "st": "done",
+      "events": [
+        {
+          "type": "note",
+          "player": "",
+          "team": "",
+          "min": "PEN: 3-2 Morocco"
+        }
+      ]
     },
     {
       "id": 537424,
       "d": "2026-06-30",
-      "h": null,
-      "a": null,
-      "g": "",
+      "h": "Norway",
+      "a": "Ivory Coast",
+      "g": "R32",
       "v": "",
       "t": "17:00",
-      "s": null,
-      "st": "soon",
+      "s": "2 - 1",
+      "st": "done",
       "events": []
     },
     {
       "id": 537416,
       "d": "2026-06-30",
-      "h": null,
-      "a": null,
-      "g": "",
+      "h": "France",
+      "a": "Sweden",
+      "g": "R32",
       "v": "",
       "t": "21:00",
       "s": null,
@@ -1024,9 +986,9 @@
     {
       "id": 537425,
       "d": "2026-07-01",
-      "h": null,
-      "a": null,
-      "g": "",
+      "h": "Mexico",
+      "a": "Ecuador",
+      "g": "R32",
       "v": "",
       "t": "01:00",
       "s": null,
@@ -1038,7 +1000,7 @@
       "d": "2026-07-01",
       "h": null,
       "a": null,
-      "g": "",
+      "g": "R32",
       "v": "",
       "t": "16:00",
       "s": null,
@@ -1050,7 +1012,7 @@
       "d": "2026-07-01",
       "h": null,
       "a": null,
-      "g": "",
+      "g": "R32",
       "v": "",
       "t": "20:00",
       "s": null,
@@ -1062,7 +1024,7 @@
       "d": "2026-07-02",
       "h": null,
       "a": null,
-      "g": "",
+      "g": "R32",
       "v": "",
       "t": "00:00",
       "s": null,
@@ -1074,7 +1036,7 @@
       "d": "2026-07-02",
       "h": null,
       "a": null,
-      "g": "",
+      "g": "R32",
       "v": "",
       "t": "19:00",
       "s": null,
@@ -1086,7 +1048,7 @@
       "d": "2026-07-02",
       "h": null,
       "a": null,
-      "g": "",
+      "g": "R32",
       "v": "",
       "t": "23:00",
       "s": null,
@@ -1098,7 +1060,7 @@
       "d": "2026-07-03",
       "h": null,
       "a": null,
-      "g": "",
+      "g": "R32",
       "v": "",
       "t": "03:00",
       "s": null,
@@ -1110,7 +1072,7 @@
       "d": "2026-07-03",
       "h": null,
       "a": null,
-      "g": "",
+      "g": "R32",
       "v": "",
       "t": "18:00",
       "s": null,
@@ -1122,7 +1084,7 @@
       "d": "2026-07-03",
       "h": null,
       "a": null,
-      "g": "",
+      "g": "R32",
       "v": "",
       "t": "22:00",
       "s": null,
@@ -1134,7 +1096,7 @@
       "d": "2026-07-04",
       "h": null,
       "a": null,
-      "g": "",
+      "g": "R32",
       "v": "",
       "t": "01:30",
       "s": null,
@@ -1146,7 +1108,7 @@
       "d": "2026-07-04",
       "h": null,
       "a": null,
-      "g": "",
+      "g": "R16",
       "v": "",
       "t": "17:00",
       "s": null,
@@ -1158,7 +1120,7 @@
       "d": "2026-07-04",
       "h": null,
       "a": null,
-      "g": "",
+      "g": "R16",
       "v": "",
       "t": "21:00",
       "s": null,
@@ -1170,7 +1132,7 @@
       "d": "2026-07-05",
       "h": null,
       "a": null,
-      "g": "",
+      "g": "R16",
       "v": "",
       "t": "20:00",
       "s": null,
@@ -1182,7 +1144,7 @@
       "d": "2026-07-06",
       "h": null,
       "a": null,
-      "g": "",
+      "g": "R16",
       "v": "",
       "t": "00:00",
       "s": null,
@@ -1194,7 +1156,7 @@
       "d": "2026-07-06",
       "h": null,
       "a": null,
-      "g": "",
+      "g": "R16",
       "v": "",
       "t": "19:00",
       "s": null,
@@ -1206,7 +1168,7 @@
       "d": "2026-07-07",
       "h": null,
       "a": null,
-      "g": "",
+      "g": "R16",
       "v": "",
       "t": "00:00",
       "s": null,
@@ -1218,7 +1180,7 @@
       "d": "2026-07-07",
       "h": null,
       "a": null,
-      "g": "",
+      "g": "R16",
       "v": "",
       "t": "16:00",
       "s": null,
@@ -1230,7 +1192,7 @@
       "d": "2026-07-07",
       "h": null,
       "a": null,
-      "g": "",
+      "g": "R16",
       "v": "",
       "t": "20:00",
       "s": null,
@@ -1242,7 +1204,7 @@
       "d": "2026-07-09",
       "h": null,
       "a": null,
-      "g": "",
+      "g": "QF",
       "v": "",
       "t": "20:00",
       "s": null,
@@ -1254,7 +1216,7 @@
       "d": "2026-07-10",
       "h": null,
       "a": null,
-      "g": "",
+      "g": "QF",
       "v": "",
       "t": "19:00",
       "s": null,
@@ -1266,7 +1228,7 @@
       "d": "2026-07-11",
       "h": null,
       "a": null,
-      "g": "",
+      "g": "QF",
       "v": "",
       "t": "21:00",
       "s": null,
@@ -1278,7 +1240,7 @@
       "d": "2026-07-12",
       "h": null,
       "a": null,
-      "g": "",
+      "g": "QF",
       "v": "",
       "t": "01:00",
       "s": null,
@@ -1290,7 +1252,7 @@
       "d": "2026-07-14",
       "h": null,
       "a": null,
-      "g": "",
+      "g": "SF",
       "v": "",
       "t": "19:00",
       "s": null,
@@ -1302,7 +1264,7 @@
       "d": "2026-07-15",
       "h": null,
       "a": null,
-      "g": "",
+      "g": "SF",
       "v": "",
       "t": "19:00",
       "s": null,
@@ -1314,7 +1276,7 @@
       "d": "2026-07-18",
       "h": null,
       "a": null,
-      "g": "",
+      "g": "3rd",
       "v": "",
       "t": "21:00",
       "s": null,
@@ -1326,7 +1288,7 @@
       "d": "2026-07-19",
       "h": null,
       "a": null,
-      "g": "",
+      "g": "Final",
       "v": "",
       "t": "19:00",
       "s": null,
@@ -1336,632 +1298,100 @@
   ],
   "standings": {
     "Group A": [
-      {
-        "t": "Mexico",
-        "pts": 9,
-        "gp": 3,
-        "w": 3,
-        "l": 0,
-        "d": 0,
-        "gf": 6,
-        "ga": 0
-      },
-      {
-        "t": "South Africa",
-        "pts": 4,
-        "gp": 3,
-        "w": 1,
-        "l": 1,
-        "d": 1,
-        "gf": 2,
-        "ga": 3
-      },
-      {
-        "t": "South Korea",
-        "pts": 3,
-        "gp": 3,
-        "w": 1,
-        "l": 2,
-        "d": 0,
-        "gf": 4,
-        "ga": 3
-      },
-      {
-        "t": "Czechia",
-        "pts": 1,
-        "gp": 3,
-        "w": 0,
-        "l": 2,
-        "d": 1,
-        "gf": 2,
-        "ga": 5
-      }
+      { "t": "Mexico", "pts": 9, "gp": 3, "w": 3, "l": 0, "d": 0, "gf": 6, "ga": 0 },
+      { "t": "South Africa", "pts": 4, "gp": 3, "w": 1, "l": 1, "d": 1, "gf": 2, "ga": 3 },
+      { "t": "South Korea", "pts": 3, "gp": 3, "w": 1, "l": 2, "d": 0, "gf": 2, "ga": 3 },
+      { "t": "Czechia", "pts": 1, "gp": 3, "w": 0, "l": 2, "d": 1, "gf": 2, "ga": 6 }
     ],
     "Group B": [
-      {
-        "t": "Switzerland",
-        "pts": 7,
-        "gp": 3,
-        "w": 2,
-        "l": 0,
-        "d": 1,
-        "gf": 7,
-        "ga": 3
-      },
-      {
-        "t": "Canada",
-        "pts": 4,
-        "gp": 3,
-        "w": 1,
-        "l": 1,
-        "d": 1,
-        "gf": 8,
-        "ga": 2
-      },
-      {
-        "t": "Bosnia and Herzegovina",
-        "pts": 4,
-        "gp": 3,
-        "w": 1,
-        "l": 1,
-        "d": 1,
-        "gf": 5,
-        "ga": 6
-      },
-      {
-        "t": "Qatar",
-        "pts": 1,
-        "gp": 3,
-        "w": 0,
-        "l": 2,
-        "d": 1,
-        "gf": 2,
-        "ga": 11
-      }
+      { "t": "Switzerland", "pts": 7, "gp": 3, "w": 2, "l": 0, "d": 1, "gf": 7, "ga": 3 },
+      { "t": "Canada", "pts": 4, "gp": 3, "w": 1, "l": 1, "d": 1, "gf": 8, "ga": 3 },
+      { "t": "Bosnia and Herzegovina", "pts": 4, "gp": 3, "w": 1, "l": 1, "d": 1, "gf": 5, "ga": 6 },
+      { "t": "Qatar", "pts": 1, "gp": 3, "w": 0, "l": 2, "d": 1, "gf": 2, "ga": 10 }
     ],
     "Group C": [
-      {
-        "t": "Brazil",
-        "pts": 7,
-        "gp": 3,
-        "w": 2,
-        "l": 0,
-        "d": 1,
-        "gf": 7,
-        "ga": 1
-      },
-      {
-        "t": "Morocco",
-        "pts": 7,
-        "gp": 3,
-        "w": 2,
-        "l": 0,
-        "d": 1,
-        "gf": 6,
-        "ga": 3
-      },
-      {
-        "t": "Scotland",
-        "pts": 3,
-        "gp": 3,
-        "w": 1,
-        "l": 2,
-        "d": 0,
-        "gf": 1,
-        "ga": 4
-      },
-      {
-        "t": "Haiti",
-        "pts": 0,
-        "gp": 3,
-        "w": 0,
-        "l": 3,
-        "d": 0,
-        "gf": 2,
-        "ga": 8
-      }
+      { "t": "Brazil", "pts": 7, "gp": 3, "w": 2, "l": 0, "d": 1, "gf": 7, "ga": 1 },
+      { "t": "Morocco", "pts": 7, "gp": 3, "w": 2, "l": 0, "d": 1, "gf": 6, "ga": 3 },
+      { "t": "Scotland", "pts": 3, "gp": 3, "w": 1, "l": 2, "d": 0, "gf": 1, "ga": 4 },
+      { "t": "Haiti", "pts": 0, "gp": 3, "w": 0, "l": 3, "d": 0, "gf": 2, "ga": 8 }
     ],
     "Group D": [
-      {
-        "t": "USA",
-        "pts": 6,
-        "gp": 3,
-        "w": 2,
-        "l": 1,
-        "d": 0,
-        "gf": 8,
-        "ga": 4
-      },
-      {
-        "t": "Australia",
-        "pts": 4,
-        "gp": 3,
-        "w": 1,
-        "l": 1,
-        "d": 1,
-        "gf": 2,
-        "ga": 2
-      },
-      {
-        "t": "Paraguay",
-        "pts": 4,
-        "gp": 3,
-        "w": 1,
-        "l": 1,
-        "d": 1,
-        "gf": 2,
-        "ga": 4
-      },
-      {
-        "t": "T\u00fcrkiye",
-        "pts": 3,
-        "gp": 3,
-        "w": 1,
-        "l": 2,
-        "d": 0,
-        "gf": 3,
-        "ga": 5
-      }
+      { "t": "USA", "pts": 6, "gp": 3, "w": 2, "l": 1, "d": 0, "gf": 8, "ga": 4 },
+      { "t": "Australia", "pts": 4, "gp": 3, "w": 1, "l": 1, "d": 1, "gf": 2, "ga": 2 },
+      { "t": "Paraguay", "pts": 4, "gp": 3, "w": 1, "l": 1, "d": 1, "gf": 2, "ga": 5 },
+      { "t": "Turkey", "pts": 3, "gp": 3, "w": 1, "l": 2, "d": 0, "gf": 5, "ga": 6 }
     ],
     "Group E": [
-      {
-        "t": "Germany",
-        "pts": 6,
-        "gp": 3,
-        "w": 2,
-        "l": 1,
-        "d": 0,
-        "gf": 10,
-        "ga": 4
-      },
-      {
-        "t": "Ivory Coast",
-        "pts": 6,
-        "gp": 3,
-        "w": 2,
-        "l": 1,
-        "d": 0,
-        "gf": 4,
-        "ga": 2
-      },
-      {
-        "t": "Ecuador",
-        "pts": 4,
-        "gp": 3,
-        "w": 1,
-        "l": 1,
-        "d": 1,
-        "gf": 2,
-        "ga": 2
-      },
-      {
-        "t": "Cura\u00e7ao",
-        "pts": 1,
-        "gp": 3,
-        "w": 0,
-        "l": 2,
-        "d": 1,
-        "gf": 1,
-        "ga": 9
-      }
+      { "t": "Germany", "pts": 6, "gp": 3, "w": 2, "l": 1, "d": 0, "gf": 10, "ga": 4 },
+      { "t": "Ivory Coast", "pts": 6, "gp": 3, "w": 2, "l": 1, "d": 0, "gf": 4, "ga": 2 },
+      { "t": "Ecuador", "pts": 4, "gp": 3, "w": 1, "l": 1, "d": 1, "gf": 2, "ga": 2 },
+      { "t": "Curaçao", "pts": 1, "gp": 3, "w": 0, "l": 2, "d": 1, "gf": 1, "ga": 9 }
     ],
     "Group F": [
-      {
-        "t": "Netherlands",
-        "pts": 7,
-        "gp": 3,
-        "w": 2,
-        "l": 0,
-        "d": 1,
-        "gf": 10,
-        "ga": 4
-      },
-      {
-        "t": "Japan",
-        "pts": 5,
-        "gp": 3,
-        "w": 1,
-        "l": 0,
-        "d": 2,
-        "gf": 7,
-        "ga": 3
-      },
-      {
-        "t": "Sweden",
-        "pts": 4,
-        "gp": 3,
-        "w": 1,
-        "l": 1,
-        "d": 1,
-        "gf": 7,
-        "ga": 7
-      },
-      {
-        "t": "Tunisia",
-        "pts": 0,
-        "gp": 3,
-        "w": 0,
-        "l": 3,
-        "d": 0,
-        "gf": 2,
-        "ga": 12
-      }
+      { "t": "Netherlands", "pts": 7, "gp": 3, "w": 2, "l": 0, "d": 1, "gf": 10, "ga": 4 },
+      { "t": "Japan", "pts": 5, "gp": 3, "w": 1, "l": 0, "d": 2, "gf": 7, "ga": 3 },
+      { "t": "Sweden", "pts": 4, "gp": 3, "w": 1, "l": 1, "d": 1, "gf": 7, "ga": 7 },
+      { "t": "Tunisia", "pts": 0, "gp": 3, "w": 0, "l": 3, "d": 0, "gf": 2, "ga": 12 }
     ],
     "Group G": [
-      {
-        "t": "Egypt",
-        "pts": 4,
-        "gp": 2,
-        "w": 1,
-        "l": 0,
-        "d": 1,
-        "gf": 4,
-        "ga": 2
-      },
-      {
-        "t": "Iran",
-        "pts": 2,
-        "gp": 2,
-        "w": 0,
-        "l": 0,
-        "d": 2,
-        "gf": 2,
-        "ga": 2
-      },
-      {
-        "t": "Belgium",
-        "pts": 2,
-        "gp": 2,
-        "w": 0,
-        "l": 0,
-        "d": 2,
-        "gf": 1,
-        "ga": 1
-      },
-      {
-        "t": "New Zealand",
-        "pts": 1,
-        "gp": 2,
-        "w": 0,
-        "l": 1,
-        "d": 1,
-        "gf": 3,
-        "ga": 5
-      }
+      { "t": "Belgium", "pts": 5, "gp": 3, "w": 1, "l": 0, "d": 2, "gf": 6, "ga": 2 },
+      { "t": "Egypt", "pts": 5, "gp": 3, "w": 1, "l": 0, "d": 2, "gf": 5, "ga": 3 },
+      { "t": "Iran", "pts": 3, "gp": 3, "w": 0, "l": 0, "d": 3, "gf": 3, "ga": 3 },
+      { "t": "New Zealand", "pts": 1, "gp": 3, "w": 0, "l": 2, "d": 1, "gf": 3, "ga": 8 }
     ],
     "Group H": [
-      {
-        "t": "Spain",
-        "pts": 4,
-        "gp": 2,
-        "w": 1,
-        "l": 0,
-        "d": 1,
-        "gf": 4,
-        "ga": 0
-      },
-      {
-        "t": "Uruguay",
-        "pts": 2,
-        "gp": 2,
-        "w": 0,
-        "l": 0,
-        "d": 2,
-        "gf": 3,
-        "ga": 3
-      },
-      {
-        "t": "Cape Verde",
-        "pts": 2,
-        "gp": 2,
-        "w": 0,
-        "l": 0,
-        "d": 2,
-        "gf": 2,
-        "ga": 2
-      },
-      {
-        "t": "Saudi Arabia",
-        "pts": 1,
-        "gp": 2,
-        "w": 0,
-        "l": 1,
-        "d": 1,
-        "gf": 1,
-        "ga": 5
-      }
+      { "t": "Spain", "pts": 7, "gp": 3, "w": 2, "l": 0, "d": 1, "gf": 5, "ga": 0 },
+      { "t": "Cape Verde Islands", "pts": 3, "gp": 3, "w": 0, "l": 0, "d": 3, "gf": 2, "ga": 2 },
+      { "t": "Uruguay", "pts": 2, "gp": 3, "w": 0, "l": 1, "d": 2, "gf": 3, "ga": 4 },
+      { "t": "Saudi Arabia", "pts": 2, "gp": 3, "w": 0, "l": 1, "d": 2, "gf": 1, "ga": 5 }
     ],
     "Group I": [
-      {
-        "t": "France",
-        "pts": 6,
-        "gp": 2,
-        "w": 2,
-        "l": 0,
-        "d": 0,
-        "gf": 6,
-        "ga": 1
-      },
-      {
-        "t": "Norway",
-        "pts": 6,
-        "gp": 2,
-        "w": 2,
-        "l": 0,
-        "d": 0,
-        "gf": 7,
-        "ga": 3
-      },
-      {
-        "t": "Senegal",
-        "pts": 0,
-        "gp": 2,
-        "w": 0,
-        "l": 2,
-        "d": 0,
-        "gf": 3,
-        "ga": 6
-      },
-      {
-        "t": "Iraq",
-        "pts": 0,
-        "gp": 2,
-        "w": 0,
-        "l": 2,
-        "d": 0,
-        "gf": 1,
-        "ga": 7
-      }
+      { "t": "France", "pts": 9, "gp": 3, "w": 3, "l": 0, "d": 0, "gf": 10, "ga": 2 },
+      { "t": "Norway", "pts": 6, "gp": 3, "w": 2, "l": 1, "d": 0, "gf": 8, "ga": 7 },
+      { "t": "Senegal", "pts": 3, "gp": 3, "w": 1, "l": 2, "d": 0, "gf": 8, "ga": 6 },
+      { "t": "Iraq", "pts": 0, "gp": 3, "w": 0, "l": 3, "d": 0, "gf": 1, "ga": 12 }
     ],
     "Group J": [
-      {
-        "t": "Argentina",
-        "pts": 6,
-        "gp": 2,
-        "w": 2,
-        "l": 0,
-        "d": 0,
-        "gf": 5,
-        "ga": 0
-      },
-      {
-        "t": "Algeria",
-        "pts": 3,
-        "gp": 2,
-        "w": 1,
-        "l": 1,
-        "d": 0,
-        "gf": 2,
-        "ga": 4
-      },
-      {
-        "t": "Austria",
-        "pts": 3,
-        "gp": 2,
-        "w": 1,
-        "l": 1,
-        "d": 0,
-        "gf": 3,
-        "ga": 4
-      },
-      {
-        "t": "Jordan",
-        "pts": 0,
-        "gp": 2,
-        "w": 0,
-        "l": 2,
-        "d": 0,
-        "gf": 2,
-        "ga": 4
-      }
+      { "t": "Argentina", "pts": 9, "gp": 3, "w": 3, "l": 0, "d": 0, "gf": 8, "ga": 1 },
+      { "t": "Austria", "pts": 4, "gp": 3, "w": 1, "l": 1, "d": 1, "gf": 7, "ga": 7 },
+      { "t": "Algeria", "pts": 4, "gp": 3, "w": 1, "l": 1, "d": 1, "gf": 5, "ga": 7 },
+      { "t": "Jordan", "pts": 0, "gp": 3, "w": 0, "l": 3, "d": 0, "gf": 3, "ga": 8 }
     ],
     "Group K": [
-      {
-        "t": "Colombia",
-        "pts": 6,
-        "gp": 2,
-        "w": 2,
-        "l": 0,
-        "d": 0,
-        "gf": 4,
-        "ga": 1
-      },
-      {
-        "t": "Portugal",
-        "pts": 4,
-        "gp": 2,
-        "w": 1,
-        "l": 0,
-        "d": 1,
-        "gf": 6,
-        "ga": 1
-      },
-      {
-        "t": "Uzbekistan",
-        "pts": 0,
-        "gp": 2,
-        "w": 0,
-        "l": 2,
-        "d": 0,
-        "gf": 1,
-        "ga": 8
-      },
-      {
-        "t": "DR Congo",
-        "pts": 1,
-        "gp": 2,
-        "w": 0,
-        "l": 1,
-        "d": 1,
-        "gf": 1,
-        "ga": 2
-      }
+      { "t": "Colombia", "pts": 7, "gp": 3, "w": 2, "l": 0, "d": 1, "gf": 4, "ga": 1 },
+      { "t": "Portugal", "pts": 5, "gp": 3, "w": 1, "l": 0, "d": 2, "gf": 6, "ga": 1 },
+      { "t": "DR Congo", "pts": 4, "gp": 3, "w": 1, "l": 1, "d": 1, "gf": 4, "ga": 3 },
+      { "t": "Uzbekistan", "pts": 0, "gp": 3, "w": 0, "l": 3, "d": 0, "gf": 2, "ga": 11 }
     ],
     "Group L": [
-      {
-        "t": "England",
-        "pts": 4,
-        "gp": 2,
-        "w": 1,
-        "l": 0,
-        "d": 1,
-        "gf": 4,
-        "ga": 2
-      },
-      {
-        "t": "Croatia",
-        "pts": 3,
-        "gp": 2,
-        "w": 1,
-        "l": 1,
-        "d": 0,
-        "gf": 3,
-        "ga": 4
-      },
-      {
-        "t": "Ghana",
-        "pts": 4,
-        "gp": 2,
-        "w": 1,
-        "l": 0,
-        "d": 1,
-        "gf": 1,
-        "ga": 0
-      },
-      {
-        "t": "Panama",
-        "pts": 0,
-        "gp": 2,
-        "w": 0,
-        "l": 2,
-        "d": 0,
-        "gf": 0,
-        "ga": 2
-      }
+      { "t": "England", "pts": 7, "gp": 3, "w": 2, "l": 0, "d": 1, "gf": 6, "ga": 2 },
+      { "t": "Croatia", "pts": 6, "gp": 3, "w": 2, "l": 1, "d": 0, "gf": 5, "ga": 5 },
+      { "t": "Ghana", "pts": 4, "gp": 3, "w": 1, "l": 1, "d": 1, "gf": 2, "ga": 2 },
+      { "t": "Panama", "pts": 0, "gp": 3, "w": 0, "l": 3, "d": 0, "gf": 0, "ga": 4 }
     ]
   },
   "topScorers": [
-    {
-      "name": "Lionel Messi",
-      "team": "Argentina",
-      "goals": 5,
-      "assists": 0
-    },
-    {
-      "name": "Vin\u00edcius J\u00fanior",
-      "team": "Brazil",
-      "goals": 4,
-      "assists": 1
-    },
-    {
-      "name": "Kylian Mbapp\u00e9",
-      "team": "France",
-      "goals": 4,
-      "assists": 0
-    },
-    {
-      "name": "Erling Haaland",
-      "team": "Norway",
-      "goals": 4,
-      "assists": 0
-    },
-    {
-      "name": "Brian Brobbey",
-      "team": "Netherlands",
-      "goals": 3,
-      "assists": 0
-    },
-    {
-      "name": "Deniz Undav",
-      "team": "Germany",
-      "goals": 3,
-      "assists": 2
-    },
-    {
-      "name": "Jonathan David",
-      "team": "Canada",
-      "goals": 3,
-      "assists": 0
-    },
-    {
-      "name": "Matheus Cunha",
-      "team": "Brazil",
-      "goals": 3,
-      "assists": 0
-    },
-    {
-      "name": "Ismael Saibari",
-      "team": "Morocco",
-      "goals": 3,
-      "assists": 0
-    },
-    {
-      "name": "Johan Manzambi",
-      "team": "Switzerland",
-      "goals": 3,
-      "assists": 0
-    },
-    {
-      "name": "Nicolas P\u00e9p\u00e9",
-      "team": "Ivory Coast",
-      "goals": 3,
-      "assists": 0
-    },
-    {
-      "name": "Harry Kane",
-      "team": "England",
-      "goals": 2,
-      "assists": 0
-    },
-    {
-      "name": "Cristiano Ronaldo",
-      "team": "Portugal",
-      "goals": 2,
-      "assists": 0
-    },
-    {
-      "name": "Folarin Balogun",
-      "team": "USA",
-      "goals": 2,
-      "assists": 0
-    },
-    {
-      "name": "Kai Havertz",
-      "team": "Germany",
-      "goals": 2,
-      "assists": 0
-    },
-    {
-      "name": "Yasin Ayari",
-      "team": "Sweden",
-      "goals": 2,
-      "assists": 0
-    },
-    {
-      "name": "Cody Gakpo",
-      "team": "Netherlands",
-      "goals": 2,
-      "assists": 0
-    },
-    {
-      "name": "Ayase Ueda",
-      "team": "Japan",
-      "goals": 2,
-      "assists": 0
-    },
-    {
-      "name": "Ra\u00fal Jim\u00e9nez",
-      "team": "Mexico",
-      "goals": 2,
-      "assists": 1
-    },
-    {
-      "name": "Anthony Elanga",
-      "team": "Sweden",
-      "goals": 2,
-      "assists": 0
-    }
+    { "name": "Lionel Messi", "team": "Argentina", "goals": 5, "assists": 0 },
+    { "name": "Kylian Mbappé", "team": "France", "goals": 5, "assists": 1 },
+    { "name": "Erling Haaland", "team": "Norway", "goals": 5, "assists": 0 },
+    { "name": "Vinícius Júnior", "team": "Brazil", "goals": 4, "assists": 1 },
+    { "name": "Brian Brobbey", "team": "Netherlands", "goals": 4, "assists": 0 },
+    { "name": "Deniz Undav", "team": "Germany", "goals": 3, "assists": 2 },
+    { "name": "Jonathan David", "team": "Canada", "goals": 3, "assists": 0 },
+    { "name": "Matheus Cunha", "team": "Brazil", "goals": 3, "assists": 0 },
+    { "name": "Ismael Saibari", "team": "Morocco", "goals": 3, "assists": 0 },
+    { "name": "Johan Manzambi", "team": "Switzerland", "goals": 3, "assists": 0 },
+    { "name": "Nicolas Pépé", "team": "Ivory Coast", "goals": 3, "assists": 0 },
+    { "name": "Harry Kane", "team": "England", "goals": 3, "assists": 0 },
+    { "name": "Cristiano Ronaldo", "team": "Portugal", "goals": 2, "assists": 0 },
+    { "name": "Folarin Balogun", "team": "USA", "goals": 2, "assists": 0 },
+    { "name": "Kai Havertz", "team": "Germany", "goals": 2, "assists": 0 },
+    { "name": "Yasin Ayari", "team": "Sweden", "goals": 2, "assists": 0 },
+    { "name": "Cody Gakpo", "team": "Netherlands", "goals": 2, "assists": 0 },
+    { "name": "Ayase Ueda", "team": "Japan", "goals": 2, "assists": 0 },
+    { "name": "Raúl Jiménez", "team": "Mexico", "goals": 2, "assists": 1 },
+    { "name": "Anthony Elanga", "team": "Sweden", "goals": 2, "assists": 0 }
   ],
-  "totalGoals": 168,
-  "matchesPlayed": 56
+  "totalGoals": 206,
+  "matchesPlayed": 72
 }
