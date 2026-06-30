@@ -159,18 +159,18 @@ body{font-family:'Inter',sans-serif;background:var(--bg);color:var(--text);min-h
   <p class="sub">June 11 – July 19 • Live Dashboard</p>
   <div class="hosts">🇺🇸 🇲🇽 🇨🇦</div>
   <div class="ticker">
-    <span class="ticker-item">⚽ 168 Goals Scored</span>
-    <span class="ticker-item">🏟️ 58 Matches Played</span>
-    <span class="ticker-item">🔥 Messi leads Golden Boot (5 goals)</span>
+    <span class="ticker-item">⚽ 206 Goals Scored</span>
+    <span class="ticker-item">🏟️ 72 Matches Played</span>
+    <span class="ticker-item">🔥 Messi, Mbappé & Haaland lead Golden Boot (5 goals)</span>
     <span class="ticker-item">🇩🇪 Germany biggest win: 7-1 vs Curaçao</span>
-    <span class="ticker-item">🇦🇷 Messi breaks all-time WC scoring record</span>
-    <span class="ticker-item">🇧🇷 Vinícius Júnior on 4 goals</span>
-    <span class="ticker-item">⚽ 168 Goals Scored</span>
-    <span class="ticker-item">🏟️ 58 Matches Played</span>
-    <span class="ticker-item">🔥 Messi leads Golden Boot (5 goals)</span>
+    <span class="ticker-item">🇵🇾 Paraguay stun Germany on penalties in R32</span>
+    <span class="ticker-item">🇲🇦 Morocco eliminate Netherlands on pens</span>
+    <span class="ticker-item">⚽ 206 Goals Scored</span>
+    <span class="ticker-item">🏟️ 72 Matches Played</span>
+    <span class="ticker-item">🔥 Messi, Mbappé & Haaland lead Golden Boot (5 goals)</span>
     <span class="ticker-item">🇩🇪 Germany biggest win: 7-1 vs Curaçao</span>
-    <span class="ticker-item">🇦🇷 Messi breaks all-time WC scoring record</span>
-    <span class="ticker-item">🇧🇷 Vinícius Júnior on 4 goals</span>
+    <span class="ticker-item">🇵🇾 Paraguay stun Germany on penalties in R32</span>
+    <span class="ticker-item">🇲🇦 Morocco eliminate Netherlands on pens</span>
   </div>
   </div>
 </div>
@@ -189,8 +189,8 @@ body{font-family:'Inter',sans-serif;background:var(--bg);color:var(--text);min-h
     <div class="stat-box"><div class="n">104</div><div class="l">Matches</div></div>
     <div class="stat-box"><div class="n">16</div><div class="l">Cities</div></div>
     <div class="stat-box"><div class="n">3</div><div class="l">Host Nations</div></div>
-    <div class="stat-box"><div class="n" id="goals-count">168</div><div class="l">Goals Scored</div></div>
-    <div class="stat-box"><div class="n">58</div><div class="l">Matches Played</div></div>
+    <div class="stat-box"><div class="n" id="goals-count">206</div><div class="l">Goals Scored</div></div>
+    <div class="stat-box"><div class="n">72</div><div class="l">Matches Played</div></div>
   </div>
 
   <div class="today-hero">
@@ -241,7 +241,7 @@ body{font-family:'Inter',sans-serif;background:var(--bg);color:var(--text);min-h
 
 <script>
 // Data
-const CC={"Mexico":"mx","South Africa":"za","South Korea":"kr","Czechia":"cz","Canada":"ca","Bosnia and Herzegovina":"ba","USA":"us","Paraguay":"py","Qatar":"qa","Switzerland":"ch","Brazil":"br","Morocco":"ma","Haiti":"ht","Scotland":"gb-sct","Australia":"au","Türkiye":"tr","Germany":"de","Curaçao":"cw","Netherlands":"nl","Japan":"jp","Ivory Coast":"ci","Ecuador":"ec","Tunisia":"tn","Sweden":"se","Spain":"es","Cape Verde":"cv","Belgium":"be","Egypt":"eg","Saudi Arabia":"sa","Uruguay":"uy","Iran":"ir","New Zealand":"nz","France":"fr","Senegal":"sn","Iraq":"iq","Norway":"no","Argentina":"ar","Algeria":"dz","Austria":"at","Jordan":"jo","Portugal":"pt","DR Congo":"cd","England":"gb-eng","Croatia":"hr","Ghana":"gh","Panama":"pa","Uzbekistan":"uz","Colombia":"co","TBD":"un"};
+const CC={"Mexico":"mx","South Africa":"za","South Korea":"kr","Czechia":"cz","Canada":"ca","Bosnia and Herzegovina":"ba","USA":"us","Paraguay":"py","Qatar":"qa","Switzerland":"ch","Brazil":"br","Morocco":"ma","Haiti":"ht","Scotland":"gb-sct","Australia":"au","Türkiye":"tr","Germany":"de","Curaçao":"cw","Netherlands":"nl","Japan":"jp","Ivory Coast":"ci","Ecuador":"ec","Tunisia":"tn","Sweden":"se","Spain":"es","Cape Verde":"cv","Cape Verde Islands":"cv","Belgium":"be","Egypt":"eg","Saudi Arabia":"sa","Uruguay":"uy","Iran":"ir","New Zealand":"nz","France":"fr","Senegal":"sn","Iraq":"iq","Norway":"no","Argentina":"ar","Algeria":"dz","Austria":"at","Jordan":"jo","Portugal":"pt","DR Congo":"cd","Congo DR":"cd","England":"gb-eng","Croatia":"hr","Ghana":"gh","Panama":"pa","Uzbekistan":"uz","Colombia":"co","TBD":"un"};
 const flag=t=>`https://flagcdn.com/w40/${CC[t]||'un'}.png`;
 
 // Convert ET to IST (ET + 9:30)
@@ -260,12 +260,12 @@ const standings={
   D:[{t:"USA",pts:6,gp:3,w:2,l:1,d:0,gf:8,ga:4},{t:"Australia",pts:4,gp:3,w:1,l:1,d:1,gf:2,ga:2},{t:"Paraguay",pts:4,gp:3,w:1,l:1,d:1,gf:2,ga:4},{t:"Türkiye",pts:3,gp:3,w:1,l:2,d:0,gf:3,ga:5}],
   E:[{t:"Germany",pts:6,gp:3,w:2,l:1,d:0,gf:10,ga:4},{t:"Ivory Coast",pts:6,gp:3,w:2,l:1,d:0,gf:4,ga:2},{t:"Ecuador",pts:4,gp:3,w:1,l:1,d:1,gf:2,ga:2},{t:"Curaçao",pts:1,gp:3,w:0,l:2,d:1,gf:1,ga:9}],
   F:[{t:"Netherlands",pts:7,gp:3,w:2,l:0,d:1,gf:10,ga:4},{t:"Japan",pts:5,gp:3,w:1,l:0,d:2,gf:7,ga:3},{t:"Sweden",pts:4,gp:3,w:1,l:1,d:1,gf:7,ga:7},{t:"Tunisia",pts:0,gp:3,w:0,l:3,d:0,gf:2,ga:12}],
-  G:[{t:"Egypt",pts:4,gp:2,w:1,l:0,d:1,gf:4,ga:2},{t:"Iran",pts:2,gp:2,w:0,l:0,d:2,gf:2,ga:2},{t:"Belgium",pts:2,gp:2,w:0,l:0,d:2,gf:1,ga:1},{t:"New Zealand",pts:1,gp:2,w:0,l:1,d:1,gf:3,ga:5}],
-  H:[{t:"Spain",pts:4,gp:2,w:1,l:0,d:1,gf:4,ga:0},{t:"Uruguay",pts:2,gp:2,w:0,l:0,d:2,gf:3,ga:3},{t:"Cape Verde",pts:2,gp:2,w:0,l:0,d:2,gf:2,ga:2},{t:"Saudi Arabia",pts:1,gp:2,w:0,l:1,d:1,gf:1,ga:5}],
-  I:[{t:"France",pts:6,gp:2,w:2,l:0,d:0,gf:6,ga:1},{t:"Norway",pts:6,gp:2,w:2,l:0,d:0,gf:7,ga:3},{t:"Senegal",pts:0,gp:2,w:0,l:2,d:0,gf:3,ga:6},{t:"Iraq",pts:0,gp:2,w:0,l:2,d:0,gf:1,ga:7}],
-  J:[{t:"Argentina",pts:6,gp:2,w:2,l:0,d:0,gf:5,ga:0},{t:"Algeria",pts:3,gp:2,w:1,l:1,d:0,gf:2,ga:4},{t:"Austria",pts:3,gp:2,w:1,l:1,d:0,gf:3,ga:4},{t:"Jordan",pts:0,gp:2,w:0,l:2,d:0,gf:2,ga:4}],
-  K:[{t:"Colombia",pts:6,gp:2,w:2,l:0,d:0,gf:4,ga:1},{t:"Portugal",pts:4,gp:2,w:1,l:0,d:1,gf:6,ga:1},{t:"DR Congo",pts:1,gp:2,w:0,l:1,d:1,gf:1,ga:2},{t:"Uzbekistan",pts:0,gp:2,w:0,l:2,d:0,gf:1,ga:8}],
-  L:[{t:"England",pts:4,gp:2,w:1,l:0,d:1,gf:4,ga:2},{t:"Ghana",pts:4,gp:2,w:1,l:0,d:1,gf:1,ga:0},{t:"Croatia",pts:3,gp:2,w:1,l:1,d:0,gf:3,ga:4},{t:"Panama",pts:0,gp:2,w:0,l:2,d:0,gf:0,ga:2}]
+  G:[{t:"Belgium",pts:5,gp:3,w:1,l:0,d:2,gf:6,ga:2},{t:"Egypt",pts:5,gp:3,w:1,l:0,d:2,gf:5,ga:3},{t:"Iran",pts:3,gp:3,w:0,l:0,d:3,gf:3,ga:3},{t:"New Zealand",pts:1,gp:3,w:0,l:2,d:1,gf:3,ga:8}],
+  H:[{t:"Spain",pts:7,gp:3,w:2,l:0,d:1,gf:5,ga:0},{t:"Cape Verde",pts:3,gp:3,w:0,l:0,d:3,gf:2,ga:2},{t:"Uruguay",pts:2,gp:3,w:0,l:1,d:2,gf:3,ga:4},{t:"Saudi Arabia",pts:2,gp:3,w:0,l:1,d:2,gf:1,ga:5}],
+  I:[{t:"France",pts:9,gp:3,w:3,l:0,d:0,gf:10,ga:2},{t:"Norway",pts:6,gp:3,w:2,l:1,d:0,gf:8,ga:7},{t:"Senegal",pts:3,gp:3,w:1,l:2,d:0,gf:8,ga:6},{t:"Iraq",pts:0,gp:3,w:0,l:3,d:0,gf:1,ga:12}],
+  J:[{t:"Argentina",pts:9,gp:3,w:3,l:0,d:0,gf:8,ga:1},{t:"Austria",pts:4,gp:3,w:1,l:1,d:1,gf:7,ga:7},{t:"Algeria",pts:4,gp:3,w:1,l:1,d:1,gf:5,ga:7},{t:"Jordan",pts:0,gp:3,w:0,l:3,d:0,gf:3,ga:8}],
+  K:[{t:"Colombia",pts:7,gp:3,w:2,l:0,d:1,gf:4,ga:1},{t:"Portugal",pts:5,gp:3,w:1,l:0,d:2,gf:6,ga:1},{t:"DR Congo",pts:4,gp:3,w:1,l:1,d:1,gf:4,ga:3},{t:"Uzbekistan",pts:0,gp:3,w:0,l:3,d:0,gf:2,ga:11}],
+  L:[{t:"England",pts:7,gp:3,w:2,l:0,d:1,gf:6,ga:2},{t:"Croatia",pts:6,gp:3,w:2,l:1,d:0,gf:5,ga:5},{t:"Ghana",pts:4,gp:3,w:1,l:1,d:1,gf:2,ga:2},{t:"Panama",pts:0,gp:3,w:0,l:3,d:0,gf:0,ga:4}]
 };
 
 const topScorers=[
@@ -753,22 +753,50 @@ document.querySelector('.nav').addEventListener('click',()=>setTimeout(observeRe
 
 // Bracket data
 const bracketTeams={
-  '1A':'Mexico','1B':'Switzerland','1C':'Brazil','1D':'USA','1E':'Germany','1F':'Netherlands','1J':'Argentina',
-  '2A':'South Africa','2B':'Canada','2C':'Morocco','2D':'Australia','2E':'Ivory Coast','2F':'Japan'
+  '1A':'Mexico','1B':'Switzerland','1C':'Brazil','1D':'USA','1E':'Germany','1F':'Netherlands',
+  '1G':'Belgium','1H':'Spain','1I':'France','1J':'Argentina','1K':'Colombia','1L':'England',
+  '2A':'South Africa','2B':'Canada','2C':'Morocco','2D':'Australia','2E':'Ivory Coast','2F':'Japan',
+  '2G':'Egypt','2H':'Cape Verde','2I':'Norway','2J':'Austria','2K':'Portugal','2L':'Croatia',
+  '3A':'South Korea','3B':'Bosnia and Herzegovina','3C':'Scotland','3D':'Paraguay','3E':'Ecuador',
+  '3F':'Sweden','3G':'Iran','3I':'Senegal','3J':'Algeria','3K':'DR Congo','3L':'Ghana'
 };
-function bt(code){return bracketTeams[code]||code.replace(/^1/,'Winner Grp ').replace(/^2/,'Runner-up Grp ').replace(/^3rd\(/,'3rd (').replace(/\)$/,')')}
-function btFlag(code){const t=bracketTeams[code];return t?`<img src="${flag(t)}" alt="${t}" style="width:22px;height:15px;border-radius:3px;object-fit:cover">`:''}
-function btClass(code){return bracketTeams[code]?'':'tbd'}
+function bt(code){
+  if(code.startsWith('W')){
+    const mn=parseInt(code.slice(1));
+    const match=r32.find(m=>m.n===mn)||r16.find(m=>m.n===mn)||qf.find(m=>m.n===mn)||sf.find(m=>m.n===mn);
+    if(match&&match.w)return bt(match.w);
+    return `Winner M${mn}`;
+  }
+  return bracketTeams[code]||code.replace(/^1/,'Winner Grp ').replace(/^2/,'Runner-up Grp ').replace(/^3rd\(/,'3rd (').replace(/\)$/,')');
+}
+function btFlag(code){
+  if(code.startsWith('W')){
+    const mn=parseInt(code.slice(1));
+    const match=r32.find(m=>m.n===mn)||r16.find(m=>m.n===mn)||qf.find(m=>m.n===mn)||sf.find(m=>m.n===mn);
+    if(match&&match.w)return btFlag(match.w);
+    return '';
+  }
+  const t=bracketTeams[code];return t?`<img src="${flag(t)}" alt="${t}" style="width:22px;height:15px;border-radius:3px;object-fit:cover">`:'';
+}
+function btClass(code){
+  if(code.startsWith('W')){
+    const mn=parseInt(code.slice(1));
+    const match=r32.find(m=>m.n===mn)||r16.find(m=>m.n===mn)||qf.find(m=>m.n===mn)||sf.find(m=>m.n===mn);
+    if(match&&match.w)return btClass(match.w);
+    return 'tbd';
+  }
+  return bracketTeams[code]?'':'tbd';
+}
 
 const r32=[
-  {n:73,t1:'2A',t2:'2B',d:'Jun 28'},{n:74,t1:'1E',t2:'3rd(ABCDF)',d:'Jun 28'},
-  {n:75,t1:'1F',t2:'2C',d:'Jun 28'},{n:76,t1:'1C',t2:'2F',d:'Jun 28'},
-  {n:77,t1:'1I',t2:'3rd(CDFGH)',d:'Jun 29'},{n:78,t1:'2E',t2:'2I',d:'Jun 29'},
-  {n:79,t1:'1A',t2:'3rd(CEFHI)',d:'Jun 29'},{n:80,t1:'1L',t2:'3rd(EHIJK)',d:'Jun 29'},
-  {n:81,t1:'1D',t2:'3rd(BEFIJ)',d:'Jun 30'},{n:82,t1:'1G',t2:'3rd(AEHIJ)',d:'Jun 30'},
-  {n:83,t1:'2K',t2:'2L',d:'Jun 30'},{n:84,t1:'1H',t2:'2J',d:'Jun 30'},
-  {n:85,t1:'1B',t2:'3rd(EFGIJ)',d:'Jul 1'},{n:86,t1:'1J',t2:'2H',d:'Jul 1'},
-  {n:87,t1:'1K',t2:'3rd(DEIJL)',d:'Jul 1'},{n:88,t1:'2D',t2:'2G',d:'Jul 1'}
+  {n:73,t1:'2A',t2:'2B',d:'Jun 28',s:'0 - 1',w:'2B'},{n:74,t1:'1E',t2:'3D',d:'Jun 29',s:'1 - 1 (3-4p)',w:'3D'},
+  {n:75,t1:'1F',t2:'2C',d:'Jun 29',s:'1 - 1 (2-3p)',w:'2C'},{n:76,t1:'1C',t2:'2F',d:'Jun 29',s:'2 - 1',w:'1C'},
+  {n:77,t1:'1I',t2:'3F',d:'Jun 30',s:null,w:null},{n:78,t1:'2E',t2:'2I',d:'Jun 30',s:'1 - 2',w:'2I'},
+  {n:79,t1:'1A',t2:'3E',d:'Jun 30',s:null,w:null},{n:80,t1:'1L',t2:'3L',d:'Jun 30',s:null,w:null},
+  {n:81,t1:'1D',t2:'3J',d:'Jul 1',s:null,w:null},{n:82,t1:'1G',t2:'3I',d:'Jul 1',s:null,w:null},
+  {n:83,t1:'2K',t2:'2L',d:'Jul 1',s:null,w:null},{n:84,t1:'1H',t2:'2J',d:'Jul 1',s:null,w:null},
+  {n:85,t1:'1B',t2:'3K',d:'Jul 2',s:null,w:null},{n:86,t1:'1J',t2:'2H',d:'Jul 2',s:null,w:null},
+  {n:87,t1:'1K',t2:'3A',d:'Jul 2',s:null,w:null},{n:88,t1:'2D',t2:'2G',d:'Jul 2',s:null,w:null}
 ];
 const r16=[
   {n:89,t1:'W73',t2:'W74',d:'Jul 3'},{n:90,t1:'W75',t2:'W76',d:'Jul 3'},
@@ -784,10 +812,12 @@ const sf=[{n:101,t1:'W97',t2:'W98',d:'Jul 14'},{n:102,t1:'W99',t2:'W100',d:'Jul 
 const final=[{n:104,t1:'W101',t2:'W102',d:'Jul 19'}];
 
 function renderBM(m){
-  const lbl=c=>{if(c.startsWith('W'))return `Winner M${c.slice(1)}`;return bt(c)};
+  const lbl=c=>bt(c);
   const flg=c=>c.startsWith('W')?'':btFlag(c);
   const cls=c=>c.startsWith('W')?'tbd':btClass(c);
-  return `<div class="bm"><div class="bm-num">M${m.n} · ${m.d}</div><div class="bm-t ${cls(m.t1)}">${flg(m.t1)} ${lbl(m.t1)}</div><div class="bm-t ${cls(m.t2)}">${flg(m.t2)} ${lbl(m.t2)}</div></div>`;
+  const winCls=(c,m2)=>{if(!m2.w)return '';return bt(c)===bt(m2.w)?'style="font-weight:800;color:var(--done)"':'style="opacity:0.5"'};
+  const score=m.s?`<div style="font-size:0.55rem;color:var(--gold);text-align:center;margin:2px 0;font-weight:700">${m.s}</div>`:'';
+  return `<div class="bm"><div class="bm-num">M${m.n} · ${m.d}</div><div class="bm-t ${cls(m.t1)}" ${winCls(m.t1,m)}>${flg(m.t1)} ${lbl(m.t1)}</div>${score}<div class="bm-t ${cls(m.t2)}" ${winCls(m.t2,m)}>${flg(m.t2)} ${lbl(m.t2)}</div></div>`;
 }
 function renderCol(title,matches){
   return `<div class="bracket-col"><h4>${title}</h4>${matches.map(renderBM).join('')}</div>`;
